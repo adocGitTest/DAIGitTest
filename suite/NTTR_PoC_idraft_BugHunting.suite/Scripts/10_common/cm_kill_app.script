@@ -1,0 +1,41 @@
+﻿(*
+Log "**処理内容：アプリの終了**"
+//アプリ終了
+//Androidの場合
+wait 1s
+set myAppList to AppList(Full)
+try
+	waitfor 10s,image:"app_open/app_open_android"
+	KillApp "com.android.vending"//playストアを閉じる
+end try
+Try
+	//メニュータブのアイコンで判断
+	waitfor 5,"menu_tab/on/menu_tab_android", "draft_tab/on/draft_tab_android", "no_login_btn/no_login_btn_android", "open_app/open_app_android"
+	KillApp "jp.ne.goo.dictapp.pro" //Androidのパッケージファイル名
+	wait 3s
+	waitfor 10, image:"open_app" //Androidのアプリアイコン
+	log "(android)アプリが終了しました"
+End try
+
+//iOSの場合
+Try
+	//メニュータブのアイコンで判断
+	waitfor 5,"menu_tab/on/menu_tab_ios", "draft_tab/on/draft_tab_ios", "no_login_btn/no_login_btn_ios", "open_app/open_app_ios"
+	KillApp "idraft" //iOSのアプリ名
+	//PressHomeButton
+	waitfor 10, image:"open_app"//iOSのアプリアイコン
+	log "(ios)アプリが終了しました"
+End try
+wait 3s
+(*
+try
+	KillApp "jp.ne.goo.dictapp.pro"	
+end try
+try
+	KillApp "idraft"	
+end try
+wait 3s
+*)
+
+CaptureScreen (Name:"終了確認_"&today&"_"&formattedTime("%H-%M-%S",time)&".png")
+*)

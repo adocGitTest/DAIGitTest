@@ -1,0 +1,3 @@
+﻿2023-07-26 20:12:16.369 +0900	START		Running scroll_hdl.script
+2023-07-26 20:12:16.464 +0900	EndTestCase		(Duration:"0.089", Errors:"0", Exceptions:"0", StartTime:"2023-07-26 20:12:16 +0900", Successes:"1", TestCase:"scroll_hdl.script", Warnings:"0")
+2023-07-26 20:12:16.529 +0900	SUCCESS		Execution Time 0:00:00 scroll_hdl.script

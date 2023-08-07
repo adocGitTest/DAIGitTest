@@ -1,0 +1,114 @@
+﻿2023-07-10 11:57:58.280 +0900	START		Running 01_PC_Function_Test.script
+2023-07-10 11:58:02.640 +0900	Connect		Windows3(RDP):(null)	2	on_connect_sut	connect_hdl.script
+2023-07-10 11:58:08.533 +0900	waitfor	Chrome	found at (50, 256)	3	on_waitfor_image_result	wait_hdl.script
+2023-07-10 11:58:10.702 +0900	Log		test	10	on_csv_file	excel_file_hdl.script
+2023-07-10 11:58:10.870 +0900	Log		Text_Data	6	on_excel_file	excel_file_hdl.script
+2023-07-10 11:58:11.045 +0900	Log		pass	6	on_if_then_else_1	if_then_else_hdl.script
+2023-07-10 11:58:11.206 +0900	Log		pass	7	on_if_then_else_2	if_then_else_hdl.script
+2023-07-10 11:58:11.357 +0900	Log		Repeat Forever	2	on_repeat_forever	repeat_hdl.script
+2023-07-10 11:58:11.438 +0900	Log		成功	8	on_repeat_forever	repeat_hdl.script
+2023-07-10 11:58:11.609 +0900	Log		Repeat Number Times or For Duration	2	on_repeat_time_or_for_duration	repeat_hdl.script
+2023-07-10 11:58:11.723 +0900	Log		6	7	on_repeat_time_or_for_duration	repeat_hdl.script
+2023-07-10 11:58:12.097 +0900	Log		リストは空	8	on_repeat_until_condition	repeat_hdl.script
+2023-07-10 11:58:23.757 +0900	Log		add_数値を加算する	5	on_add	add_hdl.script
+2023-07-10 11:58:24.026 +0900	Log		replaceコマンド実行成功	6	on_replace	replace_hdl.script
+2023-07-10 11:58:24.771 +0900	waitfor	Chrome	found at (50, 256)	3	on_try_catch_1	try_catch_hdl.script
+2023-07-10 11:58:33.892 +0900	Exception	(TEXT:"あいうえお")	Unable To Find Any Image On Screen "(TEXT:"あいうえお")" within 5.00 seconds. Text not found.	3	on_try_catch_2	try_catch_hdl.script
+2023-07-10 11:58:33.920 +0900	Log		pass	6	on_try_catch_2	try_catch_hdl.script
+2023-07-10 11:58:34.213 +0900	runwithnewresults		RunWithNewResults.script (E:/suite/New_Ver_EPF_PC.suite/Results/RunWithNewResults/20230710_115834.212/LogFile.txt)	2	on_run_with_new_results	RunWithNewResults_hdl.script
+2023-07-10 11:58:35.468 +0900	waitfor	chrome_home_page	found at (374, 50)	5	on_run_with_new_results	RunWithNewResults_hdl.script
+2023-07-10 11:58:35.743 +0900	click	close_btn	at (1900, 15)	7	on_run_with_new_results	RunWithNewResults_hdl.script
+2023-07-10 11:58:37.761 +0900	waitfor	Chrome	found at (50, 256)	9	on_run_with_new_results	RunWithNewResults_hdl.script
+2023-07-10 11:58:39.938 +0900	imagefound	Chrome	found at (50, 256)	2	on_imagefound_image	imagefound_hdl.script
+2023-07-10 11:58:39.943 +0900	Log		True	2	on_imagefound_image	imagefound_hdl.script
+2023-07-10 11:58:40.209 +0900	waitfor	Chrome	found at (50, 256)	3	on_waitfor_image_result	wait_hdl.script
+2023-07-10 11:58:44.258 +0900	waitfor	(TEXT:"Google Chrome")	found at (49, 299)	56	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:58:45.309 +0900	doubleclick	(TEXT:"Google Chrome")	at (49, 299)	2	on_doubleclick_text	click_hdl.script
+2023-07-10 11:58:47.547 +0900	waitfor	chrome_home_page	found at (374, 50)	3	on_waitfor_image_result	wait_hdl.script
+2023-07-10 11:58:47.876 +0900	click	close_btn	at (1900, 15)	2	on_click_image	click_hdl.script
+2023-07-10 11:58:49.965 +0900	waitfor	Chrome	found at (50, 256)	65	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:58:50.231 +0900	waitfor	Chrome	found at (50, 256)	72	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:58:50.450 +0900	doubleclick	Chrome	at (50, 256)	2	on_doubleclick_image	click_hdl.script
+2023-07-10 11:58:52.697 +0900	waitfor	chrome_home_page	found at (374, 50)	3	on_waitfor_image_result	wait_hdl.script
+2023-07-10 11:58:53.955 +0900	waitfor	(TEXT:"画像")	found at (1789, 101)	78	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:58:55.231 +0900	click	(TEXT:"画像")	at (1789, 101)	2	on_click_text	click_hdl.script
+2023-07-10 11:58:57.502 +0900	waitfor	search_image	found at (967, 232)	3	on_waitfor_image_result	wait_hdl.script
+2023-07-10 11:58:57.762 +0900	setremoteclipboard		Set Text:test	84	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:59:00.206 +0900	typetext		[controlKey]v	86	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:59:03.559 +0900	waitfor	(TEXT:"test")	found at (612, 372)	88	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:59:03.904 +0900	click	input_box_clean	at (1153, 371)	90	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:59:09.003 +0900	set		KEYDOWNDELAY = 0.5	2	on_type_text	typetext_hdl.script
+2023-07-10 11:59:18.134 +0900	typetext		123abcあいうえお野村	3	on_type_text	typetext_hdl.script
+2023-07-10 11:59:28.734 +0900	Exception	(TEXT:"123abcあいうえお野村")	Unable To Find Any Image On Screen "(TEXT:"123abcあいうえお野村")" within 5.00 seconds. Text not found.	3	on_waitfor_text_result	wait_hdl.script
+2023-07-10 11:59:30.941 +0900	waitfor	close_page_btn	found at (234, 18)	101	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:59:31.091 +0900	click	close_page_btn	at (234, 18)	102	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:59:33.108 +0900	waitfor	(TEXT:"Google Chrome")	found at (49, 299)	3	on_waitfor_text	wait_hdl.script
+2023-07-10 11:59:35.481 +0900	waitfor	Chrome	found at (50, 256)	3	on_waitfor_image	wait_hdl.script
+2023-07-10 11:59:37.866 +0900	imagefound	Chrome	found at (50, 256)	3	on_wait_while	wait_hdl.script
+2023-07-10 11:59:40.273 +0900	imagefound	Chrome	found at (50, 256)	3	on_wait_until	wait_hdl.script
+2023-07-10 11:59:43.504 +0900	waitforall		found all: Chrome:(50, 256) (TEXT:"Google Chrome"):(49, 299) 	3	on_wait_forall	wait_hdl.script
+2023-07-10 11:59:50.940 +0900	Log		wait_time:5.021 seconds	7	on_waittime	wait_hdl.script
+2023-07-10 11:59:55.290 +0900	Log		MouseLocation_Before[234,18]	124	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:59:55.381 +0900	moveto		at (0, 0)	2	on_moveto_coordinate	moveto_hdl.script
+2023-07-10 11:59:55.505 +0900	Log		MouseLocation_After[0,0]	128	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:59:58.396 +0900	readtext		(7,288,98,312)	2	on_readtext_byimage	readtext_hdl.script
+2023-07-10 11:59:58.518 +0900	Log		TextToRead: Chrome	141	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:59:58.569 +0900	set		SEARCHRECTANGLE = ["rect_left","rect_right"]	142	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 11:59:59.383 +0900	waitfor	(TEXT:"Chrome")	found at (70, 297)	3	on_waitfor_text_result	wait_hdl.script
+2023-07-10 11:59:59.616 +0900	set		SEARCHRECTANGLE = []	144	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:01.773 +0900	doubleclick	Chrome	at (50, 256)	146	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:03.819 +0900	waitfor	chrome_home_page	found at (374, 50)	148	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:03.935 +0900	click	chrome_home_page	at (374, 50)	149	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:04.116 +0900	set		KEYDOWNDELAY = 0.5	2	on_type_text	typetext_hdl.script
+2023-07-10 12:00:27.786 +0900	typetext		https://docs.eggplantsoftware.com	3	on_type_text	typetext_hdl.script
+2023-07-10 12:00:30.596 +0900	typetext		[returnKey]	154	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:32.007 +0900	waitfor	(TEXT:"Eggplant Functional")	found at (584, 426)	155	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:33.618 +0900	click	(TEXT:"Eggplant Functional")	at (584, 426)	156	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:34.277 +0900	waitfor	eggplant_icon	found at (541, 228)	157	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:34.473 +0900	scrollwheeldown		moved 10	3	on_scrollwheel_down	scroll_hdl.script
+2023-07-10 12:00:34.888 +0900	waitfor	scroll_down_confirm	found at (952, 994)	4	on_scrollwheel_down	scroll_hdl.script
+2023-07-10 12:00:35.389 +0900	scrollwheelup		moved 5	3	on_scrollwheel_up	scroll_hdl.script
+2023-07-10 12:00:35.743 +0900	waitfor	eggplant_icon	found at (541, 228)	4	on_scrollwheel_up	scroll_hdl.script
+2023-07-10 12:00:36.327 +0900	drag	drag_drop/drag_drop_left.png	at (447, 218)	165	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:37.268 +0900	drop	drag_drop/drag_drop_right	at (900, 224)	166	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:39.357 +0900	waitfor	drag_drop/drag_drop	found at (675, 223)	169	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:39.943 +0900	click		at current mouse point (900, 224)	171	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:42.175 +0900	click	drag_drop/drag_drop_left.png	at (447, 218)	2	on_tripleclick_image	click_hdl.script
+2023-07-10 12:00:42.358 +0900	click		at current mouse point (447, 218)	3	on_tripleclick_image	click_hdl.script
+2023-07-10 12:00:42.542 +0900	click		at current mouse point (447, 218)	4	on_tripleclick_image	click_hdl.script
+2023-07-10 12:00:42.649 +0900	waitfor	drag_drop/drag_drop	found at (675, 223)	180	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:45.139 +0900	click	drag_drop/drag_drop_left.png	at (447, 218)	183	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:45.240 +0900	mousebuttondown		Button:3	188	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:46.312 +0900	mousebuttonup		Button:3	190	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:46.397 +0900	waitfor	moubutton_3	found at (516, 259)	192	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:46.850 +0900	click		at (1279, 402)	194	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:49.294 +0900	keydown		[controlKey][F4]	201	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:49.822 +0900	keyup		[controlKey][F4]	202	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:00:54.905 +0900	waitfor	Chrome	found at (50, 256)	205	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:01:05.364 +0900	Exception	close_page_btn	Unable To Find Any Image On Screen "close_page_btn" within 10.00 seconds	214	on_01_pc_function_test	01_PC_Function_Test.script
+2023-07-10 12:01:10.478 +0900	Log		Log_ブラウザを閉じました	2	on_log_msg	log_hdl.script
+2023-07-10 12:01:10.657 +0900	LogSuccess		LogSuccess_ブラウザを閉じました	2	on_log_success	log_hdl.script
+2023-07-10 12:01:10.842 +0900	LogWarning		LogWarning_ブラウザを閉じました	2	on_log_warning	log_hdl.script
+2023-07-10 12:01:14.368 +0900	WebConnect		{name:"Chrome_WebDriver", url:"https://hotel.testplanisphere.dev/ja/"}	3	on_webconnect_confirm	WebDriver_hdl.script
+2023-07-10 12:01:14.624 +0900	Set URL		https://hotel.testplanisphere.dev/ja/ on {blendScaledScreen:False, Browser:"chrome", colorDepth:0, Host:"192.168.90.224", model:"Chrome", Name:"Chrome_WebDriver", overrideName:"Chrome_WebDriver", Port:4444, scaleRemoteScreen:0, skipAvailabilityCheck:False, temporary:False, type:"WebDriver", url:"https://hotel.testplanisphere.dev/ja/", username:""}	3	on_webconnect_confirm	WebDriver_hdl.script
+2023-07-10 12:01:16.962 +0900	waitfor	webdriver_test_page	found at (185, 111)	5	on_webconnect_confirm	WebDriver_hdl.script
+2023-07-10 12:01:19.544 +0900	waitfor	browser_size_small	found at (881, 30)	4	on_webdriver_windowsize	WebDriver_hdl.script
+2023-07-10 12:01:21.830 +0900	waitfor	browser_size_max	found at (1852, 12)	7	on_webdriver_windowsize	WebDriver_hdl.script
+2023-07-10 12:01:24.855 +0900	click	<WebElement with TagName:"a", ID:"", Name:"", Text:"会員登録", Class:"nav-link", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[962.5,206.390625,1042.5,246.390625]>	at (1002, 226)	3	on_webdriver_click	WebDriver_hdl.script
+2023-07-10 12:01:26.893 +0900	waitfor	member_registration	found at (600, 475)	5	on_webdriver_click	WebDriver_hdl.script
+2023-07-10 12:01:27.817 +0900	doubleclick	<WebElement with TagName:"a", ID:"", Name:"", Text:"宿泊予約", Class:"nav-link", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[834.5,206.390625,914.5,246.390625]>	at (874, 226)	12	on_webdriver_click	WebDriver_hdl.script
+2023-07-10 12:01:29.854 +0900	waitfor	stay_plan	found at (651, 469)	14	on_webdriver_click	WebDriver_hdl.script
+2023-07-10 12:01:30.737 +0900	rightclick	<WebElement with TagName:"a", ID:"", Name:"", Text:"宿泊予約", Class:"nav-link", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[834.5,206.390625,914.5,246.390625]>	at (874, 226)	22	on_webdriver_click	WebDriver_hdl.script
+2023-07-10 12:01:32.773 +0900	waitfor	open_new_page	found at (981, 383)	24	on_webdriver_click	WebDriver_hdl.script
+2023-07-10 12:01:35.833 +0900	drag	<WebElement with TagName:"a", ID:"", Name:"", Text:"ホーム", Class:"nav-link", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[722.5,206.390625,786.5,246.390625]>	at (754, 226)	3	on_drag_drop_confirm	WebDriver_hdl.script
+2023-07-10 12:01:36.647 +0900	drop	<WebElement with TagName:"a", ID:"", Name:"", Text:"会員登録", Class:"nav-link", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[962.5,206.390625,1042.5,246.390625]>	at (1002, 226)	4	on_drag_drop_confirm	WebDriver_hdl.script
+2023-07-10 12:01:38.684 +0900	waitfor	webdriver_drag_drop	found at (883, 342)	6	on_drag_drop_confirm	WebDriver_hdl.script
+2023-07-10 12:01:42.609 +0900	moveto	<WebElement with TagName:"p", ID:"", Name:"", Text:"© 2020 Test Planisphere", Class:"text-muted", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[396.5,1362.78125,1506.5,1386.78125]>	at (951, 1374)	5	on_moveto_confirm	WebDriver_hdl.script
+2023-07-10 12:01:42.788 +0900	waitfor	tagname_p	found at (953, 1030)	7	on_moveto_confirm	WebDriver_hdl.script
+2023-07-10 12:01:45.413 +0900	WebDisconnect		{blendScaledScreen:False, Browser:"chrome", colorDepth:0, Host:"192.168.90.224", model:"Chrome", Name:"Chrome_WebDriver", overrideName:"Chrome_WebDriver", Port:4444, scaleRemoteScreen:0, skipAvailabilityCheck:False, temporary:False, type:"WebDriver", url:"https://hotel.testplanisphere.dev/ja/", username:""}	3	on_webdisconnect_confirm	WebDriver_hdl.script
+2023-07-10 12:01:47.516 +0900	waitfor	Chrome	found at (50, 256)	5	on_webdisconnect_confirm	WebDriver_hdl.script
+2023-07-10 12:01:50.164 +0900	Disconnect		Windows3(RDP)	2	on_disconnect_sut	connect_hdl.script
+2023-07-10 12:01:53.090 +0900	Log		2	10	on_exit_repeat	Exit_hdl.script
+2023-07-10 12:01:55.715 +0900	LogError		LogErrorテスト	2	on_log_error	log_hdl.script
+2023-07-10 12:01:58.897 +0900	EndTestCase		(Duration:"240.614", Errors:"1", Exceptions:"3", StartTime:"2023-07-10 11:57:58 +0900", Successes:"2", TestCase:"01_PC_Function_Test.script", Warnings:"1")
+2023-07-10 12:01:58.945 +0900	FAILURE		Script Error: Number of Errors logged: 1 -- Execution Time 0:04:00 01_PC_Function_Test.script

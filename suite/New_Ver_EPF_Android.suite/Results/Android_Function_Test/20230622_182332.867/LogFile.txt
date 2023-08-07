@@ -1,0 +1,4 @@
+﻿2023-06-22 18:23:32.872 +0900	START		Running Android_Function_Test.script
+2023-06-22 18:23:38.025 +0900	Connect		AQUOS:(null)	2	on_connect_sut	connect_hdl.script
+2023-06-22 18:23:43.910 +0900	EndTestCase		(Duration:"11.035", Errors:"1", Exceptions:"0", StartTime:"2023-06-22 18:23:32 +0900", Successes:"0", TestCase:"Android_Function_Test.script", Warnings:"0")
+2023-06-22 18:23:46.315 +0900	FAILURE	Screen_Error.png	STUnknownMessage: ERROR: No Such Command: 'presshomebclick' -- Execution Time 0:00:11 Android_Function_Test.script

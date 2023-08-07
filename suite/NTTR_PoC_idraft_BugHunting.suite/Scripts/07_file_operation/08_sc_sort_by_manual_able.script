@@ -1,0 +1,15 @@
+﻿Params Action_Count
+Log "**処理内容：ログイン(課金)の場合手動並び替えは活性確認**"
+(*wait 5s
+Try
+	Waitfor 5s,ImageName:"sort/sort_modal_manual_able"
+	Log "手動並び替えは活性です"
+	CaptureScreen {Name:"手動並び替え活性_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+Catch theException
+	LogError "手動並び替えは活性ではありません"
+End try*)
+
+//Actionを実行する毎にカウントをアップする
+Put Action_Count + 1 into Action_Count
+return Action_Count
+

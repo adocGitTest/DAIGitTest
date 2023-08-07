@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Android_Function_Test_script" package="Mobile_Device_EPF.suite" timestamp="2023-06-22 18:23:05.610 +0900"
+ tests="1"  failures="1" errors="0" time="3.237000">
+  <properties>
+   <property name="RunDate" value="2023-06-22 18:23:05.610 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Android_Function_Test.script" assertions="1" status="failure"  time="3.232">
+    <failure type="FAILURE" message="Connection Failed: Unable to connect to Server:Mobile Device on port:0\nInvalid hostname or IP address: \n -- Execution Time 0:00:03 Android_Function_Test.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

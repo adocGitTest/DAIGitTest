@@ -1,0 +1,63 @@
+{
+	"lastmodifieddate": 1684133115.727,
+	"lastfoundlocation": [
+		55,
+		476,
+		698,
+		49
+	],
+	"originalcapturelocation": [
+		55,
+		476,
+		698,
+		49
+	],
+	"createddate": 1684132994.3610001,
+	"lastfounddate": 1686534526.4759998,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5903,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[945,15]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"keep_connected": "False",
+					"reverse_connection_port": "0",
+					"manufacturer": "",
+					"remote_adb_port": "35001",
+					"enable_reverse_connection": "False",
+					"model": "702SH",
+					"vnc_password": "",
+					"CacheDir": "/storage/emulated/0/Android/data/com.keysight.vncserverforandroid/cache",
+					"reverse_connection_ip_address": "127.0.0.1",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"remote_ip_addr": "localhost",
+					"sharing": "always_share",
+					"device_os": "android",
+					"vnc_port": "5903",
+					"serial": "353024080336624",
+					"webdriver_port": "8001",
+					"android_version": "8.0.0",
+					"sdk": "26"
+				},
+				"name": "cloud_message/cloud_message_android.png",
+				"connectionname": "AQUOS",
+				"type": 1,
+				"capturerect": [
+					55,
+					476,
+					698,
+					49
+				],
+				"connectionserverid": "192.168.90.232"
+			}
+	],
+	"name": "cloud_message"
+}

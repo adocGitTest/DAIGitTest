@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running rotate_hdl.script",
+				"identifier": "START",
+				"timestamp": "2023-06-20 14:38:34.883 +0900"
+			},
+		{
+				"message": "(Duration:\"0\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-06-20 14:38:34 +0900\", Successes:\"1\", TestCase:\"rotate_hdl.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-06-20 14:38:34.893 +0900"
+			},
+		{
+				"message": "Execution Time 0:00:00 rotate_hdl.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2023-06-20 14:38:35.010 +0900"
+			}
+	],
+	"createdTimestamp": "2023-06-20 14:38:34.893 +0900"
+}

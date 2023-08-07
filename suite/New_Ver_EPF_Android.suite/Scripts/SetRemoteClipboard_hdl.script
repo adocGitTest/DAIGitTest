@@ -1,0 +1,18 @@
+﻿to handle SetRemoteClipboard_test
+	click text:"検索語句"
+	wait 5s
+	try
+		put "test" into HouseNumber
+		setremoteclipboard HouseNumber
+		set the KeyDownDelay to .5
+		TypeText ControlKey,"v"
+		wait 2s
+		waitfor 10,text:HouseNumber
+		result_hdl.Result_Pass "SetRemoteClipboardコマンドでテキスト貼り付けること確認","Android"
+		click image:"inputbox_close"
+	catch
+		result_hdl.Result_Fail "SetRemoteClipboardコマンドでテキスト貼り付けること確認","Android"
+	end try
+end SetRemoteClipboard_test
+
+

@@ -1,0 +1,150 @@
+{
+	"entries": [
+		{
+				"message": "Running Android_Function_Test.script",
+				"identifier": "START",
+				"timestamp": "2023-04-27 15:49:52.208 +0900"
+			},
+		{
+				"handlerName": "on_connect_sut",
+				"timestamp": "2023-04-27 15:50:11.349 +0900",
+				"message": "Mobile Device:(null)",
+				"scriptName": "connect_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-27 15:50:16.469 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"identifier": "presshomebutton",
+				"handlerLine": 5
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-27 15:50:22.165 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (541, 1850)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_swipe_left",
+				"timestamp": "2023-04-27 15:50:24.669 +0900",
+				"message": "Swiped left from (972, 1080) to (108, 1080)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipeleft"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-27 15:50:35.556 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"swipeleft_confirm\" within 10.00 seconds",
+				"image": "swipeleft_confirm",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_swipe_right",
+				"timestamp": "2023-04-27 15:50:38.020 +0900",
+				"message": "Swiped right from (108, 1080) to (972, 1080)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swiperight"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-27 15:50:48.275 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"homepage_confirm\" within 10.00 seconds",
+				"image": "homepage_confirm",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-04-27 15:50:50.504 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "found at (541, 1850)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-04-27 15:50:50.504 +0900",
+				"message": "True",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-27 15:50:51.515 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (541, 1850)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_image",
+				"timestamp": "2023-04-27 15:50:54.886 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (541, 1850)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-27 15:51:00.038 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"url_inputbox\" within 5.00 seconds",
+				"image": "url_inputbox",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_click_image",
+				"timestamp": "2023-04-27 15:51:05.090 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "No Image Found On Screen: \"url_inputbox\"",
+				"image": "url_inputbox",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"72.921\", Errors:\"1\", Exceptions:\"4\", StartTime:\"2023-04-27 15:49:52 +0900\", Successes:\"0\", TestCase:\"Android_Function_Test.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-04-27 15:51:05.131 +0900"
+			},
+		{
+				"image": "C:/Suite/Android_EPF_test.suite/Results/Android_Function_Test/20230427_154952.203/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2023-04-27 15:51:05.389 +0900"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Image Found On Screen: \"url_inputbox\" -- Execution Time 0:01:12 Android_Function_Test.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-04-27 15:51:05.393 +0900"
+			},
+		{
+				"image": "C:/Suite/Android_EPF_test.suite/Results/Android_Function_Test/20230427_154952.203/Screen_Error_Web.png",
+				"message": "CapturedWebErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2023-04-27 15:51:07.193 +0900"
+			},
+		{
+				"image": "Screen_Error_Web.png",
+				"message": "Image Not Found: click Error - No Image Found On Screen: \"url_inputbox\" -- Execution Time 0:01:12 Android_Function_Test.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-04-27 15:51:07.199 +0900"
+			}
+	],
+	"createdTimestamp": "2023-04-27 15:49:52.210 +0900"
+}

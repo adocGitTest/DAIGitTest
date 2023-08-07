@@ -1,0 +1,38 @@
+{
+	"entries": [
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-27 11:52:56.247 +0900",
+				"message": "Running RunWithNewResults.script",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"handlerLine": 2,
+				"identifier": "START"
+			},
+		{
+				"handlerName": "on_runwithnewresults",
+				"timestamp": "2023-07-27 11:52:56.428 +0900",
+				"scriptName": "RunWithNewResults.script",
+				"message": "at (50, 264)",
+				"image": "Chrome",
+				"handlerLine": 1,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-27 11:52:56.428 +0900",
+				"message": "(Duration:\"0.166\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-07-27 11:52:56 +0900\", Successes:\"1\", TestCase:\"RunWithNewResults.script\", Warnings:\"0\")",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"handlerLine": 2,
+				"identifier": "EndTestCase"
+			},
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-27 11:52:56.492 +0900",
+				"message": "Execution Time 0:00:00 RunWithNewResults.script",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"handlerLine": 2,
+				"identifier": "SUCCESS"
+			}
+	],
+	"createdTimestamp": "2023-07-27 11:52:56.262 +0900"
+}

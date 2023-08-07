@@ -1,0 +1,20 @@
+﻿to handle SetRemoteClipboard_test
+	try
+		click text:"検索"
+		put "test" into HouseNumber
+		setremoteclipboard HouseNumber
+		wait 2s
+		waitfor 10s,text:"検索"
+		click text:"検索"
+		waitfor 10s,image:"paste_btn"
+		click image:"paste_btn"
+		wait 2s
+		waitfor 10,text:HouseNumber
+		result_hdl.Result_Pass "SetRemoteClipboardコマンドでテキスト貼り付けること確認","IOS"
+		click image:"inputbox_close"
+	catch
+		result_hdl.Result_Fail "SetRemoteClipboardコマンドでテキスト貼り付けること確認","IOS"
+	end try
+end SetRemoteClipboard_test
+
+

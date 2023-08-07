@@ -1,0 +1,32 @@
+﻿
+//-----------click 文字orイメージor座標-----------
+to handle Click_Text with Text
+	Click text:Text
+end click_text
+
+
+to handle Click_Image with Image
+	Click Image
+end Click_Image
+
+to handle Click_Coordinate with Coordinate
+	Click Coordinate
+end Click_Coordinate
+
+
+to handle DoubleClick_Text with Text
+	DoubleClick text:Text
+end DoubleClick_Text
+
+to handle DoubleClick_Image with Image
+	DoubleClick image:Image
+end DoubleClick_Image
+
+to handle TripleClick_image with imageToClick
+	put the RemoteWorkInterval into defaultRWI -- stores the current Remote Work Interval value so that it can be restored later
+	put the MouseDoubleClickDelay into clickTime -- gets the current time interval between clicks in a double-click
+	set the RemoteWorkInterval to clickTime -- sets the Remote Work Interval to the double-click time
+	Click imageToClick
+	Click -- quickly clicks in the current mouse location
+	Click -- quickly clicks again in the same location to achieve a triple-click
+end TripleClick_image

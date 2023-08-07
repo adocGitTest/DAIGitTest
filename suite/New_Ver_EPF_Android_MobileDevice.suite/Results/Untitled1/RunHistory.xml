@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Untitled1">
+ <run>
+  <RunDate>2023-04-18 15:12:08.974 +0900</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.064000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230418_151208.974/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STFileException -- Attempt to access unopened file: CSVfile</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-06-21 10:18:42.899 +0900</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.055000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230621_101842.899/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STFileException -- Attempt to access unopened file: CSVfile</ErrorMessage>
+ </run>
+</runHistory>

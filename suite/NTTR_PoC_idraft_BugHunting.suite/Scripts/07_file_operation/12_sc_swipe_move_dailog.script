@@ -1,0 +1,59 @@
+﻿params Action_Count
+Global G_file_name,G_operate_file_name,G_operate_folder_name,G_file_content,G_operate_file_content
+Log "**処理内容：スワイプメニューの移動ボタン押下、移動先選択ダイアログが表示**"
+
+(*wait 5s
+Log "変数から情報取得"
+Log "ファイルList："&G_file_name
+put item 2 of G_file_name into G_operate_file_name
+put item 2 of G_file_content into G_operate_file_content
+log "G_file_content"&G_file_content
+log "G_operate_file_content"&G_operate_file_content
+//移動前のフォルダ取得(ファイル戻るために)
+Set folder_small_name_locations to EveryImageRectangle(ImageName:"small_folder_icon")
+wait 3s
+put item 2 of folder_small_name_locations into folder_small_name_location
+put the TopRight of folder_small_name_location into TR_small_folder_icon
+put the BottomRight of folder_small_name_location into BR_small_folder_icon
+put ReadText(TR_small_folder_icon,BR_small_folder_icon*[0,1] + RemoteScreenSize()*[1,0],DPI:144) into small_folder_name
+put small_folder_name into G_operate_folder_name
+Log "スワイプ操作ファイルのフォルダ名："&G_operate_folder_name
+CaptureScreen {Name:"スワイプ操作ファイルのフォルダ名_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+
+If G_operate_file_name = "" then
+	put "タイトルなし" into operate_file_name
+else
+	put G_operate_file_name into operate_file_name
+End if
+
+Log operate_file_name&"左スワイプして、移動ボタン押下"
+Try
+	//スワイプ用座標取得し設定
+	Waitfor 5s,Text:operate_file_name
+	put FoundImageLocation()*[0,1] + RemoteScreenSize()*[0.5,0] into draglocation
+	wait 2s
+	
+	Repeat until ImageFound(ImageName:"swipe/swipe_move_to")
+		Log "スワイプ処理"
+		SwipeLeft draglocation
+		wait 5s
+	End repeat
+	
+	//ォルダ移動ボタン押下
+	Waitfor 15s,ImageName:"swipe/swipe_move_to"
+	wait 3s
+	Click FoundImageLocation()
+	wait 3s
+	
+	//移動先選択画面表示確認
+	Waitfor 15s,ImageName:"swipe/swipe_move_to_title"
+	Log "移動先選択画面が表示する"
+	CaptureScreen {Name:"移動先選択表示_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+Catch theException
+	LogError "移動先選択画面が表示しません"
+End try*)
+
+//Actionを実行する毎にカウントをアップする
+Put Action_Count + 1 into Action_Count
+return Action_Count
+

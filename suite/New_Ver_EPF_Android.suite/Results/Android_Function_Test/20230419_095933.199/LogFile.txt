@@ -1,0 +1,42 @@
+﻿2023-04-19 09:59:33.202 +0900	START		Running PC_Function_Test.script
+2023-04-19 09:59:34.629 +0900	Connect		Windows4(RDP):(null)	2	on_connect_sut	connect_hdl.script
+2023-04-19 09:59:37.370 +0900	imagefound	Chrome	Unable to Find Image Chrome	2	on_imagefound_image	imagefound_hdl.script
+2023-04-19 09:59:37.371 +0900	Log		False	2	on_imagefound_image	imagefound_hdl.script
+2023-04-19 09:59:38.120 +0900	waitfor	Chrome	found at (51, 229)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 09:59:38.341 +0900	doubleclick	Chrome	at (51, 229)	2	on_doubleclick_image	click_hdl.script
+2023-04-19 09:59:40.437 +0900	waitfor	url_inputbox	found at (218, 53)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 09:59:47.448 +0900	typetext		https://docs.eggplantsoftware.com/	2	on_type_text	typetext_hdl.script
+2023-04-19 09:59:50.899 +0900	imagefound	(TEXT:"eggplantsoftware")	found at (315, 52)	2	on_imagefound_text	imagefound_hdl.script
+2023-04-19 09:59:50.901 +0900	Log		True	2	on_imagefound_text	imagefound_hdl.script
+2023-04-19 09:59:52.059 +0900	waitfor	(TEXT:"eggplantsoftware")	found at (315, 52)	5	on_waitfor_text	wait_hdl.script
+2023-04-19 09:59:52.418 +0900	typetext		[returnKey]	30	on_pc_function_test	PC_Function_Test.script
+2023-04-19 09:59:52.824 +0900	waitfor	DocumentationPage_confirm	found at (510, 355)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 09:59:54.539 +0900	click	(TEXT:"Eggplant Functional")	at (583, 426)	2	on_click_text	click_hdl.script
+2023-04-19 09:59:54.975 +0900	waitfor	rect_left	found at (448, 187)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 09:59:55.665 +0900	readtext		(448,187,898,257)	40	on_pc_function_test	PC_Function_Test.script
+2023-04-19 09:59:55.715 +0900	Log		TextToRead: Eggplant Functional	41	on_pc_function_test	PC_Function_Test.script
+2023-04-19 09:59:55.753 +0900	set		SEARCHRECTANGLE = ["rect_left","rect_right"]	42	on_pc_function_test	PC_Function_Test.script
+2023-04-19 09:59:56.418 +0900	waitfor	(TEXT:"Eggplant Functional")	found at (673, 227)	5	on_waitfor_text	wait_hdl.script
+2023-04-19 09:59:56.562 +0900	set		SEARCHRECTANGLE = []	44	on_pc_function_test	PC_Function_Test.script
+2023-04-19 09:59:56.595 +0900	set		SEARCHRECTANGLE = ["rect_left","rect_right"]	48	on_pc_function_test	PC_Function_Test.script
+2023-04-19 09:59:57.336 +0900	doubleclick	(TEXT:"Functional")	at (777, 222)	2	on_doubleclick_text	click_hdl.script
+2023-04-19 09:59:57.416 +0900	waitfor	doubleclick_Functional	found at (778, 221)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 09:59:58.151 +0900	rightclick	(TEXT:"Functional")	at (777, 222)	2	on_rightclick_text	click_hdl.script
+2023-04-19 10:00:04.808 +0900	Exception	(TEXT:"コピー")	Unable To Find Any Image On Screen "(TEXT:"コピー")" within 5.00 seconds. Text not found.	5	on_waitfor_text	wait_hdl.script
+2023-04-19 10:00:04.894 +0900	set		SEARCHRECTANGLE = []	58	on_pc_function_test	PC_Function_Test.script
+2023-04-19 10:00:04.926 +0900	set		SEARCHRECTANGLE = ["rect_left","rect_right"]	70	on_pc_function_test	PC_Function_Test.script
+2023-04-19 10:00:05.631 +0900	drag	(TEXT:"E")	at (470, 223)	2	on_drag_text	DragDrop_hdl.script
+2023-04-19 10:00:06.658 +0900	drop	(TEXT:"l")	at (574, 222)	2	on_drop_text	DragDrop_hdl.script
+2023-04-19 10:00:06.689 +0900	set		SEARCHRECTANGLE = []	73	on_pc_function_test	PC_Function_Test.script
+2023-04-19 10:00:06.869 +0900	waitfor	dragdrop_confirm	found at (523, 227)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 10:00:06.977 +0900	scrollwheeldown		moved 20	2	on_scrollwheel_down	scroll_hdl.script
+2023-04-19 10:00:07.592 +0900	waitfor	bottom_confirm	found at (950, 987)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 10:00:07.713 +0900	scrollwheelup		moved 20	2	on_scrollwheel_up	scroll_hdl.script
+2023-04-19 10:00:08.240 +0900	waitfor	top_confirm	found at (560, 162)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 10:00:13.392 +0900	Log		wait_time5.042 seconds	101	on_pc_function_test	PC_Function_Test.script
+2023-04-19 10:00:14.072 +0900	typetext		[windowsAltKey] C	112	on_pc_function_test	PC_Function_Test.script
+2023-04-19 10:00:14.097 +0900	hide		RemoteWindow	2	on_remotewindow_hide	RemoteWindow_hdl.script
+2023-04-19 10:00:14.143 +0900	show		RemoteWindow	2	on_remotewindow_show	RemoteWindow_hdl.script
+2023-04-19 10:00:14.651 +0900	Disconnect		Windows4(RDP)	2	on_disconnect_sut	connect_hdl.script
+2023-04-19 10:00:14.757 +0900	EndTestCase		(Duration:"41.553", Errors:"0", Exceptions:"1", StartTime:"2023-04-19 09:59:33 +0900", Successes:"1", TestCase:"PC_Function_Test.script", Warnings:"0")
+2023-04-19 10:00:14.780 +0900	SUCCESS		Execution Time 0:00:41 PC_Function_Test.script

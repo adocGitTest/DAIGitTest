@@ -1,0 +1,95 @@
+﻿2023-06-29 10:18:13.088 +0900	START		Running Android_Function_Test.script
+2023-06-29 10:18:18.124 +0900	Connect		AQUOS:(null)	2	on_connect_sut	connect_hdl.script
+2023-06-29 10:18:25.330 +0900	waitfor	Chrome	found at (543, 1658)	2	on_waitfor_image_result	wait_hdl.script
+2023-06-29 10:18:27.554 +0900	Log		test	10	on_csv_file	excel_file_hdl.script
+2023-06-29 10:18:27.762 +0900	Log		Text_Data	6	on_excel_file	excel_file_hdl.script
+2023-06-29 10:18:27.905 +0900	Log		pass	5	on_if_then_else_1	if_then_else_hdl.script
+2023-06-29 10:18:28.037 +0900	Log		pass	5	on_if_then_else_1	if_then_else_hdl.script
+2023-06-29 10:18:28.171 +0900	Log		Repeat Forever	2	on_repeat_forever	repeat_hdl.script
+2023-06-29 10:18:28.232 +0900	Log		成功	8	on_repeat_forever	repeat_hdl.script
+2023-06-29 10:18:28.365 +0900	Log		Repeat Number Times or For Duration	2	on_repeat_time_or_for_duration	repeat_hdl.script
+2023-06-29 10:18:28.458 +0900	Log		6	7	on_repeat_time_or_for_duration	repeat_hdl.script
+2023-06-29 10:18:28.803 +0900	Log		リストは空	8	on_repeat_until_condition	repeat_hdl.script
+2023-06-29 10:18:28.993 +0900	Log		2	7	on_repeat_while	repeat_hdl.script
+2023-06-29 10:18:40.732 +0900	Log		addコマンド実行成功	5	on_add	add_hdl.script
+2023-06-29 10:18:40.919 +0900	Log		replaceコマンド実行成功	6	on_replace	replace_hdl.script
+2023-06-29 10:18:42.791 +0900	waitfor	Chrome	found at (543, 1658)	3	on_try_catch_1	try_catch_hdl.script
+2023-06-29 10:18:54.038 +0900	Exception	(TEXT:"あいうえお")	Unable To Find Any Image On Screen "(TEXT:"あいうえお")" within 5.00 seconds. Text not found.	3	on_try_catch_2	try_catch_hdl.script
+2023-06-29 10:18:54.059 +0900	Log		pass	6	on_try_catch_2	try_catch_hdl.script
+2023-06-29 10:18:54.296 +0900	runwithnewresults		RunWithNewResults.script (E:/suite/New_Ver_EPF_Android.suite/Results/RunWithNewResults/20230629_101854.295/LogFile.txt)	35	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:19:00.694 +0900	waitfor	google_icon	found at (533, 468)	38	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:19:03.652 +0900	killapp		com.android.chrome	43	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:19:07.864 +0900	waitfor	Chrome	found at (543, 1658)	45	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:19:08.392 +0900	swipeleft		Swiped left from (972, 960) to (108, 960)	2	on_swipe_left	swipe_hdl.script
+2023-06-29 10:19:13.435 +0900	waitfor	swipeleft_confirm	found at (411, 234)	2	on_waitfor_image_result	wait_hdl.script
+2023-06-29 10:19:15.926 +0900	swiperight		Swiped right from (108, 960) to (972, 960)	2	on_swipe_right	swipe_hdl.script
+2023-06-29 10:19:21.291 +0900	waitfor	homepage_confirm	found at (157, 561)	2	on_waitfor_image_result	wait_hdl.script
+2023-06-29 10:19:23.762 +0900	swipeup		Swiped up from (540, 1344) to (540, 576)	2	on_swipe_up	swipe_hdl.script
+2023-06-29 10:19:28.258 +0900	waitfor	all_app	found at (219, 165)	2	on_waitfor_image_result	wait_hdl.script
+2023-06-29 10:19:28.722 +0900	swipedown		Swiped down from (540, 576) to (540, 1344)	2	on_swipe_down	swipe_hdl.script
+2023-06-29 10:19:32.558 +0900	waitfor	Chrome	found at (543, 1658)	2	on_waitfor_image_result	wait_hdl.script
+2023-06-29 10:19:34.329 +0900	imagefound	Chrome	found at (543, 1658)	2	on_imagefound_image	imagefound_hdl.script
+2023-06-29 10:19:34.331 +0900	Log		True	2	on_imagefound_image	imagefound_hdl.script
+2023-06-29 10:19:36.084 +0900	waitfor	Chrome	found at (543, 1658)	2	on_waitfor_image_result	wait_hdl.script
+2023-06-29 10:19:39.332 +0900	scrollwheeldown		moved 5	3	on_scrollwheel_down	scroll_hdl.script
+2023-06-29 10:19:41.957 +0900	waitfor	all_app	found at (219, 165)	4	on_scrollwheel_down	scroll_hdl.script
+2023-06-29 10:19:44.288 +0900	scrollwheelup		moved 5	3	on_scrollwheel_up	scroll_hdl.script
+2023-06-29 10:19:49.121 +0900	waitfor	Chrome	found at (543, 1658)	4	on_scrollwheel_up	scroll_hdl.script
+2023-06-29 10:20:16.997 +0900	Exception	(TEXT:"マップ")	No Text Found On Screen: "(TEXT:"マップ")". Text not found.	2	on_click_text	click_hdl.script
+2023-06-29 10:20:17.698 +0900	click	Chrome	at (543, 1658)	2	on_click_image	click_hdl.script
+2023-06-29 10:20:22.136 +0900	waitfor	url_inputbox	found at (228, 777)	2	on_waitfor_image_result	wait_hdl.script
+2023-06-29 10:20:27.175 +0900	killapp		com.android.chrome	99	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:20:31.319 +0900	waitfor	Chrome	found at (543, 1658)	101	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:20:33.259 +0900	click	Chrome	at (543, 1658)	109	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:20:38.052 +0900	waitfor	google_icon	found at (533, 468)	111	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:20:40.817 +0900	waitfor	rotate_confirm/no_rotate	found at (544, 1843)	4	on_rotate	rotate_hdl.script
+2023-06-29 10:20:46.707 +0900	waitfor	rotate_confirm/rotate_left	found at (74, 539)	13	on_rotate	rotate_hdl.script
+2023-06-29 10:20:52.451 +0900	waitfor	rotate_confirm/no_rotate	found at (544, 1843)	21	on_rotate	rotate_hdl.script
+2023-06-29 10:20:55.316 +0900	waitfor	rotate_confirm/no_rotate	found at (544, 1843)	28	on_rotate	rotate_hdl.script
+2023-06-29 10:21:01.094 +0900	waitfor	rotate_confirm/rotate_right	found at (1854, 544)	31	on_rotate	rotate_hdl.script
+2023-06-29 10:21:07.091 +0900	waitfor	rotate_confirm/no_rotate	found at (544, 1843)	40	on_rotate	rotate_hdl.script
+2023-06-29 10:21:12.874 +0900	waitfor	rotate_confirm/rotate_right	found at (1854, 544)	43	on_rotate	rotate_hdl.script
+2023-06-29 10:21:20.753 +0900	waitfor	rotate_confirm/no_rotate	found at (544, 1843)	52	on_rotate	rotate_hdl.script
+2023-06-29 10:21:23.520 +0900	waitfor	rotate_confirm/no_rotate	found at (544, 1843)	55	on_rotate	rotate_hdl.script
+2023-06-29 10:21:29.597 +0900	waitfor	rotate_confirm/rotate_left	found at (74, 539)	58	on_rotate	rotate_hdl.script
+2023-06-29 10:21:38.353 +0900	waitfor	rotate_confirm/no_rotate	found at (544, 1843)	68	on_rotate	rotate_hdl.script
+2023-06-29 10:21:42.156 +0900	click	(TEXT:"検索語句")	at (184, 758)	116	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:21:47.233 +0900	setremoteclipboard		Set Text:test	120	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:21:47.255 +0900	set		KEYDOWNDELAY = 0.5	121	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:21:48.182 +0900	typetext		[controlKey]v	122	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:21:54.962 +0900	waitfor	(TEXT:"test")	found at (208, 158)	124	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:21:55.356 +0900	click	inputbox_close	at (986, 152)	126	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:22:00.451 +0900	set		KEYDOWNDELAY = 0.5	2	on_type_text	typetext_hdl.script
+2023-06-29 10:22:09.577 +0900	typetext		123abcあいうえお野村	3	on_type_text	typetext_hdl.script
+2023-06-29 10:22:15.533 +0900	waitfor	(TEXT:"123abcあいうえお野村")	found at (415, 155)	3	on_waitfor_text	wait_hdl.script
+2023-06-29 10:22:18.947 +0900	waitfor	inputbox_close	found at (986, 152)	137	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:22:20.407 +0900	click	inputbox_close	at (986, 152)	138	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:22:23.179 +0900	killapp		com.android.chrome	142	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:22:31.776 +0900	waitfor	Chrome	found at (543, 1658)	144	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:22:35.340 +0900	waitfor	(TEXT:"Google")	found at (669, 709)	3	on_waitfor_text	wait_hdl.script
+2023-06-29 10:22:39.440 +0900	waitfor	Chrome	found at (543, 1658)	3	on_waitfor_image	wait_hdl.script
+2023-06-29 10:22:42.944 +0900	imagefound	Chrome	found at (543, 1658)	3	on_wait_while	wait_hdl.script
+2023-06-29 10:22:47.066 +0900	imagefound	Chrome	found at (543, 1658)	3	on_wait_until	wait_hdl.script
+2023-06-29 10:22:51.769 +0900	waitforall		found all: Chrome:(543, 1658) (TEXT:"Google"):(669, 709) 	3	on_wait_forall	wait_hdl.script
+2023-06-29 10:22:59.184 +0900	Log		wait_time:5.016 seconds	7	on_waittime	wait_hdl.script
+2023-06-29 10:23:03.442 +0900	Log		MouseLocation_Before[986,152]	174	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:23:03.516 +0900	moveto		at (0, 0)	2	on_moveto_coordinate	moveto_hdl.script
+2023-06-29 10:23:03.616 +0900	Log		MouseLocation_After[0,0]	178	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:23:19.659 +0900	readtext		(342,669,486,728)	2	on_readtext_byimage	readtext_hdl.script
+2023-06-29 10:23:19.756 +0900	Log		TextToRead: マップ	191	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:23:33.176 +0900	set		SEARCHRECTANGLE = ["rect_left","rect_right"]	192	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:23:35.706 +0900	waitfor	(TEXT:"マップ")	found at (412, 705)	3	on_waitfor_text	wait_hdl.script
+2023-06-29 10:23:36.079 +0900	set		SEARCHRECTANGLE = []	194	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:23:38.227 +0900	drag		at (864, 1344)	200	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:23:39.338 +0900	drop		at (216, 1344)	201	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:23:44.068 +0900	waitfor	swipeleft_confirm	found at (422, 234)	203	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:23:46.957 +0900	presshomebutton			245	on_android_function_test	Android_Function_Test.script
+2023-06-29 10:23:52.877 +0900	waitfor	Chrome	found at (543, 1658)	2	on_waitfor_image_result	wait_hdl.script
+2023-06-29 10:23:53.161 +0900	Log		Log_ブラウザを閉じました	2	on_log_msg	log_hdl.script
+2023-06-29 10:23:53.285 +0900	LogSuccess		LogSuccess_ブラウザを閉じました	2	on_log_success	log_hdl.script
+2023-06-29 10:23:53.400 +0900	LogWarning		LogWarning_ブラウザを閉じました	2	on_log_warning	log_hdl.script
+2023-06-29 10:23:55.758 +0900	Disconnect		AQUOS	2	on_disconnect_sut	connect_hdl.script
+2023-06-29 10:23:58.355 +0900	Log		2	10	on_exit_repeat	Exit_hdl.script
+2023-06-29 10:24:00.716 +0900	LogError		LogErrorテスト	2	on_log_error	log_hdl.script
+2023-06-29 10:24:01.449 +0900	EndTestCase		(Duration:"348.358", Errors:"1", Exceptions:"2", StartTime:"2023-06-29 10:18:13 +0900", Successes:"2", TestCase:"Android_Function_Test.script", Warnings:"1")
+2023-06-29 10:24:01.490 +0900	FAILURE		Script Error: Number of Errors logged: 1 -- Execution Time 0:05:48 Android_Function_Test.script

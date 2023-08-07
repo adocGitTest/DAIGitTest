@@ -1,0 +1,71 @@
+﻿(*params Login_Type,First_Time_Open
+Global  G_folder_name
+
+//dアカウント
+try
+	waitfor 2s,image:"no_d_account_login"
+	click image:"no_d_account_login"
+end try
+//ファイル作成
+try
+	waitfor 2s, image:"close_create_file"
+	Click image:"close_create_file"
+end try
+//キャンセル
+try
+	waitfor 3s, image:"cancel_btn"
+	Click image:"cancel_btn"
+end try
+//ok
+try
+	waitfor 3s, image:"ok_btn"
+	Click image:"ok_btn"
+end try
+//手動モダール完了
+Try
+	Waitfor 3s,image:"manual_end_btn"
+	Click image:"manual_end_btn"
+	wait 3s
+	Click image:"close_sort_by"
+End try
+//課金訴求モダール閉じる
+Try
+	Waitfor 3s,image:"close_billing_appeal_modal"
+	Click image:"close_billing_appeal_modal"
+	wait 3s
+	Click image:"close_sort_by"
+End try
+//並び替えモダール閉じる
+Try
+	Waitfor 3s,image:"close_sort_by"
+	Click image:"close_sort_by"
+End try
+//移動先画面
+Try
+	Waitfor 3s, image:"close_move_to"
+	click image:"close_move_to"
+End try
+//フォルダ内
+Try
+	Waitfor 3s, image:"back_btn"
+	click image:"folder_tab"
+	wait 1s
+	Click image:"back_btn"
+End try
+//下書き一覧
+Try
+	Waitfor 3s,image:"draft_tab"
+	Click image:"draft_tab"
+End try
+
+//ファイル削除処理
+if First_Time_Open = 1
+	Run "10_common/cm_file_delete_hdl" 
+end if
+
+//ファイルごとフォルダ削除スクリプトRun
+Run "09_data_del_process/03_sc_swipe_folder_del" Login_Type
+//ログアウトスクリプトRun
+Run "03_login_logout/04_sc_logout"
+
+//Cleanup処理へ*)

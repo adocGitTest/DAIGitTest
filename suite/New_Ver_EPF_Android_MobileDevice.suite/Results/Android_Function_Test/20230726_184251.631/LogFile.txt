@@ -1,0 +1,49 @@
+﻿2023-07-26 18:42:51.638 +0900	START		Running Android_Function_Test.script
+2023-07-26 18:42:54.749 +0900	Connect		Mobile Device:(null)	2	on_connect_sut	connect_hdl.script
+2023-07-26 18:42:59.909 +0900	waitfor	Chrome	found at (541, 1851)	2	on_waitfor_image_result	wait_hdl.script
+2023-07-26 18:43:02.054 +0900	Log		test	10	on_csv_file	excel_file_hdl.script
+2023-07-26 18:43:02.144 +0900	Log		Text_Data	6	on_excel_file	excel_file_hdl.script
+2023-07-26 18:43:02.239 +0900	Log		pass	6	on_if_then_else_1	if_then_else_hdl.script
+2023-07-26 18:43:02.337 +0900	Log		pass	8	on_if_then_else_2	if_then_else_hdl.script
+2023-07-26 18:43:02.432 +0900	Log		Repeat Forever	2	on_repeat_forever	repeat_hdl.script
+2023-07-26 18:43:02.432 +0900	Log		成功	8	on_repeat_forever	repeat_hdl.script
+2023-07-26 18:43:02.516 +0900	Log		Repeat Number Times or For Duration	2	on_repeat_time_or_for_duration	repeat_hdl.script
+2023-07-26 18:43:02.532 +0900	Log		6	7	on_repeat_time_or_for_duration	repeat_hdl.script
+2023-07-26 18:43:02.629 +0900	Log		リストは空	8	on_repeat_until_condition	repeat_hdl.script
+2023-07-26 18:43:13.158 +0900	Log		addコマンド実行成功	5	on_add	add_hdl.script
+2023-07-26 18:43:13.230 +0900	Log		replaceコマンド実行成功	6	on_replace	replace_hdl.script
+2023-07-26 18:43:13.512 +0900	waitfor	Chrome	found at (541, 1851)	3	on_try_catch_1	try_catch_hdl.script
+2023-07-26 18:43:22.602 +0900	Exception	(TEXT:"あいうえお")	Unable To Find Any Image On Screen "(TEXT:"あいうえお")" within 5.00 seconds. Text not found.	3	on_try_catch_2	try_catch_hdl.script
+2023-07-26 18:43:22.609 +0900	Log		pass	6	on_try_catch_2	try_catch_hdl.script
+2023-07-26 18:43:22.753 +0900	runwithnewresults		RunWithNewResults.script (C:/Suite/New_Ver_EPF_Android_MobileDevice.suite/Results/RunWithNewResults/20230726_184322.750/LogFile.txt)	2	on_run_with_new_results	RunWithNewResults_hdl.script
+2023-07-26 18:43:26.875 +0900	waitfor	google_icon	found at (535, 464)	5	on_run_with_new_results	RunWithNewResults_hdl.script
+2023-07-26 18:43:29.245 +0900	killapp		com.android.chrome	10	on_run_with_new_results	RunWithNewResults_hdl.script
+2023-07-26 18:43:31.639 +0900	waitfor	Chrome	found at (541, 1851)	12	on_run_with_new_results	RunWithNewResults_hdl.script
+2023-07-26 18:43:32.203 +0900	swipeleft		Swiped left from (972, 1080) to (108, 1080)	2	on_swipe_left	swipe_hdl.script
+2023-07-26 18:43:34.690 +0900	waitfor	swipeleft_confirm	found at (170, 205)	2	on_waitfor_image_result	wait_hdl.script
+2023-07-26 18:43:37.249 +0900	swiperight		Swiped right from (108, 1080) to (972, 1080)	2	on_swipe_right	swipe_hdl.script
+2023-07-26 18:43:47.573 +0900	Exception	homepage_confirm	Unable To Find Any Image On Screen "homepage_confirm" within 10.00 seconds	2	on_waitfor_image_result	wait_hdl.script
+2023-07-26 18:43:49.981 +0900	swipeup		Swiped up from (540, 1512) to (540, 648)	2	on_swipe_up	swipe_hdl.script
+2023-07-26 18:43:52.157 +0900	waitfor	all_app	found at (543, 168)	2	on_waitfor_image_result	wait_hdl.script
+2023-07-26 18:43:52.653 +0900	swipedown		Swiped down from (540, 648) to (540, 1512)	2	on_swipe_down	swipe_hdl.script
+2023-07-26 18:43:54.837 +0900	waitfor	Chrome	found at (541, 1851)	2	on_waitfor_image_result	wait_hdl.script
+2023-07-26 18:43:55.101 +0900	imagefound	Chrome	found at (541, 1851)	2	on_imagefound_image	imagefound_hdl.script
+2023-07-26 18:43:55.104 +0900	Log		True	2	on_imagefound_image	imagefound_hdl.script
+2023-07-26 18:43:55.356 +0900	waitfor	Chrome	found at (541, 1851)	2	on_waitfor_image_result	wait_hdl.script
+2023-07-26 18:43:58.494 +0900	scrollwheeldown		moved 5	3	on_scrollwheel_down	scroll_hdl.script
+2023-07-26 18:44:08.644 +0900	Exception	all_app	Unable To Find Any Image On Screen "all_app" within 10.00 seconds	4	on_scrollwheel_down	scroll_hdl.script
+2023-07-26 18:44:10.737 +0900	scrollwheelup		moved 5	3	on_scrollwheel_up	scroll_hdl.script
+2023-07-26 18:44:10.862 +0900	waitfor	Chrome	found at (541, 1851)	4	on_scrollwheel_up	scroll_hdl.script
+2023-07-26 18:44:28.529 +0900	click	(TEXT:"Google")	at (663, 1567)	2	on_click_text	click_hdl.script
+2023-07-26 18:44:30.693 +0900	waitfor	gmail_icon	found at (692, 827)	2	on_waitfor_image_result	wait_hdl.script
+2023-07-26 18:44:30.819 +0900	presshomebutton			76	on_android_function_test	Android_Function_Test.script
+2023-07-26 18:44:33.000 +0900	waitfor	Chrome	found at (541, 1851)	78	on_android_function_test	Android_Function_Test.script
+2023-07-26 18:44:33.436 +0900	click	Chrome	at (541, 1851)	2	on_click_image	click_hdl.script
+2023-07-26 18:44:36.524 +0900	waitfor	url_inputbox	found at (355, 754)	2	on_waitfor_image_result	wait_hdl.script
+2023-07-26 18:44:40.759 +0900	killapp		com.android.chrome	89	on_android_function_test	Android_Function_Test.script
+2023-07-26 18:44:43.512 +0900	waitfor	Chrome	found at (541, 1851)	91	on_android_function_test	Android_Function_Test.script
+2023-07-26 18:44:43.793 +0900	click	Chrome	at (541, 1851)	96	on_android_function_test	Android_Function_Test.script
+2023-07-26 18:44:55.981 +0900	Exception	google_icon	Unable To Find Any Image On Screen "google_icon" within 10.00 seconds	98	on_android_function_test	Android_Function_Test.script
+2023-07-26 18:44:56.061 +0900	EndTestCase		(Duration:"124.417", Errors:"1", Exceptions:"4", StartTime:"2023-07-26 18:42:51 +0900", Successes:"1", TestCase:"Android_Function_Test.script", Warnings:"0")
+2023-07-26 18:44:56.656 +0900	FAILURE	Screen_Error.png	Image Not Found: waitfor Error - Unable To Find Any Image On Screen "google_icon" within 10.00 seconds -- Execution Time 0:02:04 Android_Function_Test.script
+2023-07-26 18:44:59.779 +0900	FAILURE	Screen_Error_Web.png	Image Not Found: waitfor Error - Unable To Find Any Image On Screen "google_icon" within 10.00 seconds -- Execution Time 0:02:04 Android_Function_Test.script

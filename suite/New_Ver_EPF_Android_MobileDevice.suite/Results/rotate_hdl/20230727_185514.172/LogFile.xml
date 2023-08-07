@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="rotate_hdl_script" package="New_Ver_EPF_Android_MobileDevice.suite" timestamp="2023-07-27 18:55:14.172 +0900"
+ tests="1"  failures="0" errors="0" time="0.010000">
+  <properties>
+   <property name="RunDate" value="2023-07-27 18:55:14.172 +0900"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="rotate_hdl.script" assertions="1" status="success"  time="0">
+  </testcase>
+ </testsuite>
+</testsuites>

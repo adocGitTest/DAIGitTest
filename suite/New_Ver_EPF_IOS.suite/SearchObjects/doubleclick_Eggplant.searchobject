@@ -1,0 +1,49 @@
+{
+	"originalcapturelocation": [
+		460,
+		189,
+		188,
+		62
+	],
+	"lastmodifieddate": 1681882117.671,
+	"createddate": 1681804115.48,
+	"name": "doubleclick_Eggplant",
+	"lastfounddate": 1681808865.665,
+	"ocrcapturestring": "Eggplant",
+	"lastfoundlocation": [
+		460,
+		189,
+		188,
+		62
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[94,31]",
+					"Tolerance": "_59",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "doubleclick_Eggplant.png",
+				"connectionname": "Windows4(RDP)",
+				"type": 1,
+				"connectionserverid": "192.168.90.225",
+				"capturerect": [
+					460,
+					189,
+					188,
+					62
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Eggplant"
+			}
+	]
+}

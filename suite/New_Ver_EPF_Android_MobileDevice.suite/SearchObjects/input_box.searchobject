@@ -1,0 +1,60 @@
+{
+	"originalcapturelocation": [
+		54,
+		125,
+		61,
+		62
+	],
+	"lastmodifieddate": 1690375562.552,
+	"createddate": 1690375562.552,
+	"name": "input_box",
+	"lastfounddate": 1690375633.9489999,
+	"ocrcapturestring": "G",
+	"lastfoundlocation": [
+		54,
+		125,
+		61,
+		62
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 60286,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[24,45]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"model": "907SH",
+					"webdriver_port": "60287",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "SHARP",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "60286",
+					"sdk": "30",
+					"android_version": "11",
+					"CacheDir": "/data/local/tmp",
+					"serial": "357984101727679",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "input_box.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					54,
+					125,
+					61,
+					62
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "G"
+			}
+	]
+}

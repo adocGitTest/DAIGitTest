@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="01_PC_Function_Test_script" package="New_Ver_EPF_PC.suite" timestamp="2023-07-10 10:04:07.503 +0900"
+ tests="1"  failures="2" errors="8" time="263.260000">
+  <properties>
+   <property name="RunDate" value="2023-07-10 10:04:07.503 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="01_PC_Function_Test.script" assertions="3" status="error"  time="263.254">
+    <failure type="LogError" message="LogErrorテスト" />
+    <failure type="FAILURE" message="Script Error: Number of Errors logged: 1 -- Execution Time 0:04:23 01_PC_Function_Test.script" />
+    <error type="Exception" message="Web Element Not Found: &quot;<WebElement identified by {webLinkText:@&quot;ホ\u30fcム&quot;} – not resolved yet>&quot;" />
+  </testcase>
+ </testsuite>
+</testsuites>

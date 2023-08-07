@@ -1,0 +1,25 @@
+﻿to handle exit_repeat
+	put 1 into times
+	Repeat 10 times 
+		add times to times
+		if times=2 then
+			Exit repeat
+		end if
+	End repeat
+	if times =2 then
+		log times
+		result_hdl.Result_Pass "Exit Repeatコマンドでリピート処理を終了する","IOS"
+	else
+		result_hdl.Result_Fail "Exit Repeatコマンドでリピート処理を終了する","IOS"
+	end if
+end exit_repeat
+
+to handle Exit_All
+	put 1 into param
+	if param=1 then
+		result_hdl.Result_Pass "Exit Allコマンドでスクリプトの実行を終了する","IOS"
+		Exit all
+	end if
+	log "Exit　All:失敗"
+	result_hdl.Result_Fail "Exit Allコマンドでスクリプトの実行を終了する","IOS"
+end Exit_All

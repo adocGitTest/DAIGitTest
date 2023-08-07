@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Android_Function_Test_script" package="Android_EPF_test.suite" timestamp="2023-04-19 17:15:19.699 +0900"
+ tests="1"  failures="2" errors="0" time="296.321000">
+  <properties>
+   <property name="RunDate" value="2023-04-19 17:15:19.699 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Android_Function_Test.script" assertions="2" status="failure"  time="296.315">
+    <failure type="LogError" message="LogErrorテスト" />
+    <failure type="FAILURE" message="Script Error: Number of Errors logged: 1 -- Execution Time 0:04:56 Android_Function_Test.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

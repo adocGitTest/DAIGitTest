@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Android_Function_Test_script" package="Android_EPF_test.suite" timestamp="2023-05-09 13:42:04.494 +0900"
+ tests="1"  failures="0" errors="0" time="34.471000">
+  <properties>
+   <property name="RunDate" value="2023-05-09 13:42:04.494 +0900"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Android_Function_Test.script" assertions="1" status="error"  time="34.458">
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;swipeleft_confirm&quot; within 10.00 seconds" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,153 @@
+{
+	"originalcapturelocation": [
+		40,
+		1421,
+		215,
+		60
+	],
+	"lastmodifieddate": 1683786094.53,
+	"createddate": 1673399001.849,
+	"name": "sort/sort_modal_title_btn/sort_modal_title_btn_android",
+	"lastfounddate": 1690691410.013,
+	"ocrcapturestring": "NL",
+	"lastfoundlocation": [
+		40,
+		1188,
+		215,
+		60
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5909,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[107,30]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"keep_connected": "False",
+					"reverse_connection_port": "0",
+					"manufacturer": "SHARP QUALCOMM",
+					"remote_adb_port": "35003",
+					"enable_reverse_connection": "False",
+					"model": "SHV45",
+					"CacheDir": "/storage/emulated/0/Android/data/com.keysight.vncserverforandroid/cache",
+					"vnc_password": "",
+					"reverse_connection_ip_address": "127.0.0.1",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"remote_ip_addr": "localhost",
+					"sharing": "always_share",
+					"device_os": "android",
+					"vnc_port": "5909",
+					"serial": "357980102097641",
+					"webdriver_port": "8000",
+					"android_version": "10",
+					"sdk": "29"
+				},
+				"name": "sort/sort_modal_title_btn/sort_modal_title_btn_android.png",
+				"connectionname": "NTTR_Android",
+				"type": 1,
+				"capturerect": [
+					40,
+					1421,
+					215,
+					60
+				],
+				"connectionserverid": "192.168.90.232",
+				"capturedocrtext": "NL"
+			},
+		{
+				"connectionportnum": 5909,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[107,30]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"keep_connected": "False",
+					"reverse_connection_port": "0",
+					"manufacturer": "SHARP QUALCOMM",
+					"remote_adb_port": "35003",
+					"enable_reverse_connection": "False",
+					"model": "SHV45",
+					"CacheDir": "/storage/emulated/0/Android/data/com.keysight.vncserverforandroid/cache",
+					"vnc_password": "",
+					"reverse_connection_ip_address": "127.0.0.1",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"remote_ip_addr": "localhost",
+					"sharing": "always_share",
+					"device_os": "android",
+					"vnc_port": "5909",
+					"serial": "357980102097641",
+					"webdriver_port": "8000",
+					"android_version": "10",
+					"sdk": "29"
+				},
+				"name": "sort/sort_modal_title_btn/sort_modal_title_btn_android2.png",
+				"connectionname": "NTTR_Android",
+				"type": 1,
+				"capturerect": [
+					55,
+					646,
+					215,
+					60
+				],
+				"connectionserverid": "192.168.90.232",
+				"capturedocrtext": "HH"
+			},
+		{
+				"connectionportnum": 5903,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[107,30]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"keep_connected": "False",
+					"reverse_connection_port": "0",
+					"manufacturer": "",
+					"remote_adb_port": "35001",
+					"enable_reverse_connection": "False",
+					"model": "702SH",
+					"CacheDir": "/storage/emulated/0/Android/data/com.keysight.vncserverforandroid/cache",
+					"vnc_password": "",
+					"reverse_connection_ip_address": "127.0.0.1",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"remote_ip_addr": "localhost",
+					"sharing": "always_share",
+					"device_os": "android",
+					"vnc_port": "5903",
+					"serial": "353024080336624",
+					"webdriver_port": "8001",
+					"android_version": "8.0.0",
+					"sdk": "26"
+				},
+				"name": "sort/sort_modal_title_btn/sort_modal_title_btn_android2.png",
+				"connectionname": "AQUOS",
+				"type": 1,
+				"capturerect": [
+					40,
+					1188,
+					215,
+					60
+				],
+				"connectionserverid": "192.168.90.232"
+			}
+	]
+}

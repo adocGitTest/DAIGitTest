@@ -1,0 +1,116 @@
+{
+	"lastmodifieddate": 1674455382.161,
+	"originalcapturelocation": [
+		316,
+		1090,
+		443,
+		61
+	],
+	"createddate": 1674455382.161,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5911,
+				"domelements": [
+					{
+							"elementLocation": "{x = 68; y = 363; width = 239; height = 21}",
+							"visible": "true",
+							"elementName": "ログアウトしますか",
+							"enabled": "true",
+							"y": "363",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "239",
+							"elementScale": 3,
+							"label": "ログアウトしますか？",
+							"x": "68",
+							"height": "21",
+							"elementType": "Checkpoint",
+							"name": "ログアウトしますか？",
+							"index": "0",
+							"value": "ログアウトしますか？"
+						},
+					{
+							"elementLocation": "{x = 68; y = 387; width = 239; height = 33}",
+							"visible": "true",
+							"elementName": "ログアウトするとクラウドを利用できなくなります",
+							"enabled": "true",
+							"y": "387",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "239",
+							"elementScale": 3,
+							"label": "ログアウトするとクラウドを利用できなくなります。",
+							"x": "68",
+							"height": "33",
+							"elementType": "Checkpoint",
+							"name": "ログアウトするとクラウドを利用できなくなります。",
+							"index": "1",
+							"value": "ログアウトするとクラウドを利用できなくなります。"
+						},
+					{
+							"elementLocation": "{x = 52; y = 440; width = 136; height = 45}",
+							"visible": "true",
+							"elementName": "キャンセル",
+							"enabled": "true",
+							"y": "440",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "136",
+							"elementScale": 3,
+							"label": "キャンセル",
+							"x": "52",
+							"height": "45",
+							"elementType": "Button",
+							"name": "キャンセル",
+							"index": "0"
+						},
+					{
+							"elementLocation": "{x = 188; y = 440; width = 135; height = 45}",
+							"visible": "true",
+							"elementName": "OK",
+							"enabled": "true",
+							"y": "440",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "135",
+							"elementScale": 3,
+							"label": "OK",
+							"x": "188",
+							"height": "45",
+							"elementType": "Button",
+							"name": "OK",
+							"index": "0"
+						}
+				],
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_45",
+					"HotSpot": "[221,30]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"device_type": "iPhone 12 Mini",
+					"device": "iPhone13,1",
+					"os": "OSX",
+					"version": "6.0",
+					"device_os_version": "iOS 14.3",
+					"type": "iOS Gateway",
+					"os_version": "12.6"
+				},
+				"name": "logout_check/logout_check_ios.png",
+				"connectionname": "NTTR_iPhone12",
+				"type": 1,
+				"capturerect": [
+					316,
+					1090,
+					443,
+					61
+				],
+				"connectionserverid": "192.168.90.232"
+			}
+	],
+	"name": "logout_check/logout_check_ios"
+}

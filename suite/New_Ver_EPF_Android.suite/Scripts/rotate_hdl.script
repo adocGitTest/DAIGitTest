@@ -1,0 +1,69 @@
+﻿to handle rotate
+	try
+		//画面回転確認
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+	catch
+		SetDeviceOrientation portrait
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+	end try
+	//左回転_RotateLeft
+	try
+		RotateLeft
+		wait 2s
+		waitfor 10s,image:"rotate_confirm/rotate_left"
+		result_hdl.Result_Pass "rotateLeftコマンドで画面を左に回転する","Android"
+	catch
+		result_hdl.Result_Fail "rotateLeftコマンドで画面を左に回転する","Android"
+	end try
+	try
+		SetDeviceOrientation portrait
+		wait 2s
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+		result_hdl.Result_Pass "SetDeviceOrientation portraitコマンドで画面をデフォルトに戻される","Android"
+	catch
+		result_hdl.Result_Fail "portraitコマンドで画面をデフォルトに戻される","Android"
+	end try
+	//左回転_SetDeviceOrientation landscapeLeft
+	try
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+		SetDeviceOrientation landscapeLeft
+		wait 2s
+		waitfor 10s,image:"rotate_confirm/rotate_right"
+		result_hdl.Result_Pass "SetDeviceOrientation landscapeLeftコマンドで画面を左に回転する","Android"
+	catch
+		result_hdl.Result_Fail "SetDeviceOrientation landscapeLeftコマンドで画面を左に回転する","Android"
+	end try
+	SetDeviceOrientation portrait
+	wait 2s
+	//右回転_RotateRight
+	try
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+		RotateRight
+		wait 2s
+		waitfor 10s, "rotate_confirm/rotate_right"
+		result_hdl.Result_Pass "rotateRightコマンドで画面を右に回転する","Android"
+		wait 2s
+	catch
+		result_hdl.Result_Fail "rotateRightコマンドで画面を右に回転する","Android"
+		wait 2s
+	end try
+	SetDeviceOrientation portrait
+	wait 2s
+	waitfor 10s, image:"rotate_confirm/no_rotate"
+	//右回転_SetDeviceOrientation landscapeRight
+	try
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+		SetDeviceOrientation landscapeRight
+		wait 2s
+		waitfor 10s, "rotate_confirm/rotate_left"
+		result_hdl.Result_Pass "SetDeviceOrientation landscapeRightコマンドで画面を右に回転する","Android"
+		wait 2s
+	catch
+		result_hdl.Result_Fail "SetDeviceOrientation landscapeRightコマンドで画面を右に回転する","Android"
+		wait 2s
+	end try
+	
+	SetDeviceOrientation portrait
+	wait 2s
+	waitfor 10s, image:"rotate_confirm/no_rotate"
+end rotate

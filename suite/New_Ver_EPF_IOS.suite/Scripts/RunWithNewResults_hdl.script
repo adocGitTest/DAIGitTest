@@ -1,0 +1,22 @@
+﻿to handle Run_With_New_Results
+	RunWithNewResults "RunWithNewResults"
+	wait 1s
+	try
+		waitfor 10s,image: "tag_icon_ios"
+		result_hdl.Result_Pass "RunWithNewResultsで指定スクリプトを実行","IOS"
+		try
+			wait 1s
+			set myAppList to AppList(Full) 
+			KillApp "Safari"
+			wait 2s
+			waitfor 10s,image:"safari"
+			result_hdl.Result_Pass "KillAppコマンドで指定アプリを閉じる","IOS"
+		catch
+			result_hdl.Result_Fail "KillAppコマンドで指定アプリを閉じる","IOS"
+			PressHomeButton
+			wait 2s
+		end try
+	catch
+		result_hdl.Result_Fail "RunWithNewResultsで指定スクリプトを実行","IOS"
+	end try
+end Run_With_New_Results

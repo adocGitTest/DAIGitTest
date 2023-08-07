@@ -1,0 +1,19 @@
+﻿
+//SUTのウィンドを隠す
+to handle RemoteWindow_Hide 
+	Hide RemoteWindow
+end RemoteWindow_Hide
+
+
+
+//SUTのウィンドを出す
+to handle RemoteWindow_Show 
+	Show RemoteWindow
+end RemoteWindow_Show
+
+
+
+
+
+
+

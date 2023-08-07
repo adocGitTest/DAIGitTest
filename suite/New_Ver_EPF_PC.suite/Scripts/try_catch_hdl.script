@@ -1,0 +1,18 @@
+﻿to handle try_catch_1
+	try
+		waitfor 5s,image:"Chrome"
+		result_hdl.Result_Pass "try catchテストでtry中の処理を実行するパターン確認","PC"
+	catch
+		result_hdl.Result_Fail "try catchテストでtry中の処理を実行するパターン確認","PC"
+	end try
+end try_catch_1
+
+to handle try_catch_2
+	try
+		waitfor 5s,text:"あいうえお"
+		result_hdl.Result_Fail "try catchテストでcatch中の処理を実行するパターン確認","PC"
+	catch
+		log "pass"
+		result_hdl.Result_Pass "try catchテストでcatch中の処理を実行するパターン確認","PC"
+	end try
+end try_catch_2

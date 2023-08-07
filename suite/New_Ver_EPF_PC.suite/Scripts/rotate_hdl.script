@@ -1,0 +1,69 @@
+﻿to handle rotate
+	try
+		//画面回転確認
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+	catch
+		SetDeviceOrientation portrait
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+	end try
+	//左回転_RotateLeft
+	try
+		RotateLeft
+		wait 2s
+		waitfor 10s,image:"rotate_confirm/rotate_left"
+		result_hdl.Result_Pass "rotateLeft","PC"
+	catch
+		result_hdl.Result_Fail "rotateLeft","PC"
+	end try
+	try
+		SetDeviceOrientation portrait
+		wait 2s
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+		result_hdl.Result_Pass "SetDeviceOrientation portrait","PC"
+	catch
+		result_hdl.Result_Fail "SetDeviceOrientation portrait","PC"
+	end try
+	//左回転_SetDeviceOrientation landscapeLeft
+	try
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+		SetDeviceOrientation landscapeLeft
+		wait 2s
+		waitfor 10s,image:"rotate_confirm/rotate_left"
+		result_hdl.Result_Pass "SetDeviceOrientation landscapeLeft","PC"
+	catch
+		result_hdl.Result_Fail "SetDeviceOrientation landscapeLeft","PC"
+	end try
+	SetDeviceOrientation portrait
+	wait 2s
+	//右回転_RotateRight
+	try
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+		RotateRight
+		wait 2s
+		waitfor 10s, "rotate_confirm/rotate_right"
+		result_hdl.Result_Pass "rotateRight","PC"
+		wait 2s
+	catch
+		result_hdl.Result_Fail "rotateRight","PC"
+		wait 2s
+	end try
+	SetDeviceOrientation portrait
+	wait 2s
+	waitfor 10s, image:"rotate_confirm/no_rotate"
+	//右回転_SetDeviceOrientation landscapeRight
+	try
+		waitfor 10s, image:"rotate_confirm/no_rotate"
+		SetDeviceOrientation landscapeRight
+		wait 2s
+		waitfor 10s, "rotate_confirm/rotate_right"
+		result_hdl.Result_Pass "SetDeviceOrientation landscapeRight","PC"
+		wait 2s
+	catch
+		result_hdl.Result_Fail "SetDeviceOrientation landscapeRight","PC"
+		wait 2s
+	end try
+	
+	SetDeviceOrientation portrait
+	wait 2s
+	waitfor 10s, image:"rotate_confirm/no_rotate"
+end rotate

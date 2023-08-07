@@ -1,0 +1,26 @@
+﻿
+//普通のlog
+to handle Log_Msg with Message
+	Log Message
+end Log_Msg
+
+
+//成功のメッセージをLog
+to handle Log_Success with Message
+	LogSuccess Message
+end Log_Success
+
+
+//警告のメッセージをLog
+to handle Log_Warning with Message
+	LogWarning Message
+end Log_Warning
+
+
+//失敗のメッセージをLog
+to handle Log_Error with Message
+	LogError Message
+	
+end Log_Error
+
+

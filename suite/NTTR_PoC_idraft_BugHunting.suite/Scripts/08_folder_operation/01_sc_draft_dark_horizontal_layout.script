@@ -1,0 +1,180 @@
+﻿params Action_Count
+Global G_phone_type,terminal_flg,cloud_flg
+Log "**処理内容：複数件下書きのダークモード＆横レイアウト確認**"
+//G_phone_type 1:android 0:ios
+(*wait 5s
+If G_phone_type = "1" then
+	wait 2s
+	PressHomeButton
+	wait 5s
+	Click ImageName:"light_dark_modal_change_icon"
+	wait 1s
+	waitfor 10,ImageName:"light_modal_confirm"
+	Try
+		Click ImageName:"light_modal_confirm"
+		wait 2s
+		Waitfor 10s, ImageName:"dark_modal_confirm"
+		Log "ダークモード確認済"
+	Catch theException
+		LogError "ダークモード切替失敗"
+	End try
+	wait 2s
+	PressHomeButton
+	wait 5s
+	waitfor 5,ImageName:"open_app"
+	wait 1s
+	Click ImageName:"open_app"
+	wait 2s
+	
+	if cloud_flg = 1 then
+		try
+			waitfor 5,"cloud_dark_tab/on"
+		catch
+			LogWarning "選択タブ変化"
+			Click image:"cloud_dark_tab"
+			wait 1s
+			waitfor 5,"cloud_dark_tab/on"
+		end try
+	end if
+	Try
+		Waitfor 10s,image:"create_folder_btn_dark"
+	Catch theException
+		Log "アプリ再開く失敗"
+	End try
+	wait 3s
+	
+	//横向
+	SetDeviceOrientation landscapeRight
+	Log "画面を横向きに変更しました"
+	wait 5s
+	//レイアウト確認
+	Try
+		Waitfor 5s,ImageName:"draft_dark_horizontal_layout"
+		Log "ダークモード＆横向レイアウトは問題なし"
+		wait 3s
+		CaptureScreen {Name:"ダークモード横向レイアウト確認_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+		wait 2s
+		//縦向きに戻す
+		SetDeviceOrientation portrait
+		wait 5s
+		Log "画面を縦向きに変更しました"
+	Catch theException
+		LogError "ダークモード＆横向レイアウトは問題ある"
+	End try
+	wait 5s
+	
+	//ライトモードへ戻る
+	PressHomeButton
+	wait 5s
+	Click ImageName:"light_dark_modal_change_icon"
+	wait 2s
+	waitfor 10,ImageName:"dark_modal_confirm"
+	wait 2s
+	Click ImageName:"dark_modal_confirm"
+	wait 2s
+	Waitfor 5s, ImageName:"light_modal_confirm"
+	Log "ライトモードに戻りました"
+	wait 2s
+	PressHomeButton
+	wait 5s
+	Click ImageName:"open_app"
+	wait 2s
+	Try
+		Waitfor 5s,image:"create_folder_btn"
+		log "アプリ起動確認"
+	Catch theException
+		Log "アプリ再表示失敗"
+	End try
+	wait 2s
+	if cloud_flg = 1 then
+		try
+			waitfor 5,"cloud_tab/on"
+		catch
+			LogWarning "選択タブ変化"
+			Click image:"cloud_tab"
+			wait 1s
+			waitfor 5,"cloud_tab/on"
+			wait 1s
+		end try
+	end if
+	
+	
+	//iOS端末
+Else if G_phone_type = "0"
+	
+	//ダークモード切替
+	Swipedown [1000,50]
+	wait 5s
+	waitfor 10s,"ios_light_up_down_btn"
+	wait 3s
+	Press ImageName:"ios_light_up_down_btn"
+	wait 3s
+	Release
+	wait 3s
+	waitfor 10,ImageName:"ios_light_dark_change_btn/ios_dark_change_btn"
+	wait 3s
+	Click ImageName:"ios_light_dark_change_btn/ios_dark_change_btn"
+	wait 3s
+	waitfor 10s,image:"ios_light_dark_change_btn/ios_light_change_btn"
+	wait 3s
+	PressHomeButton
+	wait 3s
+	PressHomeButton
+	wait 2s
+	
+	//ダークモードでのアプリ起動確認
+	Try
+		Waitfor 10s,image:"create_folder_btn_dark"
+		Log "ダークモード確認済"
+	Catch theException
+		LogError "ダークモード切替失敗"
+	End try
+	wait 2s
+	//横向にする
+	SetDeviceOrientation landscapeRight
+	Log "画面は横向になりました"
+	wait 3s
+	//レイアウト確認
+	Try
+		Waitfor 10s,ImageName:"draft_dark_horizontal_layout"
+		Log "ダークモード＆横向レイアウトは問題なし"
+		wait 3s
+		CaptureScreen {Name:"ダークモード横向レイアウト確認_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+
+	Catch theException
+		LogError "ダークモード＆横向レイアウトは問題ある"
+	End try
+	
+	
+	//縦向きに戻す
+	wait 3s
+	SetDeviceOrientation portrait
+	wait 5s
+	//ライトモードに戻す
+	Swipedown [1000,50]
+	wait 5s
+	waitfor 10s,image:"ios_light_up_down_btn"
+	wait 3s
+	Press ImageName:"ios_light_up_down_btn"
+	wait 3s
+	release
+	wait 2s
+	waitfor 10,Image:"ios_light_dark_change_btn/ios_light_change_btn"
+	wait 3s
+	Click Image:"ios_light_dark_change_btn/ios_light_change_btn"
+	wait 3s
+	waitfor 5s,"ios_light_dark_change_btn/ios_dark_change_btn"
+	wait 3s
+	PressHomeButton
+	wait 5s
+	PressHomeButton
+	wait 5s
+	Waitfor 5s,image:"create_folder_btn"
+	Log "ライトモード確認済"
+	
+End if
+wait 1*)
+//Actionを実行する毎にカウントをアップする
+Put Action_Count + 1 into Action_Count
+return Action_Count
+

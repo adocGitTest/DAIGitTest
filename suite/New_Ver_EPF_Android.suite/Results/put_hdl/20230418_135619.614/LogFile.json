@@ -1,0 +1,21 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled.script",
+				"identifier": "START",
+				"timestamp": "2023-04-18 13:56:19.617 +0900"
+			},
+		{
+				"message": "(Duration:\"0.05\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-04-18 13:56:19 +0900\", Successes:\"0\", TestCase:\"Untitled.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-04-18 13:56:19.670 +0900"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "STUnknownMessage: ERROR: No Such Command: 'hideremotewindow' -- Execution Time 0:00:00 Untitled.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-04-18 13:56:19.753 +0900"
+			}
+	],
+	"createdTimestamp": "2023-04-18 13:56:19.619 +0900"
+}

@@ -1,0 +1,15 @@
+﻿params Action_Count
+Log "**処理内容：非ログイン、ログイン(非課金)の場合課金訴求バナー表示確認**"
+(*wait 5s
+Try
+	Waitfor 5s,ImageName:"sort/sort_modal_billing_appeal_banner_display"
+	Log "課金訴求バナー表示済"
+	CaptureScreen {Name:"課金訴求バナー表示_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+Catch theException
+	LogError "課金訴求バナーは非表示"
+End try*)
+
+//Actionを実行する毎にカウントをアップする
+Put Action_Count + 1 into Action_Count
+return Action_Count
+

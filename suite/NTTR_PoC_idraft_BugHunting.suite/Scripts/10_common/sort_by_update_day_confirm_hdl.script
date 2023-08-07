@@ -1,0 +1,55 @@
+﻿(*//更新日降順並び替え確認ハンドル
+//P_file_name 作成ファイルlist
+to handle sort_by_update_day_confirm_hdl with P_file_name
+	Global G_phone_type,today_date
+	Log "更新日降順で並び替えこと確認"
+	wait 5s
+	Try
+		//G_phone_type 1:android 0:ios
+		If G_phone_type = "1" then
+			put [10,145] into TL_point
+			put [0,78] into TR_point	
+		Else 
+			put [10,145] into TL_point
+			put [0,78] into TR_point
+		End if
+		
+		//順番でファイル名取得し、更新日降順のファイルと比較
+		Set file_name_location to EveryImageRectangle(Text:today_date)
+		Log "画面にあるファイルの更新日順番番号を取得"
+		repeat with each Rectangle of file_name_location
+			//画面表示ファイル名取得
+			put the TopLeft of Rectangle into TopLeft_file_icon
+			put the TopRight of Rectangle into TopRight_file_icon
+			log TopLeft_file_icon&TopRight_file_icon
+			Put ReadText(TopLeft_file_icon-TL_point,TopRight_file_icon-TR_point + RemoteScreenSize()*[0.3,0]) into found_file_name
+			log "画面ファイル名："&found_file_name
+			wait 3s
+			//画面ファイル順番でIndex取得
+			repeat with each name in P_file_name
+				If found_file_name = "タイトルなし" then
+					put "" into found_file_name
+				End if
+				If name = found_file_name then
+					insert repeatIndex() after sort_num
+				End if
+			end repeat
+		end repeat
+		Log "更新日順番番号"&sort_num
+		
+		Log "ファイル順番番後確認"
+		repeat with each file_name2 of sort_num
+			If repeatIndex() >1 then
+				put item repeatIndex()-1 of sort_num into file_name1
+				If file_name2 < file_name1 then
+					LogError "ファイル並び替え順番問題あり"
+				End if
+			End if	
+		end repeat
+		Log "ファイル並び替え順番問題なし"
+		
+	Catch theException
+		LogError "エラーが発生しました"
+	End try
+	
+End sort_by_update_day_confirm_hdl*)

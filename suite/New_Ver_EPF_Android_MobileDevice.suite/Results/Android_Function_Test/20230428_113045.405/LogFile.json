@@ -1,0 +1,190 @@
+{
+	"entries": [
+		{
+				"message": "Running Android_Function_Test.script",
+				"identifier": "START",
+				"timestamp": "2023-04-28 11:30:45.411 +0900"
+			},
+		{
+				"handlerName": "on_connect_sut",
+				"timestamp": "2023-04-28 11:30:48.509 +0900",
+				"message": "Mobile Device:(null)",
+				"scriptName": "connect_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-28 11:30:53.531 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"identifier": "presshomebutton",
+				"handlerLine": 5
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-28 11:30:58.727 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (541, 1850)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_swipe_left",
+				"timestamp": "2023-04-28 11:31:01.271 +0900",
+				"message": "Swiped left from (972, 1080) to (108, 1080)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipeleft"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-28 11:31:11.461 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"swipeleft_confirm\" within 10.00 seconds",
+				"image": "swipeleft_confirm",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_swipe_right",
+				"timestamp": "2023-04-28 11:31:13.876 +0900",
+				"message": "Swiped right from (108, 1080) to (972, 1080)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swiperight"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-28 11:31:24.054 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"homepage_confirm\" within 10.00 seconds",
+				"image": "homepage_confirm",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-04-28 11:31:26.221 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "found at (541, 1850)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-04-28 11:31:26.236 +0900",
+				"message": "True",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-28 11:31:26.485 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (541, 1850)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_image",
+				"timestamp": "2023-04-28 11:31:30.228 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (541, 1850)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-28 11:31:32.989 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (228, 777)",
+				"image": "url_inputbox",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_image",
+				"timestamp": "2023-04-28 11:31:35.355 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (228, 777)",
+				"image": "url_inputbox",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_type_text",
+				"timestamp": "2023-04-28 11:31:41.476 +0900",
+				"message": "https://docs.eggplantsoftware.com",
+				"scriptName": "typetext_hdl.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-28 11:31:44.569 +0900",
+				"message": "https://docs.eggplantsoftware.com",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 39,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_imagefound_text",
+				"timestamp": "2023-04-28 11:31:46.810 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "found at (581, 160)",
+				"image": "(TEXT:\"eggplantsoftware\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_text",
+				"timestamp": "2023-04-28 11:31:46.810 +0900",
+				"message": "True",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_text",
+				"timestamp": "2023-04-28 11:31:48.225 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (581, 160)",
+				"image": "(TEXT:\"eggplantsoftware\")",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-28 11:31:50.458 +0900",
+				"message": "[returnKey]",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 51,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-28 11:32:00.614 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"DocumentationPage_confirm\" within 5.00 seconds",
+				"image": "DocumentationPage_confirm",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"79.574\", Errors:\"1\", Exceptions:\"3\", StartTime:\"2023-04-28 11:30:45 +0900\", Successes:\"0\", TestCase:\"Android_Function_Test.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-04-28 11:32:04.988 +0900"
+			},
+		{
+				"message": "Execution Time 0:01:19 Android_Function_Test.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-04-28 11:32:04.999 +0900"
+			}
+	],
+	"createdTimestamp": "2023-04-28 11:30:45.414 +0900"
+}

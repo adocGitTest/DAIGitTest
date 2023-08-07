@@ -1,0 +1,60 @@
+{
+	"originalcapturelocation": [
+		505,
+		1863,
+		71,
+		56
+	],
+	"lastmodifieddate": 1690372785.559,
+	"createddate": 1690372785.559,
+	"name": "app_tab",
+	"lastfounddate": 1690373041.516,
+	"ocrcapturestring": "■■ ■■",
+	"lastfoundlocation": [
+		505,
+		1863,
+		71,
+		56
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 58907,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[35,28]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"model": "907SH",
+					"webdriver_port": "58908",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "SHARP",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "58907",
+					"sdk": "30",
+					"android_version": "11",
+					"CacheDir": "/data/local/tmp",
+					"remote_ip_addr": "localhost",
+					"serial": "357984101727679"
+				},
+				"name": "app_tab.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					505,
+					1863,
+					71,
+					56
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "■■ ■■"
+			}
+	]
+}

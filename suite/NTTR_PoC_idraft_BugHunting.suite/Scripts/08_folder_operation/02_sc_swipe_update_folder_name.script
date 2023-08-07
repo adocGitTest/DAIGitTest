@@ -1,0 +1,59 @@
+﻿params Action_Count
+Global G_folder_name,G_operate_folder_name
+Log "**処理内容：スワイプメニューの名前更新アイコン押下、フォルダ名更新**"
+
+Log "変数からフォルダ名取得"
+(*
+wait 5s
+put item 1 of G_folder_name into G_operate_folder_name
+
+Log G_operate_folder_name&"左スワイプして、名前更新アイコン押下"
+Try
+	//スワイプ用座標取得し設定
+	Waitfor 10s,Text:G_operate_folder_name
+	put FoundImageLocation()*[0,1] + RemoteScreenSize()*[0.8,0] into draglocation
+	wait 3s
+	
+	Repeat until ImageFound(ImageName:"swipe/swipe_folder_name_update")
+		Log "スワイプ処理"
+		SwipeLeft draglocation
+		wait 5s
+	End repeat
+	
+	//スワイプ処理
+	//SwipeLeft draglocation
+	//wait 5s
+	
+	Log "フォルダ名前更新アイコン押下"
+	Waitfor 15s,ImageName:"swipe/swipe_folder_name_update"
+	wait 3s
+	Click FoundImageLocation()
+	wait 3s
+	
+	Log "名前入力"
+	put "New_"&G_operate_folder_name into New_name
+	typetext New_name
+	wait 3s
+	
+	Log "フォルダ名前更新ボタン押下"
+	Click ImageName:"folder_update_name_btn"	
+	wait 3s
+	
+	Log "更新後フォルダ存在確認"
+	Waitfor 10s,Text:New_name
+	Log "フォルダ名前更新成功"
+	CaptureScreen {Name:"フォルダ名更新_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+
+	//新フォルダ名をlitsに差し替え
+	delete item 1 of G_folder_name
+	insert New_name before G_folder_name
+	
+Catch theException
+	LogError "フォルダ名前更新失敗"
+End try
+*)
+
+//Actionを実行する毎にカウントをアップする
+Put Action_Count + 1 into Action_Count
+return Action_Count
+

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="TryCatch_script" package="EPF_test.suite" timestamp="2023-04-18 14:45:27.976 +0900"
+ tests="1"  failures="2" errors="0" time="0.115000">
+  <properties>
+   <property name="RunDate" value="2023-04-18 14:45:27.976 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="TryCatch.script" assertions="1" status="failure"  time="0.111">
+    <failure type="LogError" message="「click」, SUT: pc, NG" />
+    <failure type="FAILURE" message="Script Error: Number of Errors logged: 1 -- Execution Time 0:00:00 TryCatch.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,153 @@
+{
+	"lastmodifieddate": 1673850378.2020001,
+	"originalcapturelocation": [
+		26,
+		989,
+		108,
+		43
+	],
+	"createddate": 1673850378.2020001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5911,
+				"domelements": [
+					{
+							"elementLocation": "{x = 8; y = 454; width = 43; height = 44}",
+							"visible": "true",
+							"elementName": "Item",
+							"enabled": "true",
+							"y": "454",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "43",
+							"elementScale": 3,
+							"label": "Item",
+							"x": "8",
+							"height": "44",
+							"elementType": "Button",
+							"name": "Item",
+							"index": "0"
+						},
+					{
+							"elementLocation": "{x = 157; y = 468; width = 61; height = 16}",
+							"visible": "true",
+							"elementName": "並び替え",
+							"enabled": "true",
+							"y": "468",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "61",
+							"elementScale": 3,
+							"label": "並び替え",
+							"x": "157",
+							"height": "16",
+							"elementType": "Checkpoint",
+							"name": "並び替え",
+							"index": "1",
+							"value": "並び替え"
+						},
+					{
+							"elementLocation": "{x = 20; y = 515; width = 64; height = 17}",
+							"visible": "true",
+							"elementName": "タイトル",
+							"enabled": "true",
+							"y": "515",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "64",
+							"elementScale": 3,
+							"label": "タイトル",
+							"x": "20",
+							"height": "17",
+							"elementType": "Checkpoint",
+							"name": "タイトル",
+							"index": "0",
+							"value": "タイトル"
+						},
+					{
+							"elementLocation": "{x = 20; y = 565; width = 48; height = 17}",
+							"visible": "true",
+							"elementName": "更新日",
+							"enabled": "true",
+							"y": "565",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "48",
+							"elementScale": 3,
+							"label": "更新日",
+							"x": "20",
+							"height": "17",
+							"elementType": "Checkpoint",
+							"name": "更新日",
+							"index": "0",
+							"value": "更新日"
+						},
+					{
+							"elementLocation": "{x = 20; y = 615; width = 48; height = 17}",
+							"visible": "true",
+							"elementName": "作成日",
+							"enabled": "true",
+							"y": "615",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "48",
+							"elementScale": 3,
+							"label": "作成日",
+							"x": "20",
+							"height": "17",
+							"elementType": "Checkpoint",
+							"name": "作成日",
+							"index": "0",
+							"value": "作成日"
+						},
+					{
+							"elementLocation": "{x = 20; y = 665; width = 32; height = 17}",
+							"visible": "true",
+							"elementName": "手動",
+							"enabled": "true",
+							"y": "665",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "32",
+							"elementScale": 3,
+							"label": "手動",
+							"x": "20",
+							"height": "17",
+							"elementType": "Checkpoint",
+							"name": "手動",
+							"index": "0",
+							"value": "手動"
+						}
+				],
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_1",
+					"HotSpot": "[54,21]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"sutinfo": {
+					"device_type": "iPhone 12 Mini",
+					"device": "iPhone13,1",
+					"os": "OSX",
+					"version": "6.0",
+					"device_os_version": "iOS 14.3",
+					"type": "iOS Gateway",
+					"os_version": "12.6"
+				},
+				"name": "sort/sort_modal_manual_disable/sort_modal_manual_disable_ios.png",
+				"connectionname": "NTTR_iPhone12",
+				"type": 1,
+				"capturerect": [
+					26,
+					989,
+					108,
+					43
+				],
+				"connectionserverid": "192.168.90.232"
+			}
+	],
+	"name": "sort/sort_modal_manual_disable/sort_modal_manual_disable_ios"
+}

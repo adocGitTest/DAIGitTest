@@ -1,0 +1,38 @@
+﻿Params Action_Count
+Global folder_select
+Log "**処理内容：非ログイン、ログイン(非課金)の場合課金訴求モダール確認**"
+
+Log "課金モダール非表示確認"
+(*
+wait 5s
+Try
+	Click ImageName:"sort/sort_modal_billing_appeal_banner_display"
+	wait 3s
+	Waitfor 5s,ImageName:"sort/sort_modal_billing_appeal_modal"
+	Log "課金訴求モダールが表示"
+	CaptureScreen {Name:"課金訴求モダール表示_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+Catch theException
+	LogError "課金訴求モダールが非表示"
+End try
+
+Try
+	Click ImageName:"close_billing_appeal_modal"
+	wait 3s
+	Click ImageName:"close_sort_by"
+	wait 3s
+	If folder_select = "1" then
+		Waitfor 5s,ImageName:"folder_tab"
+		Log "フォルダ内に戻りました"
+	Else
+		Waitfor 5s,ImageName:"all_draft"
+		Log "下書き一覧戻りました"
+	End if
+Catch theException
+	LogError "画面戻る失敗"
+End try
+*)
+
+//Actionを実行する毎にカウントをアップする
+Put Action_Count + 1 into Action_Count
+return Action_Count
+

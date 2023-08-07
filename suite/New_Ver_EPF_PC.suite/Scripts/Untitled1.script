@@ -1,0 +1,47 @@
+﻿
+set LogFile to ResourcePath() & "\Result_Output.csv"
+set OutputTime to formattedTime("yyyy-MM-dd_HH:mm:ss")
+
+open file LogFile
+write Function&", "&SUT&","&"OK,"&OutputTime&return to file CSVfile at eof
+close file LogFile
+
+
+WaitForAll 10, "DocumentationPage_confirm", text:"Egg"
+
+log aa
+
+PressHomeButton
+
+touchAction [ {longPress: {x: 500, y: 500}}, {moveTo: {x: 500, y: 250}} ] 
+
+
+WebConnect host:"localhost", port:"4723", platformName: "Android",name:"Mobile Device"
+
+put WebDriver() into a
+log a
+set driver to WebDriver(host: "localhost", port: "4723", platformName: "Android", appPackage:"com.google.android.apps.maps", appActivity:"com.google.android.maps.MapsActivity", automationName:"UIAutomator2")
+put  ConnectionInfo("Mobile Device") into HostList
+log HostList
+
+put WebDriver()
+WebConnect host: "localhost", port: "4723", platformName: "Android", device: "357984101727679", deviceName: "Android", appPackage: "com.google.android.apps.maps", appActivity: "com.google.android.maps.MapsActivity", automationName: "selenium"
+
+adb devicee
+
+try
+	put "test1234あいうえお" into HouseNumber
+	setremoteclipboard the time
+	waitfor 10,text:HouseNumber
+	result_hdl.Result_Pass "SetRemoteClipboard","Android"
+catch
+	result_hdl.Result_Fail "SetRemoteClipboard","Android"
+end try
+
+send 
+
+MouseButtonDown 3//Holds down the mouse right click on most mice
+wait 1
+MouseButtonUp 3
+waitfor 10,image:"pixiv"
+click image:"pixiv"

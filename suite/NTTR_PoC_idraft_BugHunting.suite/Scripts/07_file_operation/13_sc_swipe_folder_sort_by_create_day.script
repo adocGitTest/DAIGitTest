@@ -1,0 +1,44 @@
+﻿params Action_Count
+Global G_folder_name
+Log "**処理内容：移動先選択ダイアログ(端末)にフォルダが作成日の降順で表示確認**"
+Log "フォルダ作成日降順確認"
+(*wait 3s
+Try
+	//並び替え順番でフォルダ名取得し、作成順番のフォルダと比較
+	Set folder_name_location to EveryImageRectangle(ImageName:"folder_icon")
+	//一番フォルダは未分類の場合、listから未分類フォルダを削除
+	put item 1 of folder_name_location into delete_rectangle
+	put the TopRight of delete_rectangle into TopRight_folder_icon
+	put the BottomRight of delete_rectangle into BottomRight_folder_icon
+	Put ReadText(TopRight_folder_icon,BottomRight_folder_icon*[0,1] + RemoteScreenSize()*[1,0]) into found_folder_name
+	If found_folder_name = "未分類" then
+		delete item 1 of folder_name_location
+	End if
+	log folder_name_location
+	wait 2s
+	//フォルダ数ロープして、フォルダ比較
+	repeat with each Rectangle of folder_name_location
+		//画面表示フォルダ名取得
+		wait 2s
+		put the TopRight of Rectangle into TopRight_folder_icon
+		put the BottomRight of Rectangle into BottomRight_folder_icon
+		Put ReadText(TopRight_folder_icon,BottomRight_folder_icon*[0,1] + RemoteScreenSize()*[1,0],DPI:144) into found_folder_name
+		log "画面フォルダ名："&found_folder_name
+		//作成した順番のフォルダ名取得
+		put item repeatIndex() of G_folder_name into create_folder_name
+		log "作成フォルダ名："&create_folder_name
+		//フォルダ名比較、不一致の場合エラーとする
+		if found_folder_name <> create_folder_name then
+			LogError "フォルダ並び替え(作成日降順)問題ある"
+		end if
+	end repeat
+	Log "フォルダ並び替え(作成日降順)問題なし"
+	CaptureScreen {Name:"フォルダ作成日降順確認_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+Catch theException
+	LogError "エラーが発生しました"
+End try*)
+
+//Actionを実行する毎にカウントをアップする
+Put Action_Count + 1 into Action_Count
+return Action_Count
+

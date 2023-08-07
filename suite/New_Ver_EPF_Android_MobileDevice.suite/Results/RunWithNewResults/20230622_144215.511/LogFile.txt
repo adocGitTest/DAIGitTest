@@ -1,0 +1,4 @@
+﻿2023-06-22 14:42:15.513 +0900	START		Running RunWithNewResults.script	1	on_android_function_test	Android_Function_Test.script<SELECTION>
+2023-06-22 14:42:27.233 +0900	Exception	Chrome	No Image Found On Screen: "Chrome"	1	on_runwithnewresults	RunWithNewResults.script
+2023-06-22 14:42:27.238 +0900	EndTestCase		(Duration:"11.723", Errors:"1", Exceptions:"1", StartTime:"2023-06-22 14:42:15 +0900", Successes:"0", TestCase:"RunWithNewResults.script", Warnings:"0")	1	on_android_function_test	Android_Function_Test.script<SELECTION>
+2023-06-22 14:42:28.222 +0900	FAILURE	Screen_Error.png	Image Not Found: click Error - No Image Found On Screen: "Chrome" -- Execution Time 0:00:11 RunWithNewResults.script	1	on_android_function_test	Android_Function_Test.script<SELECTION>

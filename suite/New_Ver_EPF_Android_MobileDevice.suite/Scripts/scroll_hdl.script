@@ -1,0 +1,26 @@
+﻿
+//下にスクロール
+to handle ScrollWheel_Down speed
+	try
+		MoveTo "Chrome"
+		
+		ScrollWheelUp 10
+		ScrollWheelDown 5
+		waitfor 10s,image:"all_app"
+		result_hdl.Result_Pass "ScrollWheelDownコマンドで下に移動されること確認","Android"
+	catch
+		result_hdl.Result_Fail "ScrollWheelDownコマンドで下に移動されること確認","Android"
+	end try
+end ScrollWheel_Down
+
+
+//上にスクロール
+to handle ScrollWheel_Up speed
+	try
+		ScrollWheelUp 5
+		waitfor 10s,image:"Chrome"
+		result_hdl.Result_Pass "ScrollWheelUpコマンドで上に移動されること確認","Android"
+	catch
+		result_hdl.Result_Fail "ScrollWheelUpコマンドで上に移動されること確認","Android"
+	end  try
+end ScrollWheel_Up

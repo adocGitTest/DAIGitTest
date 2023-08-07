@@ -1,0 +1,39 @@
+﻿//csvファイルへの読み込み・書き込み・参照確認
+to handle CSV_file
+	try
+		//読み込み
+		set CSV_File to "C:\Suite\Mobile_Device_EPF.suite\Results\CSVFile\ResultCSV.csv" //保存場所とファイル名を変数へ
+		open file CSV_File for appending
+		//書き込み
+		write "test" to file CSV_File at eof
+		//参照
+		put line 1 of file CSV_File into HeaderRow
+		log HeaderRow
+		close file CSV_File
+		Delete file CSV_File
+		result_hdl.Result_Pass "csvファイルへの読み込み・書き込み・参照確認","Android"
+	catch
+		result_hdl.Result_Fail "csvファイルへの読み込み・書き込み・参照確認","Android"
+	end try
+end CSV_file
+
+//excelファイルへの読み込み・書き込み・参照確認
+to handle Excel_file
+	try
+		//読み込み
+		set myExcelFile to Workbook(ResourcePath("Data_File_Excel.xlsx"))
+		set myExcelData to Worksheet(myExcelFile,"Data_Test")
+		log Text_Data
+		//書き込み
+		put "あいうえお" into Cell ("A1") of myExcelData	
+		//参照
+		put myExcelData.Cell("A1") into Text_Data
+		result_hdl.Result_Pass "excelファイルへの読み込み・書き込み・参照確認","Android"
+	catch
+		result_hdl.Result_Fail "excelファイルへの読み込み・書き込み・参照確認","Android"
+	end try
+end Excel_file
+
+
+
+

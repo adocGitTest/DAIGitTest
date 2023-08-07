@@ -1,0 +1,29 @@
+{
+	"entries": [
+		{
+				"message": "Running TryCatch.script",
+				"identifier": "START",
+				"timestamp": "2023-04-18 14:45:27.979 +0900"
+			},
+		{
+				"handlerName": "on_judgementbytext",
+				"timestamp": "2023-04-18 14:45:28.066 +0900",
+				"message": "「click」, SUT: pc, NG",
+				"scriptName": "TryCatch.script",
+				"handlerLine": 7,
+				"identifier": "LogError"
+			},
+		{
+				"message": "(Duration:\"0.111\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-04-18 14:45:27 +0900\", Successes:\"0\", TestCase:\"TryCatch.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-04-18 14:45:28.092 +0900"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Script Error: Number of Errors logged: 1 -- Execution Time 0:00:00 TryCatch.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-04-18 14:45:28.176 +0900"
+			}
+	],
+	"createdTimestamp": "2023-04-18 14:45:27.981 +0900"
+}

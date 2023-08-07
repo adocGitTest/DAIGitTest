@@ -1,0 +1,4 @@
+﻿2023-04-18 14:46:34.151 +0900	START		Running wait.script
+2023-04-18 14:46:36.316 +0900	waitfor	(TEXT:"mote")	found at (37, 565)	3	on_waitfor_text	wait.script
+2023-04-18 14:46:36.375 +0900	EndTestCase		(Duration:"2.221", Errors:"0", Exceptions:"0", StartTime:"2023-04-18 14:46:34 +0900", Successes:"1", TestCase:"wait.script", Warnings:"0")
+2023-04-18 14:46:36.406 +0900	SUCCESS		Execution Time 0:00:02 wait.script

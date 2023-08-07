@@ -1,0 +1,38 @@
+{
+	"entries": [
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-26 18:43:22.757 +0900",
+				"message": "Running RunWithNewResults.script",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"handlerLine": 2,
+				"identifier": "START"
+			},
+		{
+				"handlerName": "on_runwithnewresults",
+				"timestamp": "2023-07-26 18:43:22.997 +0900",
+				"scriptName": "RunWithNewResults.script",
+				"message": "at (541, 1851)",
+				"image": "Chrome",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-26 18:43:22.997 +0900",
+				"message": "(Duration:\"0.237\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-07-26 18:43:22 +0900\", Successes:\"1\", TestCase:\"RunWithNewResults.script\", Warnings:\"0\")",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"handlerLine": 2,
+				"identifier": "EndTestCase"
+			},
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-26 18:43:23.093 +0900",
+				"message": "Execution Time 0:00:00 RunWithNewResults.script",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"handlerLine": 2,
+				"identifier": "SUCCESS"
+			}
+	],
+	"createdTimestamp": "2023-07-26 18:43:22.759 +0900"
+}

@@ -1,0 +1,93 @@
+﻿2023-04-19 18:32:49.891 +0900	START		Running Android_Function_Test.script
+2023-04-19 18:32:55.131 +0900	Connect		AQUOS:(null)	2	on_connect_sut	connect_hdl.script
+2023-04-19 18:33:00.892 +0900	presshomebutton			5	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:33:06.856 +0900	waitfor	Chrome	found at (542, 1656)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:33:09.252 +0900	swipeleft		Swiped left from (972, 960) to (108, 960)	2	on_swipe_left	swipe_hdl.script
+2023-04-19 18:33:14.217 +0900	waitfor	swipeleft_confirm	found at (416, 234)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:33:16.641 +0900	swiperight		Swiped right from (108, 960) to (972, 960)	2	on_swipe_right	swipe_hdl.script
+2023-04-19 18:33:21.585 +0900	waitfor	homepage_confirm	found at (157, 561)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:33:25.318 +0900	imagefound	Chrome	found at (542, 1656)	2	on_imagefound_image	imagefound_hdl.script
+2023-04-19 18:33:25.320 +0900	Log		True	2	on_imagefound_image	imagefound_hdl.script
+2023-04-19 18:33:27.123 +0900	waitfor	Chrome	found at (542, 1656)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:33:30.869 +0900	click	Chrome	at (542, 1656)	2	on_click_image	click_hdl.script
+2023-04-19 18:33:35.162 +0900	waitfor	url_inputbox	found at (536, 757)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:33:37.960 +0900	click	url_inputbox	at (536, 757)	2	on_click_image	click_hdl.script
+2023-04-19 18:33:49.744 +0900	typetext		https://docs.eggplantsoftware.com	2	on_type_text	typetext_hdl.script
+2023-04-19 18:33:54.125 +0900	imagefound	(TEXT:"eggplantsoftware")	found at (581, 160)	2	on_imagefound_text	imagefound_hdl.script
+2023-04-19 18:33:54.127 +0900	Log		True	2	on_imagefound_text	imagefound_hdl.script
+2023-04-19 18:33:55.529 +0900	waitfor	(TEXT:"eggplantsoftware")	found at (581, 160)	2	on_waitfor_text	wait_hdl.script
+2023-04-19 18:33:57.900 +0900	typetext		[returnKey]	50	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:34:03.889 +0900	waitfor	DocumentationPage_confirm	found at (274, 606)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:34:07.823 +0900	waitforall		found all: DocumentationPage_confirm:(274, 606) (TEXT:"Eggplant Functional"):(510, 808) 	2	on_wait_forall	wait_hdl.script
+2023-04-19 18:34:11.968 +0900	click	(TEXT:"Eggplant Functional")	at (510, 808)	2	on_click_text	click_hdl.script
+2023-04-19 18:34:16.028 +0900	waitfor	rect_left	found at (28, 736)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:34:20.610 +0900	readtext		(28,736,934,911)	2	on_readtext_byimage	readtext_hdl.script
+2023-04-19 18:34:20.671 +0900	Log		TextToRead: Eggplant Functional	76	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:34:22.778 +0900	set		SEARCHRECTANGLE = ["rect_left","rect_right"]	77	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:34:24.682 +0900	waitfor	(TEXT:"Eggplant Functional")	found at (475, 821)	2	on_waitfor_text	wait_hdl.script
+2023-04-19 18:34:24.796 +0900	set		SEARCHRECTANGLE = []	79	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:34:26.903 +0900	pinchin		at:(540, 960)	2	on_pinch_in	pinch_hdl.script
+2023-04-19 18:34:28.329 +0900	waitfor	rect_left	found at (28, 736)	85	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:34:29.086 +0900	click		at (540, 960)	2	on_click_coordinate	click_hdl.script
+2023-04-19 18:34:31.142 +0900	pinchout		at:(540, 960)	2	on_pinch_out	pinch_hdl.script
+2023-04-19 18:34:31.307 +0900	waitfor	rect_left	found at (28, 736)	97	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:34:39.032 +0900	imagefound	bottom_confirm	Unable to Find Image bottom_confirm	105	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:34:39.131 +0900	drag		at (540, 1500)	2	on_drag_coordinate	DragDrop_hdl.script
+2023-04-19 18:34:40.625 +0900	drop		at (540, 500)	2	on_drop_coordinate	DragDrop_hdl.script
+2023-04-19 18:34:49.962 +0900	imagefound	bottom_confirm	Unable to Find Image bottom_confirm	112	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:34:50.057 +0900	drag		at (540, 1500)	2	on_drag_coordinate	DragDrop_hdl.script
+2023-04-19 18:34:51.551 +0900	drop		at (540, 500)	2	on_drop_coordinate	DragDrop_hdl.script
+2023-04-19 18:34:59.011 +0900	imagefound	bottom_confirm	Unable to Find Image bottom_confirm	112	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:34:59.108 +0900	drag		at (540, 1500)	2	on_drag_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:00.602 +0900	drop		at (540, 500)	2	on_drop_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:07.159 +0900	imagefound	bottom_confirm	Unable to Find Image bottom_confirm	112	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:35:07.256 +0900	drag		at (540, 1500)	2	on_drag_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:08.750 +0900	drop		at (540, 500)	2	on_drop_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:12.145 +0900	imagefound	bottom_confirm	found at (161, 1326)	112	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:35:13.525 +0900	waitfor	bottom_confirm	found at (161, 1326)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:35:22.089 +0900	imagefound	top_confirm	Unable to Find Image top_confirm	117	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:35:22.187 +0900	drag		at (540, 500)	2	on_drag_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:23.681 +0900	drop		at (540, 1500)	2	on_drop_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:31.161 +0900	imagefound	top_confirm	Unable to Find Image top_confirm	124	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:35:31.258 +0900	drag		at (540, 500)	2	on_drag_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:32.751 +0900	drop		at (540, 1500)	2	on_drop_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:42.835 +0900	imagefound	top_confirm	Unable to Find Image top_confirm	124	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:35:42.987 +0900	drag		at (540, 500)	2	on_drag_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:44.482 +0900	drop		at (540, 1500)	2	on_drop_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:52.646 +0900	imagefound	top_confirm	Unable to Find Image top_confirm	124	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:35:52.797 +0900	drag		at (540, 500)	2	on_drag_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:54.291 +0900	drop		at (540, 1500)	2	on_drop_coordinate	DragDrop_hdl.script
+2023-04-19 18:35:58.477 +0900	imagefound	top_confirm	found at (344, 510)	124	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:35:59.845 +0900	waitfor	top_confirm	found at (344, 510)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:36:11.461 +0900	imagefound	bottom_confirm	Unable to Find Image bottom_confirm	131	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:36:11.726 +0900	swipeup		Swiped up from (540, 1344) to (540, 576)	2	on_swipe_up	swipe_hdl.script
+2023-04-19 18:36:18.216 +0900	imagefound	bottom_confirm	Unable to Find Image bottom_confirm	137	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:36:18.481 +0900	swipeup		Swiped up from (540, 1344) to (540, 576)	2	on_swipe_up	swipe_hdl.script
+2023-04-19 18:36:25.049 +0900	imagefound	bottom_confirm	Unable to Find Image bottom_confirm	137	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:36:25.312 +0900	swipeup		Swiped up from (540, 1344) to (540, 576)	2	on_swipe_up	swipe_hdl.script
+2023-04-19 18:36:28.613 +0900	imagefound	bottom_confirm	found at (161, 1326)	137	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:36:29.943 +0900	waitfor	bottom_confirm	found at (161, 1326)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:36:38.494 +0900	imagefound	top_confirm	Unable to Find Image top_confirm	142	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:36:38.760 +0900	swipedown		Swiped down from (540, 576) to (540, 1344)	2	on_swipe_down	swipe_hdl.script
+2023-04-19 18:36:47.036 +0900	imagefound	top_confirm	Unable to Find Image top_confirm	148	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:36:47.357 +0900	swipedown		Swiped down from (540, 576) to (540, 1344)	2	on_swipe_down	swipe_hdl.script
+2023-04-19 18:36:55.461 +0900	imagefound	top_confirm	Unable to Find Image top_confirm	148	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:36:55.789 +0900	swipedown		Swiped down from (540, 576) to (540, 1344)	2	on_swipe_down	swipe_hdl.script
+2023-04-19 18:36:58.172 +0900	imagefound	top_confirm	found at (344, 510)	148	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:36:59.538 +0900	waitfor	top_confirm	found at (344, 510)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:37:01.674 +0900	Log		MouseLocation_Before[540,1344]	156	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:37:01.710 +0900	moveto		at (0, 0)	2	on_moveto_coordinate	moveto_hdl.script
+2023-04-19 18:37:01.768 +0900	Log		MouseLocation_After[0,0]	160	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:37:08.949 +0900	Log		wait_time5.066 seconds	175	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:37:13.137 +0900	click	homebutton	at (70, 158)	2	on_click_image	click_hdl.script
+2023-04-19 18:37:18.212 +0900	presshomebutton			190	on_android_function_test	Android_Function_Test.script
+2023-04-19 18:37:25.211 +0900	waitfor	Chrome	found at (542, 1656)	2	on_waitfor_image	wait_hdl.script
+2023-04-19 18:37:25.361 +0900	Log		Log_ブラウザを閉じました	2	on_log_msg	log_hdl.script
+2023-04-19 18:37:25.420 +0900	LogSuccess		LogSuccess_ブラウザを閉じました	2	on_log_success	log_hdl.script
+2023-04-19 18:37:25.483 +0900	LogWarning		LogWarning_ブラウザを閉じました	2	on_log_warning	log_hdl.script
+2023-04-19 18:37:27.629 +0900	hide		RemoteWindow	2	on_remotewindow_hide	RemoteWindow_hdl.script
+2023-04-19 18:37:32.729 +0900	show		RemoteWindow	2	on_remotewindow_show	RemoteWindow_hdl.script
+2023-04-19 18:37:38.130 +0900	Disconnect		AQUOS	2	on_disconnect_sut	connect_hdl.script
+2023-04-19 18:37:40.353 +0900	LogError		LogErrorテスト	2	on_log_error	log_hdl.script
+2023-04-19 18:37:40.501 +0900	EndTestCase		(Duration:"290.607", Errors:"1", Exceptions:"0", StartTime:"2023-04-19 18:32:49 +0900", Successes:"1", TestCase:"Android_Function_Test.script", Warnings:"1")
+2023-04-19 18:37:40.526 +0900	FAILURE		Script Error: Number of Errors logged: 1 -- Execution Time 0:04:50 Android_Function_Test.script

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="result_hdl">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>5</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2023-04-18 14:43:12 +0900</FirstRun>
+  <LastRun>2023-04-18 14:46:43 +0900</LastRun>
+  <TotalTimeOnSuccess>1.101000</TotalTimeOnSuccess>
+ </script>
+ <script name="PC_Function_Test">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>10</NumberOfRuns>
+  <NumberOfFails>8</NumberOfFails>
+  <FirstRun>2023-04-19 08:58:25 +0900</FirstRun>
+  <LastRun>2023-04-19 12:52:15 +0900</LastRun>
+  <TotalTimeOnSuccess>81.877000</TotalTimeOnSuccess>
+ </script>
+ <script name="connect_hdl">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2023-04-18 13:32:32 +0900</FirstRun>
+  <LastRun>2023-04-18 13:38:49 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="wait_hdl">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2023-04-18 14:46:15 +0900</FirstRun>
+  <LastRun>2023-04-18 14:46:34 +0900</LastRun>
+  <TotalTimeOnSuccess>2.225000</TotalTimeOnSuccess>
+ </script>
+</statistics>

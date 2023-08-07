@@ -1,0 +1,72 @@
+﻿(*
+//任意フォルダへ移動ハンドル 
+//move_type 0:複数ファイル、1:一括ファイル
+//folder_type 0:端末へ、1:クラウドへ
+to handle move_to_other_folder_hdl with move_type,folder_type
+	Global G_file_name,origin_file_name,move_to_folder_nm
+	//初期化
+	put "" into origin_file_name
+	wait 5s
+	Try
+		Click ImageName:"edit_btn"
+		//複数ファイルの場合
+		If move_type = "0" then
+			log "G_file_name"&G_file_name
+			Repeat 2 times
+				put item repeatIndex() of G_file_name into file_name
+				If file_name = "" then
+					put "タイトルなし" into file_name
+				End if
+				Click Text:file_name
+				wait 3s
+				//ファイル名保存
+				insert file_name after origin_file_name
+			End repeat
+			Log "移動したファイル名"&origin_file_name
+			//操作するファイルのフォルダ名取得、共通ハンドル呼ぶ 複数:0 一括:1
+			Run "10_common/get_small_folder_name_hdl"'s get_small_folder_name_hdl move_type,0
+		Else if move_type = "1"
+			Click ImageName:"all_select_btn"
+			repeat with each file_name of G_file_name
+				If file_name = "" then
+					put "タイトルなし" into file_name
+				End if
+				insert file_name after origin_file_name
+			end repeat
+			Log "移動したファイル名"&origin_file_name
+			//操作するファイルのフォルダ名取得、共通ハンドル呼ぶ 複数:0 一括:1
+			wait 3s
+			Run "10_common/get_small_folder_name_hdl"'s get_small_folder_name_hdl move_type,0
+		End if
+		
+		CaptureScreen {Name:"ファイル選択_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+		wait 3s
+		Click ImageName:"move_to_btn"
+		wait 3s
+		Log "任意フォルダへ移動"
+		//クラウドへの場合、クラウドタブを押下してから処理続き
+		If folder_type = "1" then
+			Click ImageName:"cloud_tab"
+		End if
+		wait 15s
+		//フォルダ名取得
+		put ImageRectangle(ImageName:"folder_icon_on") into move_to_folder
+		put the TopRight of move_to_folder into TR_move_to_folder
+		put the BottomRight of move_to_folder into BR_move_to_folder
+		Put ReadText(TR_move_to_folder,BR_move_to_folder*[0,1] + RemoteScreenSize()*[1,0],DPI:144) into move_to_folder_name
+		log move_to_folder_name
+		put move_to_folder_name into move_to_folder_nm
+		Log "移動先フォルダ名："&move_to_folder_nm
+		CaptureScreen {Name:"移動前フォルダ_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+
+		wait 3s
+		Click ImageName:"folder_icon_on"
+		wait 3s
+		Waitfor 5s,ImageName:"edit_btn"
+		Log "ファイル移動完了"
+		CaptureScreen {Name:"ファイル移動完了確認_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+	Catch theException
+		LogError "ファイル移動失敗"
+	End try
+end move_to_other_folder_hdl
+*)

@@ -1,0 +1,109 @@
+{
+	"originalcapturelocation": [
+		94,
+		1000,
+		51,
+		43
+	],
+	"lastmodifieddate": 1673857024.1729999,
+	"createddate": 1673856133.2810001,
+	"name": "ios_light_dark_change_btn/ios_light_dark_change_btn",
+	"lastfounddate": 1673856166.3309999,
+	"ocrcapturestring": "(5",
+	"lastfoundlocation": [
+		94,
+		1000,
+		51,
+		43
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5911,
+				"domelements": [
+					{
+							"elementLocation": "{x = 33; y = 654; width = 96; height = 91}",
+							"visible": "true",
+							"y": "654",
+							"enabled": "true",
+							"elementName": "ダークモード",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "96",
+							"elementScale": 3,
+							"label": "ダークモード",
+							"x": "33",
+							"height": "91",
+							"index": "0",
+							"name": "ダークモード",
+							"elementType": "Button",
+							"value": "オフ"
+						},
+					{
+							"elementLocation": "{x = 140; y = 654; width = 96; height = 91}",
+							"visible": "true",
+							"y": "654",
+							"enabled": "true",
+							"elementName": "NightShift",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "96",
+							"elementScale": 3,
+							"label": "Night Shift",
+							"x": "140",
+							"height": "91",
+							"index": "1",
+							"name": "Night Shift",
+							"elementType": "Button",
+							"value": "オフ"
+						},
+					{
+							"elementLocation": "{x = 246; y = 654; width = 97; height = 91}",
+							"visible": "true",
+							"y": "654",
+							"enabled": "true",
+							"elementName": "TrueTone",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "97",
+							"elementScale": 3,
+							"label": "True Tone",
+							"x": "246",
+							"height": "91",
+							"index": "2",
+							"name": "True Tone",
+							"elementType": "Button",
+							"value": "オン"
+						}
+				],
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[25,21]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"device_os_version": "iOS 14.3",
+					"version": "6.0",
+					"os_version": "12.6",
+					"os": "OSX",
+					"type": "iOS Gateway",
+					"device": "iPhone13,1",
+					"device_type": "iPhone 12 Mini"
+				},
+				"name": "ios_light_dark_change_btn/ios_dark_change_btn.png",
+				"connectionname": "NTTR_iPhone12",
+				"type": 1,
+				"connectionserverid": "192.168.90.232",
+				"capturerect": [
+					94,
+					1000,
+					51,
+					43
+				],
+				"capturedocrtext": "(5"
+			}
+	]
+}

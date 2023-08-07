@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		34,
+		241,
+		36,
+		34
+	],
+	"lastmodifieddate": 1687446781.197,
+	"createddate": 1687446781.197,
+	"name": "rect_left/rect_left_PC",
+	"lastfounddate": 1690427005.6789999,
+	"ocrcapturestring": "o",
+	"lastfoundlocation": [
+		34,
+		249,
+		36,
+		34
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[-27,47]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "rect_left/rect_left_PC.png",
+				"connectionname": "Windows3(RDP)",
+				"type": 1,
+				"connectionserverid": "192.168.90.224",
+				"capturerect": [
+					34,
+					241,
+					36,
+					34
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "o"
+			}
+	]
+}

@@ -1,0 +1,91 @@
+{
+	"originalcapturelocation": [
+		312,
+		404,
+		72,
+		64
+	],
+	"lastmodifieddate": 1687432489.2950001,
+	"createddate": 1687432489.2950001,
+	"name": "rect_right/rect_right_ios",
+	"lastfounddate": 1690767566.9419999,
+	"ocrcapturestring": "A",
+	"lastfoundlocation": [
+		312,
+		404,
+		72,
+		64
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5908,
+				"domelements": [
+					{
+							"elementLocation": "{x = 183; y = 667; width = 24; height = 15}",
+							"visible": "true",
+							"y": "667",
+							"enabled": "true",
+							"elementName": "検索",
+							"accessible": "false",
+							"type": "XCUIElementTypeStaticText",
+							"width": "24",
+							"elementScale": 3,
+							"label": "検索",
+							"x": "183",
+							"height": "15",
+							"index": "1",
+							"name": "検索",
+							"elementType": "Checkpoint",
+							"value": "検索"
+						},
+					{
+							"elementLocation": "{x = 26; y = 14; width = 41; height = 18}",
+							"visible": "true",
+							"y": "14",
+							"enabled": "true",
+							"elementName": "2014",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "41",
+							"elementScale": 3,
+							"label": "20:14",
+							"x": "26",
+							"height": "18",
+							"index": "0",
+							"name": "20:14",
+							"elementType": "Checkpoint",
+							"value": "20:14"
+						}
+				],
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[89,111]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"device_os_version": "iOS 16.1",
+					"version": "6.0",
+					"os_version": "13.3.1",
+					"os": "OSX",
+					"type": "iOS Gateway",
+					"device": "iPhone10,3",
+					"device_type": ""
+				},
+				"name": "rect_right/rect_right_ios.png",
+				"connectionname": "iphone10",
+				"type": 1,
+				"connectionserverid": "192.168.90.232",
+				"capturerect": [
+					312,
+					404,
+					72,
+					64
+				],
+				"capturedocrtext": "A"
+			}
+	]
+}

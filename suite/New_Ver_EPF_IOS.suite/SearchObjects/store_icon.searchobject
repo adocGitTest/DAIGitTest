@@ -1,0 +1,61 @@
+{
+	"originalcapturelocation": [
+		865,
+		1377,
+		100,
+		98
+	],
+	"lastmodifieddate": 1690704071.543,
+	"createddate": 1687411490.188,
+	"name": "store_icon",
+	"lastfounddate": 1687411516.3940001,
+	"ocrcapturestring": "□",
+	"lastfoundlocation": [
+		865,
+		1377,
+		100,
+		98
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 62298,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[50,49]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"model": "907SH",
+					"webdriver_port": "62300",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "SHARP",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "62298",
+					"sdk": "30",
+					"android_version": "30",
+					"CacheDir": "/data/local/tmp",
+					"remote_ip_addr": "localhost",
+					"serial": "357984101727679"
+				},
+				"name": "store_icon.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					865,
+					1377,
+					100,
+					98
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "□"
+			}
+	]
+}

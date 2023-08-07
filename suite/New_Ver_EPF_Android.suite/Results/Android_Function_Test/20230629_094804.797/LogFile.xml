@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Android_Function_Test_script" package="New_Ver_EPF_Android.suite" timestamp="2023-06-29 09:48:04.797 +0900"
+ tests="1"  failures="2" errors="7" time="392.438000">
+  <properties>
+   <property name="RunDate" value="2023-06-29 09:48:04.797 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Android_Function_Test.script" assertions="3" status="error"  time="392.433">
+    <failure type="LogError" message="LogErrorテスト" />
+    <failure type="FAILURE" message="Script Error: Number of Errors logged: 1 -- Execution Time 0:06:32 Android_Function_Test.script" />
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;(TEXT:&quot;マップ&quot;)&quot; within 10.00 seconds. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

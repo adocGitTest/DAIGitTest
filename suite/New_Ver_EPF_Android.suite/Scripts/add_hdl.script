@@ -1,0 +1,11 @@
+﻿to handle add
+	put 5 into times
+	add 5 to times
+	if times=10 then
+		log "addコマンド実行成功"
+		result_hdl.Result_Pass "addコマンドで数値を加算する","Android"
+	else
+		log "addコマンド実行失敗"
+		result_hdl.Result_Fail "addコマンドで数値を加算する","Android"
+	end if
+end add

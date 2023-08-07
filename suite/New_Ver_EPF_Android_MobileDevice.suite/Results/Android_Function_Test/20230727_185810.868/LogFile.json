@@ -1,0 +1,178 @@
+{
+	"entries": [
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-27 18:58:53.223 +0900",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"google_icon\" within 10.00 seconds",
+				"image": "google_icon",
+				"handlerLine": 5,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_swipe_left",
+				"timestamp": "2023-07-27 18:58:53.682 +0900",
+				"message": "Swiped left from (972, 1080) to (108, 1080)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipeleft"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 18:59:03.861 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"swipeleft_confirm\" within 10.00 seconds",
+				"image": "swipeleft_confirm",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_swipe_right",
+				"timestamp": "2023-07-27 18:59:06.434 +0900",
+				"message": "Swiped right from (108, 1080) to (972, 1080)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swiperight"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 18:59:16.722 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"homepage_confirm\" within 10.00 seconds",
+				"image": "homepage_confirm",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_swipe_up",
+				"timestamp": "2023-07-27 18:59:19.167 +0900",
+				"message": "Swiped up from (540, 1512) to (540, 648)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 18:59:31.507 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"all_app\" within 10.00 seconds",
+				"image": "all_app",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_swipe_down",
+				"timestamp": "2023-07-27 18:59:31.962 +0900",
+				"message": "Swiped down from (540, 648) to (540, 1512)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipedown"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 18:59:44.169 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"Chrome\" within 10.00 seconds",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-07-27 18:59:46.934 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "Unable to Find Image Chrome",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-07-27 18:59:46.934 +0900",
+				"message": "False",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 18:59:52.112 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"Chrome\" within 5.00 seconds",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 19:00:24.909 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "No Text Found On Screen: \"(TEXT:\"Google\")\". Text not found.",
+				"image": "(TEXT:\"Google\")",
+				"handlerLine": 79,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_click_image",
+				"timestamp": "2023-07-27 19:00:28.302 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "No Image Found On Screen: \"Chrome\"",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 19:00:30.444 +0900",
+				"message": "com.android.chrome",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 95,
+				"identifier": "killapp"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 19:00:32.597 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (541, 1851)",
+				"image": "Chrome",
+				"handlerLine": 97,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 19:00:32.897 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "at (541, 1851)",
+				"image": "Chrome",
+				"handlerLine": 102,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 19:00:45.026 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable To Find Any Image On Screen \"google_icon\" within 10.00 seconds",
+				"image": "google_icon",
+				"handlerLine": 104,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"154.221\", Errors:\"1\", Exceptions:\"10\", StartTime:\"2023-07-27 18:58:10 +0900\", Successes:\"1\", TestCase:\"Android_Function_Test.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-07-27 19:00:45.106 +0900"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: waitfor Error - Unable To Find Any Image On Screen \"google_icon\" within 10.00 seconds -- Execution Time 0:02:34 Android_Function_Test.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-07-27 19:00:45.420 +0900"
+			},
+		{
+				"image": "Screen_Error_Web.png",
+				"message": "Image Not Found: waitfor Error - Unable To Find Any Image On Screen \"google_icon\" within 10.00 seconds -- Execution Time 0:02:34 Android_Function_Test.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-07-27 19:00:47.281 +0900"
+			}
+	],
+	"createdTimestamp": "2023-07-27 18:58:53.223 +0900"
+}

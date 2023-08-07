@@ -1,0 +1,64 @@
+{
+	"lastmodifieddate": 1672968661.8200002,
+	"lastfoundlocation": [
+		369,
+		1848,
+		344,
+		77
+	],
+	"originalcapturelocation": [
+		369,
+		1848,
+		344,
+		77
+	],
+	"createddate": 1672814923.3200002,
+	"lastfounddate": 1672904293.4619999,
+	"testlocationdata": [
+		{
+				"connectionportnum": 7000,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[172,38]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"keep_connected": "False",
+					"reverse_connection_port": "0",
+					"manufacturer": "QUALCOMM",
+					"remote_adb_port": "35000",
+					"enable_reverse_connection": "False",
+					"model": "907SH",
+					"vnc_password": "",
+					"CacheDir": "/storage/emulated/0/Android/data/com.keysight.vncserverforandroid/cache",
+					"reverse_connection_ip_address": "127.0.0.1",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"remote_ip_addr": "localhost",
+					"sharing": "always_share",
+					"device_os": "android",
+					"vnc_port": "7000",
+					"serial": "357984101727679",
+					"webdriver_port": "8000",
+					"android_version": "11",
+					"sdk": "30"
+				},
+				"name": "no_login_btn/no_login_btn_ios.png",
+				"connectionname": "iphone",
+				"type": 1,
+				"capturerect": [
+					369,
+					1848,
+					344,
+					77
+				],
+				"connectionserverid": "localhost"
+			}
+	],
+	"name": "no_login_btn_ios"
+}

@@ -1,0 +1,28 @@
+﻿
+//文字/イメージを探す
+to handle ImageFound_Text with Text
+	log ImageFound(text:Text)
+end ImageFound_Text
+
+
+
+to handle ImageFound_Image with Image
+	log ImageFound(imageName:Image)
+end ImageFound_Image
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

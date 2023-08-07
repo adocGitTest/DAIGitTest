@@ -1,0 +1,36 @@
+﻿(*
+params First_Time_Open,Data_File_Excel
+global G_phone_type
+Log "**処理内容：非課金アカウントでログインする処理**"
+//Excel行数から非課金ログインアカウント情報選択
+//2行目がAndroid,3行目がiOS
+wait 3s
+if First_Time_Open = 0 then
+	waitfor 10,image:"menu_tab"
+	click image:"menu_tab"
+	wait 3s
+	//初回起動以外の場合、ログイン状態確認
+	//ログイン済みの場合一度ログアウトを行います。s
+	Run "03_login_logout/04_sc_logout"
+	wait 2s
+end if
+//端末から使用するアカウントを判断
+if G_phone_type = 1 then
+	//androidの場合、データファイルの2行目を指定する
+	put 2 into Text_Line
+else if G_phone_type = 0 then
+	//iosの場合、データファイルの2行目を指定する
+	Put 3 into Text_Line
+end if
+Log "Text_Line"&Text_Line
+
+log "初回起動フラグ:"&First_Time_Open
+//ログイン処理(アカウントに該当する行,初回起動フラグ,データファイル名)
+run "10_common/cm_login_hdl" Text_Line,First_Time_Open,Data_File_Excel
+wait 3s
+waitfor 10s,image:"menu_tab"
+click image:"menu_tab"
+wait 3s
+waitfor 5s,image:"logout_btn"
+log "正常に非課金アカウントにログイン"
+*)

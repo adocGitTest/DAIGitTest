@@ -1,0 +1,44 @@
+{
+	"entries": [
+		{
+				"message": "Running Android_Function_Test.script",
+				"identifier": "START",
+				"timestamp": "2023-04-19 14:29:33.916 +0900"
+			},
+		{
+				"handlerName": "on_connect_sut",
+				"timestamp": "2023-04-19 14:29:39.098 +0900",
+				"message": "AQUOS:(null)",
+				"scriptName": "connect_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:29:44.740 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"identifier": "presshomebutton",
+				"handlerLine": 5
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 14:29:56.531 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"Chrome\" within 5.00 seconds",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"32.124\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2023-04-19 14:29:33 +0900\", Successes:\"0\", TestCase:\"Android_Function_Test.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-04-19 14:30:06.043 +0900"
+			},
+		{
+				"message": "Execution Time 0:00:32 Android_Function_Test.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-04-19 14:30:06.050 +0900"
+			}
+	],
+	"createdTimestamp": "2023-04-19 14:29:33.917 +0900"
+}

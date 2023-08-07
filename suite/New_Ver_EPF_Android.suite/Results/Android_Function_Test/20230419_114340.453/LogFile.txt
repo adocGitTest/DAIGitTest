@@ -1,0 +1,49 @@
+﻿2023-04-19 11:43:40.456 +0900	START		Running PC_Function_Test.script
+2023-04-19 11:43:41.880 +0900	Connect		Windows4(RDP):(null)	2	on_connect_sut	connect_hdl.script
+2023-04-19 11:43:45.371 +0900	waitfor	Chrome	found at (51, 229)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 11:43:45.490 +0900	imagefound	Chrome	found at (51, 229)	2	on_imagefound_image	imagefound_hdl.script
+2023-04-19 11:43:45.492 +0900	Log		True	2	on_imagefound_image	imagefound_hdl.script
+2023-04-19 11:43:45.612 +0900	waitfor	Chrome	found at (51, 229)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 11:43:45.850 +0900	doubleclick	Chrome	at (51, 229)	2	on_doubleclick_image	click_hdl.script
+2023-04-19 11:43:47.990 +0900	waitfor	url_inputbox	found at (218, 53)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 11:43:55.009 +0900	typetext		https://docs.eggplantsoftware.com/	2	on_type_text	typetext_hdl.script
+2023-04-19 11:43:58.406 +0900	imagefound	(TEXT:"eggplantsoftware")	found at (315, 52)	2	on_imagefound_text	imagefound_hdl.script
+2023-04-19 11:43:58.408 +0900	Log		True	2	on_imagefound_text	imagefound_hdl.script
+2023-04-19 11:43:59.495 +0900	waitfor	(TEXT:"eggplantsoftware")	found at (315, 52)	5	on_waitfor_text	wait_hdl.script
+2023-04-19 11:43:59.806 +0900	typetext		[returnKey]	33	on_pc_function_test	PC_Function_Test.script
+2023-04-19 11:44:00.197 +0900	waitfor	DocumentationPage_confirm	found at (510, 355)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 11:44:00.318 +0900	Exception	Eggplant Functional	Could Not Open Image: Eggplant Functional	2	on_wait_forall	wait_hdl.script
+2023-04-19 11:44:01.970 +0900	click	(TEXT:"Eggplant Functional")	at (583, 426)	2	on_click_text	click_hdl.script
+2023-04-19 11:44:02.379 +0900	waitfor	rect_left	found at (448, 187)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 11:44:03.040 +0900	readtext		(448,187,898,257)	55	on_pc_function_test	PC_Function_Test.script
+2023-04-19 11:44:03.093 +0900	Log		TextToRead: Eggplant Functional	56	on_pc_function_test	PC_Function_Test.script
+2023-04-19 11:44:03.129 +0900	set		SEARCHRECTANGLE = ["rect_left","rect_right"]	57	on_pc_function_test	PC_Function_Test.script
+2023-04-19 11:44:03.771 +0900	waitfor	(TEXT:"Eggplant Functional")	found at (673, 227)	5	on_waitfor_text	wait_hdl.script
+2023-04-19 11:44:03.907 +0900	set		SEARCHRECTANGLE = []	59	on_pc_function_test	PC_Function_Test.script
+2023-04-19 11:44:03.993 +0900	set		SEARCHRECTANGLE = ["rect_left","rect_right"]	64	on_pc_function_test	PC_Function_Test.script
+2023-04-19 11:44:04.730 +0900	doubleclick	(TEXT:"Functional")	at (777, 222)	2	on_doubleclick_text	click_hdl.script
+2023-04-19 11:44:04.801 +0900	waitfor	doubleclick_Functional	found at (778, 221)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 11:44:05.521 +0900	rightclick	(TEXT:"Functional")	at (777, 222)	2	on_rightclick_text	click_hdl.script
+2023-04-19 11:44:12.103 +0900	Exception	(TEXT:"コピー")	Unable To Find Any Image On Screen "(TEXT:"コピー")" within 5.00 seconds. Text not found.	5	on_waitfor_text	wait_hdl.script
+2023-04-19 11:44:12.779 +0900	drag	(TEXT:"E")	at (470, 223)	2	on_drag_text	DragDrop_hdl.script
+2023-04-19 11:44:13.794 +0900	drop	(TEXT:"l")	at (574, 222)	2	on_drop_text	DragDrop_hdl.script
+2023-04-19 11:44:13.864 +0900	waitfor	dragdrop_confirm	found at (523, 227)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 11:44:14.017 +0900	set		SEARCHRECTANGLE = []	80	on_pc_function_test	PC_Function_Test.script
+2023-04-19 11:44:14.099 +0900	moveto		at (0, 0)	2	on_moveto_coordinate	moveto_hdl.script
+2023-04-19 11:44:14.134 +0900	Log		[0,0]	85	on_pc_function_test	PC_Function_Test.script
+2023-04-19 11:44:14.215 +0900	scrollwheeldown		moved 20	2	on_scrollwheel_down	scroll_hdl.script
+2023-04-19 11:44:19.391 +0900	Exception	bottom_confirm	Unable To Find Any Image On Screen "bottom_confirm" within 5.00 seconds	5	on_waitfor_image	wait_hdl.script
+2023-04-19 11:44:21.460 +0900	scrollwheelup		moved 20	2	on_scrollwheel_up	scroll_hdl.script
+2023-04-19 11:44:21.538 +0900	waitfor	top_confirm	found at (560, 162)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 11:44:26.695 +0900	Log		wait_time5.043 seconds	106	on_pc_function_test	PC_Function_Test.script
+2023-04-19 11:44:27.377 +0900	typetext		[windowsAltKey] C	118	on_pc_function_test	PC_Function_Test.script
+2023-04-19 11:44:27.773 +0900	waitfor	Chrome	found at (51, 229)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 11:44:27.887 +0900	Log		Log_ブラウザを閉じました	2	on_log_msg	log_hdl.script
+2023-04-19 11:44:27.933 +0900	LogSuccess		LogSuccess_ブラウザを閉じました	2	on_log_success	log_hdl.script
+2023-04-19 11:44:27.977 +0900	LogWarning		LogSuccess_ブラウザを閉じました	2	on_log_warning	log_hdl.script
+2023-04-19 11:44:28.024 +0900	LogError		LogSuccess_ブラウザを閉じました	2	on_log_error	log_hdl.script
+2023-04-19 11:44:28.122 +0900	hide		RemoteWindow	2	on_remotewindow_hide	RemoteWindow_hdl.script
+2023-04-19 11:44:30.197 +0900	show		RemoteWindow	2	on_remotewindow_show	RemoteWindow_hdl.script
+2023-04-19 11:44:30.518 +0900	Disconnect		Windows4(RDP)	2	on_disconnect_sut	connect_hdl.script
+2023-04-19 11:44:30.640 +0900	EndTestCase		(Duration:"50.181", Errors:"1", Exceptions:"3", StartTime:"2023-04-19 11:43:40 +0900", Successes:"1", TestCase:"PC_Function_Test.script", Warnings:"1")
+2023-04-19 11:44:30.665 +0900	FAILURE		Script Error: Number of Errors logged: 1 -- Execution Time 0:00:50 PC_Function_Test.script

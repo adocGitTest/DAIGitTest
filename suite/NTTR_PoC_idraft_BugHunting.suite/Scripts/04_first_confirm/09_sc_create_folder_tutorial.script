@@ -1,0 +1,13 @@
+﻿(*Log "**処理内容：フォルダ作成後吹き出し表示確認**"
+try
+	waitfor 10s,image:"create_folder_tutorial"
+	log "「スワイプで名前の変更と削除ができます」表示確認"
+catch
+	LogError "「スワイプで名前の変更と削除ができます」表示がありません"
+end try
+wait 2s
+click image:"draft_tab"
+wait 3s
+//フォルダ削除処理
+run "10_common/cm_folder_delete_hdl" *)
+logerror

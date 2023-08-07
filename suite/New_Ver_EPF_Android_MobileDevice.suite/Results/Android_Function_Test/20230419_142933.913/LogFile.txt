@@ -1,0 +1,6 @@
+﻿2023-04-19 14:29:33.916 +0900	START		Running Android_Function_Test.script
+2023-04-19 14:29:39.098 +0900	Connect		AQUOS:(null)	2	on_connect_sut	connect_hdl.script
+2023-04-19 14:29:44.740 +0900	presshomebutton			5	on_android_function_test	Android_Function_Test.script
+2023-04-19 14:29:56.531 +0900	Exception	Chrome	Unable To Find Any Image On Screen "Chrome" within 5.00 seconds	2	on_waitfor_image	wait_hdl.script
+2023-04-19 14:30:06.043 +0900	EndTestCase		(Duration:"32.124", Errors:"1", Exceptions:"1", StartTime:"2023-04-19 14:29:33 +0900", Successes:"0", TestCase:"Android_Function_Test.script", Warnings:"0")
+2023-04-19 14:30:06.050 +0900	ABORTED		Execution Time 0:00:32 Android_Function_Test.script

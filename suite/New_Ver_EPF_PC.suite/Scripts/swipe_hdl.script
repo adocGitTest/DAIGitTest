@@ -1,0 +1,21 @@
+﻿
+//下に移動
+to handle Swipe_Down 
+	SwipeDown 
+end Swipe_Down
+
+//上に移動
+to handle Swipe_Up 
+	SwipeUp 
+end Swipe_Up
+
+//左にページめくり、場所を移動するのような操作
+to handle Swipe_Left
+	SwipeLeft 
+end Swipe_Left
+
+//右にページめくり、場所を移動するのような操作
+to handle Swipe_Right 
+	SwipeRight 
+end Swipe_Right
+

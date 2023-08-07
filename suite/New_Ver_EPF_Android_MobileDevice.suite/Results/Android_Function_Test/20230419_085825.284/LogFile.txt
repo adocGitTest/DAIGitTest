@@ -1,0 +1,40 @@
+﻿2023-04-19 08:58:25.287 +0900	START		Running PC_Function_Test.script
+2023-04-19 08:58:25.396 +0900	imagefound	Chrome	found at (51, 229)	2	on_imagefound_image	imagefound_hdl.script
+2023-04-19 08:58:25.398 +0900	Log		True	2	on_imagefound_image	imagefound_hdl.script
+2023-04-19 08:58:25.518 +0900	waitfor	Chrome	found at (51, 229)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 08:58:25.773 +0900	doubleclick	Chrome	at (51, 229)	2	on_doubleclick_image	click_hdl.script
+2023-04-19 08:58:30.878 +0900	waitfor	url_inputbox	found at (218, 53)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 08:58:37.908 +0900	typetext		https://docs.eggplantsoftware.com/	2	on_type_text	typetext_hdl.script
+2023-04-19 08:58:42.538 +0900	imagefound	(TEXT:"eggplantsoftware")	found at (315, 52)	2	on_imagefound_text	imagefound_hdl.script
+2023-04-19 08:58:42.540 +0900	Log		True	2	on_imagefound_text	imagefound_hdl.script
+2023-04-19 08:58:43.690 +0900	waitfor	(TEXT:"eggplantsoftware")	found at (315, 52)	5	on_waitfor_text	wait_hdl.script
+2023-04-19 08:58:44.043 +0900	typetext		[returnKey]	29	on_pc_function_test	PC_Function_Test.script
+2023-04-19 08:58:44.438 +0900	waitfor	DocumentationPage_confirm	found at (510, 355)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 08:58:46.100 +0900	click	(TEXT:"Eggplant Functional")	at (583, 426)	2	on_click_text	click_hdl.script
+2023-04-19 08:58:46.510 +0900	waitfor	rect_left	found at (448, 187)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 08:58:47.166 +0900	readtext		(448,187,898,257)	39	on_pc_function_test	PC_Function_Test.script
+2023-04-19 08:58:47.172 +0900	Log		TextToRead: Eggplant Functional	40	on_pc_function_test	PC_Function_Test.script
+2023-04-19 08:58:47.214 +0900	set		SEARCHRECTANGLE = ["rect_left","rect_right"]	41	on_pc_function_test	PC_Function_Test.script
+2023-04-19 08:58:47.909 +0900	waitfor	(TEXT:"Eggplant Functional")	found at (673, 227)	5	on_waitfor_text	wait_hdl.script
+2023-04-19 08:58:48.025 +0900	set		SEARCHRECTANGLE = []	43	on_pc_function_test	PC_Function_Test.script
+2023-04-19 08:58:48.115 +0900	set		SEARCHRECTANGLE = ["rect_left","rect_right"]	47	on_pc_function_test	PC_Function_Test.script
+2023-04-19 08:58:48.850 +0900	doubleclick	(TEXT:"Functional")	at (777, 222)	2	on_doubleclick_text	click_hdl.script
+2023-04-19 08:58:48.912 +0900	waitfor	doubleclick_Functional	found at (778, 221)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 08:58:49.637 +0900	rightclick	(TEXT:"Functional")	at (777, 222)	2	on_rightclick_text	click_hdl.script
+2023-04-19 08:58:56.253 +0900	Exception	(TEXT:"コピー")	Unable To Find Any Image On Screen "(TEXT:"コピー")" within 5.00 seconds. Text not found.	5	on_waitfor_text	wait_hdl.script
+2023-04-19 08:58:56.297 +0900	set		SEARCHRECTANGLE = []	57	on_pc_function_test	PC_Function_Test.script
+2023-04-19 08:58:56.471 +0900	click		at (960, 540)	62	on_pc_function_test	PC_Function_Test.script
+2023-04-19 08:58:56.599 +0900	set		SEARCHRECTANGLE = ["rect_left","rect_right"]	67	on_pc_function_test	PC_Function_Test.script
+2023-04-19 08:58:57.414 +0900	drag	(TEXT:"E")	at (470, 223)	2	on_drag_text	DragDrop_hdl.script
+2023-04-19 08:58:58.587 +0900	drop	(TEXT:"l")	at (574, 222)	2	on_drop_text	DragDrop_hdl.script
+2023-04-19 08:58:58.615 +0900	set		SEARCHRECTANGLE = []	70	on_pc_function_test	PC_Function_Test.script
+2023-04-19 08:58:58.738 +0900	waitfor	dragdrop_confirm	found at (523, 227)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 08:58:58.849 +0900	scrollwheeldown		moved 20	2	on_scrollwheel_down	scroll_hdl.script
+2023-04-19 08:58:59.432 +0900	waitfor	bottom_confirm	found at (950, 987)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 08:58:59.536 +0900	scrollwheelup		moved 20	2	on_scrollwheel_up	scroll_hdl.script
+2023-04-19 08:59:00.055 +0900	waitfor	top_confirm	found at (560, 162)	5	on_waitfor_image	wait_hdl.script
+2023-04-19 08:59:05.187 +0900	Log		ng	104	on_pc_function_test	PC_Function_Test.script
+2023-04-19 08:59:05.208 +0900	hide		RemoteWindow	2	on_remotewindow_hide	RemoteWindow_hdl.script
+2023-04-19 08:59:05.284 +0900	show		RemoteWindow	2	on_remotewindow_show	RemoteWindow_hdl.script
+2023-04-19 08:59:05.605 +0900	EndTestCase		(Duration:"40.315", Errors:"0", Exceptions:"1", StartTime:"2023-04-19 08:58:25 +0900", Successes:"1", TestCase:"PC_Function_Test.script", Warnings:"0")
+2023-04-19 08:59:05.641 +0900	SUCCESS		Execution Time 0:00:40 PC_Function_Test.script

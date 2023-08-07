@@ -1,0 +1,53 @@
+操作内容,SUT,結果,出力時間
+WebConnectコマンドでSUTに接続すること確認, IOS,OK,2023-07-31_10:36:04
+csvファイルへの読み込み・書き込み・参照確認, IOS,OK,2023-07-31_10:36:07
+excelファイルへの読み込み・書き込み・参照確認, IOS,OK,2023-07-31_10:36:07
+if then elseテストif文中の処理が実行, IOS,OK,2023-07-31_10:36:07
+if then elseテストelse文中の処理が実行, IOS,OK,2023-07-31_10:36:07
+Repeat Foreverコマンドで条件式がtrueになるまで処理を繰り返し実行する, IOS,OK,2023-07-31_10:36:07
+Repeat Timeコマンドで指定された回数まで実行繰り返す, IOS,OK,2023-07-31_10:36:07
+Repeat Until Conditionコマンドで条件式がtrueまで繰り返し実行すること確認, IOS,OK,2023-07-31_10:36:07
+Repeat Whileコマンドで条件式がtrueまで繰り返し実行すること確認, IOS,OK,2023-07-31_10:36:07
+Repeat With Variable = Start to Finishコマンド指定変数になるまで繰り返し実行, IOS,OK,2023-07-31_10:36:17
+Repeat with eachコマンドで複数グループで処理が繰り返し実行する, IOS,OK,2023-07-31_10:36:17
+Repeat at least once untilコマンドで条件満たすまで最低一回実行されること確認, IOS,OK,2023-07-31_10:36:17
+addコマンドで数値を加算する, IOS,OK,2023-07-31_10:36:17
+Replaceコマンドで指定テキストを入れ替え, IOS,OK,2023-07-31_10:36:17
+deleteで指定テキストを削除する, IOS,OK,2023-07-31_10:36:17
+runコマンドで指定ハンドラーを実行, IOS,OK,2023-07-31_10:36:17
+try catchテストでtry中の処理を実行するパターン確認, IOS,OK,2023-07-31_10:36:18
+try catchテストでcatch中の処理を実行するパターン確認, IOS,OK,2023-07-31_10:36:28
+RunWithNewResultsで指定スクリプトを実行, IOS,OK,2023-07-31_10:36:32
+KillAppコマンドで指定アプリを閉じる, IOS,OK,2023-07-31_10:36:36
+swipeleftコマンドでスマホ画面を切り替わる, IOS,OK,2023-07-31_10:36:36
+swiperightコマンドでスマホ画面を切り替わる, IOS,OK,2023-07-31_10:36:40
+swipeUpコマンドで上にスワイプすること確認, IOS,OK,2023-07-31_10:36:49
+swipeDownコマンドで下にスワイプすること確認, IOS,OK,2023-07-31_10:37:02
+ImageFoundコマンドで指定画像を検知する,PC,OK,2023-07-31_10:37:15
+Clickコマンドで指定文字をクリックする, IOS,OK,2023-07-31_10:37:24
+ImageFoundコマンドで指定画像を検知する, IOS,OK,2023-07-31_10:37:29
+Clickコマンドで指定画像をクリックする, IOS,OK,2023-07-31_10:37:33
+rotateLeftコマンドで画面を左に回転する, IOS,OK,2023-07-31_10:37:52
+SetDeviceOrientation portraitコマンドで画面をデフォルトに戻される, IOS,OK,2023-07-31_10:37:55
+SetDeviceOrientation landscapeLeftコマンドで画面を左に回転する, IOS,OK,2023-07-31_10:38:00
+rotateRightコマンドで画面を右に回転する, IOS,OK,2023-07-31_10:38:06
+SetDeviceOrientation landscapeRightコマンドで画面を右に回転する, IOS,OK,2023-07-31_10:38:16
+SetRemoteClipboardコマンドでテキスト貼り付けること確認, IOS,OK,2023-07-31_10:38:36
+TypeTextコマンドで検知するキストを入力する操作とImagefoundコマンドで入力したテキストを検知する,IOS,OK,2023-07-31_10:38:51
+waitforでOCRを探す, IOS,OK,2023-07-31_10:39:01
+waitforで画像を探す, IOS,OK,2023-07-31_10:39:04
+Wait_Whileでimage iconを探す, IOS,OK,2023-07-31_10:39:06
+wait_untilでimage iconを探す, IOS,OK,2023-07-31_10:39:08
+waitforallでimage iconと文字「Google」を探す, IOS,OK,2023-07-31_10:39:12
+waitコマンドで5秒の待ち時間を設定する, IOS,OK,2023-07-31_10:39:19
+movetoコマンドで指定の場所に移動する, IOS,OK,2023-07-31_10:39:23
+ReadTextコマンドで指定範囲内の文字を読み取る,IOS,OK,2023-07-31_10:39:26
+Dargコマンドでカーソルを指定位置に移動してマウスダウンアクション実行、Dropコマンドでカーソルを新しい位置に移動してマウスダウンアクションを放す, IOS,OK,2023-07-31_10:39:35
+PinchInコマンドで画面を縮小する, IOS,OK,2023-07-31_10:39:52
+PinchOutコマンドで画面を拡大する, IOS,OK,2023-07-31_10:40:02
+PressHomeButtonボタンでホーム画面に戻されること, IOS,OK,2023-07-31_10:40:13
+Log LogSuccess LogWarningコマンドテスト, IOS,OK,2023-07-31_10:40:13
+DisconnectコマンドでSUTと切断する, IOS,OK,2023-07-31_10:40:16
+Exit Repeatコマンドでリピート処理を終了する, IOS,OK,2023-07-31_10:40:18
+LogErrorコマンドでログが出力されること, IOS,OK,2023-07-31_10:40:20
+Exit Allコマンドでスクリプトの実行を終了する, IOS,OK,2023-07-31_10:40:20

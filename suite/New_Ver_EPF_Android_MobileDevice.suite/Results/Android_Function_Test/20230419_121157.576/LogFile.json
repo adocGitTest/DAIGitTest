@@ -1,0 +1,54 @@
+{
+	"entries": [
+		{
+				"message": "Running PC_Function_Test.script",
+				"identifier": "START",
+				"timestamp": "2023-04-19 12:11:57.579 +0900"
+			},
+		{
+				"handlerName": "on_connect_sut",
+				"timestamp": "2023-04-19 12:11:57.650 +0900",
+				"message": "Windows4(RDP):(null)",
+				"scriptName": "connect_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 12:11:59.755 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (51, 229)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-04-19 12:11:59.886 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "found at (51, 229)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-04-19 12:11:59.888 +0900",
+				"message": "True",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"2.666\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-04-19 12:11:57 +0900\", Successes:\"0\", TestCase:\"PC_Function_Test.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-04-19 12:12:00.248 +0900"
+			},
+		{
+				"message": "Execution Time 0:00:02 PC_Function_Test.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-04-19 12:12:00.252 +0900"
+			}
+	],
+	"createdTimestamp": "2023-04-19 12:11:57.581 +0900"
+}

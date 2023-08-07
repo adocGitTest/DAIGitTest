@@ -1,0 +1,4 @@
+﻿2023-04-19 17:15:01.325 +0900	START		Running Android_Function_Test.script
+2023-04-19 17:15:04.429 +0900	Connect		AQUOS:(null)	2	on_connect_sut	connect_hdl.script
+2023-04-19 17:15:08.618 +0900	EndTestCase		(Duration:"7.29", Errors:"1", Exceptions:"0", StartTime:"2023-04-19 17:15:01 +0900", Successes:"0", TestCase:"Android_Function_Test.script", Warnings:"0")
+2023-04-19 17:15:08.621 +0900	ABORTED		Execution Time 0:00:07 Android_Function_Test.script

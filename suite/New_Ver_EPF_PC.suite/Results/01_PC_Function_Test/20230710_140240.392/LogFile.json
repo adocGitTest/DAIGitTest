@@ -1,0 +1,825 @@
+{
+	"entries": [
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-10 14:03:16.764 +0900",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"message": "found at (374, 50)",
+				"image": "chrome_home_page",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-10 14:03:17.070 +0900",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"message": "at (1900, 15)",
+				"image": "close_btn",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-10 14:03:19.088 +0900",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"message": "found at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 9,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-07-10 14:03:21.265 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "found at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-07-10 14:03:21.267 +0900",
+				"message": "True",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-10 14:03:21.533 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:03:25.522 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (49, 299)",
+				"image": "(TEXT:\"Google Chrome\")",
+				"handlerLine": 56,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_doubleclick_text",
+				"timestamp": "2023-07-10 14:03:26.519 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (49, 299)",
+				"image": "(TEXT:\"Google Chrome\")",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-10 14:03:28.770 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (374, 50)",
+				"image": "chrome_home_page",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_image",
+				"timestamp": "2023-07-10 14:03:29.108 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (1900, 15)",
+				"image": "close_btn",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:03:31.197 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 65,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:03:31.509 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 72,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_doubleclick_image",
+				"timestamp": "2023-07-10 14:03:31.730 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-10 14:03:33.995 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (374, 50)",
+				"image": "chrome_home_page",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:03:35.125 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (1789, 101)",
+				"image": "(TEXT:\"画像\")",
+				"handlerLine": 78,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_text",
+				"timestamp": "2023-07-10 14:03:36.300 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (1789, 101)",
+				"image": "(TEXT:\"画像\")",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-10 14:03:38.614 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (967, 232)",
+				"image": "search_image",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:03:38.901 +0900",
+				"message": "Set Text:test",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 84,
+				"identifier": "setremoteclipboard"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:03:41.345 +0900",
+				"message": "[controlKey]v",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 86,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:03:44.539 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (612, 372)",
+				"image": "(TEXT:\"test\")",
+				"handlerLine": 88,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:03:44.917 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "at (1153, 371)",
+				"image": "input_box_clean",
+				"handlerLine": 90,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_type_text",
+				"timestamp": "2023-07-10 14:03:50.019 +0900",
+				"message": "KEYDOWNDELAY = 0.5",
+				"scriptName": "typetext_hdl.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_type_text",
+				"timestamp": "2023-07-10 14:03:59.152 +0900",
+				"message": "123abcあいうえお野村",
+				"scriptName": "typetext_hdl.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_waitfor_text_result",
+				"timestamp": "2023-07-10 14:04:07.454 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (716, 370)",
+				"image": "(TEXT:\"123abcあいうえお野村\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:04:09.710 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (234, 18)",
+				"image": "close_page_btn",
+				"handlerLine": 101,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:04:09.864 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "at (234, 18)",
+				"image": "close_page_btn",
+				"handlerLine": 102,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitfor_text",
+				"timestamp": "2023-07-10 14:04:11.814 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (49, 299)",
+				"image": "(TEXT:\"Google Chrome\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-07-10 14:04:14.202 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_wait_while",
+				"timestamp": "2023-07-10 14:04:16.598 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_wait_until",
+				"timestamp": "2023-07-10 14:04:19.038 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_wait_forall",
+				"timestamp": "2023-07-10 14:04:22.266 +0900",
+				"message": "found all: Chrome:(50, 256) (TEXT:\"Google Chrome\"):(49, 299) ",
+				"scriptName": "wait_hdl.script",
+				"handlerLine": 3,
+				"identifier": "waitforall"
+			},
+		{
+				"handlerName": "on_waittime",
+				"timestamp": "2023-07-10 14:04:29.761 +0900",
+				"message": "wait_time:5.025 seconds",
+				"scriptName": "wait_hdl.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:04:34.155 +0900",
+				"message": "MouseLocation_Before[234,18]",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 124,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_moveto_coordinate",
+				"timestamp": "2023-07-10 14:04:34.255 +0900",
+				"message": "at (0, 0)",
+				"scriptName": "moveto_hdl.script",
+				"handlerLine": 2,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:04:34.394 +0900",
+				"message": "MouseLocation_After[0,0]",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 128,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_readtext_byimage",
+				"timestamp": "2023-07-10 14:04:37.234 +0900",
+				"message": "(7,288,98,312)",
+				"scriptName": "readtext_hdl.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:04:37.358 +0900",
+				"message": "TextToRead: Chrome",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 141,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:04:37.405 +0900",
+				"message": "SEARCHRECTANGLE = [\"rect_left\",\"rect_right\"]",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 142,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_waitfor_text_result",
+				"timestamp": "2023-07-10 14:04:38.149 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (70, 297)",
+				"image": "(TEXT:\"Chrome\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:04:38.398 +0900",
+				"message": "SEARCHRECTANGLE = []",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 144,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:04:40.563 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 146,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:04:42.606 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (374, 50)",
+				"image": "chrome_home_page",
+				"handlerLine": 148,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:04:42.762 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "at (374, 50)",
+				"image": "chrome_home_page",
+				"handlerLine": 149,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_type_text",
+				"timestamp": "2023-07-10 14:04:42.902 +0900",
+				"message": "KEYDOWNDELAY = 0.5",
+				"scriptName": "typetext_hdl.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_type_text",
+				"timestamp": "2023-07-10 14:05:06.577 +0900",
+				"message": "https://docs.eggplantsoftware.com",
+				"scriptName": "typetext_hdl.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:09.377 +0900",
+				"message": "[returnKey]",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 154,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:10.819 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (584, 426)",
+				"image": "(TEXT:\"Eggplant Functional\")",
+				"handlerLine": 155,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:12.364 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "at (584, 426)",
+				"image": "(TEXT:\"Eggplant Functional\")",
+				"handlerLine": 156,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:13.024 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (541, 228)",
+				"image": "eggplant_icon",
+				"handlerLine": 157,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_scrollwheel_down",
+				"timestamp": "2023-07-10 14:05:13.178 +0900",
+				"message": "moved 10",
+				"scriptName": "scroll_hdl.script",
+				"handlerLine": 3,
+				"identifier": "scrollwheeldown"
+			},
+		{
+				"handlerName": "on_scrollwheel_down",
+				"timestamp": "2023-07-10 14:05:13.589 +0900",
+				"scriptName": "scroll_hdl.script",
+				"message": "found at (952, 994)",
+				"image": "scroll_down_confirm",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_scrollwheel_up",
+				"timestamp": "2023-07-10 14:05:14.046 +0900",
+				"message": "moved 5",
+				"scriptName": "scroll_hdl.script",
+				"handlerLine": 3,
+				"identifier": "scrollwheelup"
+			},
+		{
+				"handlerName": "on_scrollwheel_up",
+				"timestamp": "2023-07-10 14:05:14.391 +0900",
+				"scriptName": "scroll_hdl.script",
+				"message": "found at (541, 228)",
+				"image": "eggplant_icon",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:14.866 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "at (447, 218)",
+				"image": "drag_drop/drag_drop_left.png",
+				"handlerLine": 165,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:15.796 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "at (900, 224)",
+				"image": "drag_drop/drag_drop_right",
+				"handlerLine": 166,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:17.888 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (675, 223)",
+				"image": "drag_drop/drag_drop",
+				"handlerLine": 169,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:18.341 +0900",
+				"message": "at current mouse point (900, 224)",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 171,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tripleclick_image",
+				"timestamp": "2023-07-10 14:05:20.560 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (447, 218)",
+				"image": "drag_drop/drag_drop_left.png",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tripleclick_image",
+				"timestamp": "2023-07-10 14:05:20.743 +0900",
+				"message": "at current mouse point (447, 218)",
+				"scriptName": "click_hdl.script",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tripleclick_image",
+				"timestamp": "2023-07-10 14:05:20.927 +0900",
+				"message": "at current mouse point (447, 218)",
+				"scriptName": "click_hdl.script",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:21.028 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (675, 223)",
+				"image": "drag_drop/drag_drop",
+				"handlerLine": 180,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:23.483 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "at (447, 218)",
+				"image": "drag_drop/drag_drop_left.png",
+				"handlerLine": 183,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:23.584 +0900",
+				"message": "Button:3",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 188,
+				"identifier": "mousebuttondown"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:24.650 +0900",
+				"message": "Button:3",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 190,
+				"identifier": "mousebuttonup"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:24.728 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (516, 259)",
+				"image": "moubutton_3",
+				"handlerLine": 192,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:25.200 +0900",
+				"message": "at (1279, 402)",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 194,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:27.643 +0900",
+				"message": "[controlKey][F4]",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 201,
+				"identifier": "keydown"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:28.166 +0900",
+				"message": "[controlKey][F4]",
+				"scriptName": "01_PC_Function_Test.script",
+				"handlerLine": 202,
+				"identifier": "keyup"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:33.246 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "found at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 205,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_01_pc_function_test",
+				"timestamp": "2023-07-10 14:05:43.750 +0900",
+				"scriptName": "01_PC_Function_Test.script",
+				"message": "Unable To Find Any Image On Screen \"close_page_btn\" within 10.00 seconds",
+				"image": "close_page_btn",
+				"handlerLine": 214,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_log_msg",
+				"timestamp": "2023-07-10 14:05:48.852 +0900",
+				"message": "Log_ブラウザを閉じました",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_log_success",
+				"timestamp": "2023-07-10 14:05:49.038 +0900",
+				"message": "LogSuccess_ブラウザを閉じました",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_log_warning",
+				"timestamp": "2023-07-10 14:05:49.204 +0900",
+				"message": "LogWarning_ブラウザを閉じました",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_webconnect_confirm",
+				"timestamp": "2023-07-10 14:05:52.753 +0900",
+				"message": "{name:\"Chrome_WebDriver\", url:\"https://hotel.testplanisphere.dev/ja/\"}",
+				"scriptName": "WebDriver_hdl.script",
+				"handlerLine": 3,
+				"identifier": "WebConnect"
+			},
+		{
+				"handlerName": "on_webconnect_confirm",
+				"timestamp": "2023-07-10 14:05:53.481 +0900",
+				"message": "https://hotel.testplanisphere.dev/ja/ on {blendScaledScreen:False, Browser:\"chrome\", colorDepth:0, Host:\"192.168.90.224\", model:\"Chrome\", Name:\"Chrome_WebDriver\", overrideName:\"Chrome_WebDriver\", Port:4444, scaleRemoteScreen:0, skipAvailabilityCheck:False, temporary:False, type:\"WebDriver\", url:\"https://hotel.testplanisphere.dev/ja/\", username:\"\"}",
+				"scriptName": "WebDriver_hdl.script",
+				"handlerLine": 3,
+				"identifier": "Set URL"
+			},
+		{
+				"handlerName": "on_webconnect_confirm",
+				"timestamp": "2023-07-10 14:05:55.819 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "found at (185, 111)",
+				"image": "webdriver_test_page",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_webdriver_windowsize",
+				"timestamp": "2023-07-10 14:05:58.366 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "found at (881, 30)",
+				"image": "browser_size_small",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_webdriver_windowsize",
+				"timestamp": "2023-07-10 14:06:00.638 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "found at (1852, 12)",
+				"image": "browser_size_max",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_webdriver_click",
+				"timestamp": "2023-07-10 14:06:04.126 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "at (1002, 226)",
+				"image": "<WebElement with TagName:\"a\", ID:\"\", Name:\"\", Text:\"会員登録\", Class:\"nav-link\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[962.5,206.390625,1042.5,246.390625]>",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_webdriver_click",
+				"timestamp": "2023-07-10 14:06:06.163 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "found at (600, 475)",
+				"image": "member_registration",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_webdriver_click",
+				"timestamp": "2023-07-10 14:06:07.387 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "at (874, 226)",
+				"image": "<WebElement with TagName:\"a\", ID:\"\", Name:\"\", Text:\"宿泊予約\", Class:\"nav-link\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[834.5,206.390625,914.5,246.390625]>",
+				"handlerLine": 12,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_webdriver_click",
+				"timestamp": "2023-07-10 14:06:09.439 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "found at (651, 469)",
+				"image": "stay_plan",
+				"handlerLine": 14,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_webdriver_click",
+				"timestamp": "2023-07-10 14:06:10.343 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "at (874, 226)",
+				"image": "<WebElement with TagName:\"a\", ID:\"\", Name:\"\", Text:\"宿泊予約\", Class:\"nav-link\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[834.5,206.390625,914.5,246.390625]>",
+				"handlerLine": 22,
+				"identifier": "rightclick"
+			},
+		{
+				"handlerName": "on_webdriver_click",
+				"timestamp": "2023-07-10 14:06:12.379 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "found at (981, 383)",
+				"image": "open_new_page",
+				"handlerLine": 24,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_drag_drop_confirm",
+				"timestamp": "2023-07-10 14:06:15.457 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "at (754, 226)",
+				"image": "<WebElement with TagName:\"a\", ID:\"\", Name:\"\", Text:\"ホーム\", Class:\"nav-link\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[722.5,206.390625,786.5,246.390625]>",
+				"handlerLine": 3,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_drag_drop_confirm",
+				"timestamp": "2023-07-10 14:06:16.281 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "at (1002, 226)",
+				"image": "<WebElement with TagName:\"a\", ID:\"\", Name:\"\", Text:\"会員登録\", Class:\"nav-link\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[962.5,206.390625,1042.5,246.390625]>",
+				"handlerLine": 4,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_drag_drop_confirm",
+				"timestamp": "2023-07-10 14:06:18.317 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "found at (883, 342)",
+				"image": "webdriver_drag_drop",
+				"handlerLine": 6,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_moveto_confirm",
+				"timestamp": "2023-07-10 14:06:22.124 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "at (951, 1374)",
+				"image": "<WebElement with TagName:\"p\", ID:\"\", Name:\"\", Text:\"© 2020 Test Planisphere\", Class:\"text-muted\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[396.5,1362.78125,1506.5,1386.78125]>",
+				"handlerLine": 5,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_moveto_confirm",
+				"timestamp": "2023-07-10 14:06:22.298 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "found at (953, 1030)",
+				"image": "tagname_p",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_webdisconnect_confirm",
+				"timestamp": "2023-07-10 14:07:39.881 +0900",
+				"message": "{blendScaledScreen:False, Browser:\"chrome\", colorDepth:0, Host:\"192.168.90.224\", model:\"Chrome\", Name:\"Chrome_WebDriver\", overrideName:\"Chrome_WebDriver\", Port:4444, scaleRemoteScreen:0, skipAvailabilityCheck:False, temporary:False, type:\"WebDriver\", url:\"https://hotel.testplanisphere.dev/ja/\", username:\"\"}",
+				"scriptName": "WebDriver_hdl.script",
+				"handlerLine": 3,
+				"identifier": "WebDisconnect"
+			},
+		{
+				"handlerName": "on_webdisconnect_confirm",
+				"timestamp": "2023-07-10 14:07:41.979 +0900",
+				"scriptName": "WebDriver_hdl.script",
+				"message": "found at (50, 256)",
+				"image": "Chrome",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_disconnect_sut",
+				"timestamp": "2023-07-10 14:07:44.858 +0900",
+				"message": "Windows3(RDP)",
+				"scriptName": "connect_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Disconnect"
+			},
+		{
+				"handlerName": "on_exit_repeat",
+				"timestamp": "2023-07-10 14:07:47.688 +0900",
+				"message": "2",
+				"scriptName": "Exit_hdl.script",
+				"handlerLine": 10,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_log_error",
+				"timestamp": "2023-07-10 14:07:56.665 +0900",
+				"message": "LogErrorテスト",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "LogError"
+			},
+		{
+				"message": "(Duration:\"319.343\", Errors:\"1\", Exceptions:\"2\", StartTime:\"2023-07-10 14:02:40 +0900\", Successes:\"2\", TestCase:\"01_PC_Function_Test.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-07-10 14:07:59.743 +0900"
+			},
+		{
+				"message": "Script Error: Number of Errors logged: 1 -- Execution Time 0:05:19 01_PC_Function_Test.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-07-10 14:07:59.775 +0900"
+			}
+	],
+	"createdTimestamp": "2023-07-10 14:03:16.766 +0900"
+}

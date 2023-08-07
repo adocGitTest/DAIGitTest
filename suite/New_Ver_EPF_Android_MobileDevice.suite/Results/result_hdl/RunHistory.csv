@@ -1,0 +1,6 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2023-04-18 14:43:12.237 +0900,"Failure",0:00:00,1,0,0,"20230418_144312.237/LogFile.txt","","SenseTalk Compiler Exception -- in judgementbytext:\nWarning at line 10: Warning - Non-matching handler name: Text_Judgement",0
+2023-04-18 14:44:09.254 +0900,"Failure",0:00:00,1,0,0,"20230418_144409.254/LogFile.txt","","SenseTalk Compiler Exception -- in judgementbytext:\nWarning at line 10: Warning - Non-matching handler name: Text_Judgement",0
+2023-04-18 14:44:22.227 +0900,"Failure",0:00:00,1,0,0,"20230418_144422.227/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2023-04-18 14:45:27.976 +0900,"Failure",0:00:00,1,0,0,"20230418_144527.976/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2023-04-18 14:46:43.726 +0900,"Success",0:00:01,0,0,0,"20230418_144643.726/LogFile.txt","","",1

@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running 01_IOS_Function_Test.script",
+				"identifier": "START",
+				"timestamp": "2023-07-31 10:35:27.510 +0900"
+			},
+		{
+				"message": "(Duration:\"0.735\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-07-31 10:35:27 +0900\", Successes:\"0\", TestCase:\"01_IOS_Function_Test.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-07-31 10:35:28.261 +0900"
+			},
+		{
+				"message": "Execution Time 0:00:00 01_IOS_Function_Test.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-07-31 10:35:28.261 +0900"
+			}
+	],
+	"createdTimestamp": "2023-07-31 10:35:27.526 +0900"
+}

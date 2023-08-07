@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="RunWithNewResults_script" package="New_Ver_EPF_Android.suite" timestamp="2023-06-29 09:48:49.550 +0900"
+ tests="1"  failures="1" errors="1" time="9.322000">
+  <properties>
+   <property name="RunDate" value="2023-06-29 09:48:49.550 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="RunWithNewResults.script" assertions="1" status="error"  time="9.317">
+    <failure type="FAILURE" message="Image Not Found: click Error - No Image Found On Screen: &quot;Chrome&quot; -- Execution Time 0:00:09 RunWithNewResults.script" />
+    <error type="Exception" message="No Image Found On Screen: &quot;Chrome&quot;" />
+  </testcase>
+ </testsuite>
+</testsuites>

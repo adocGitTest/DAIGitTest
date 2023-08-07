@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Android_Function_Test.script",
+				"identifier": "START",
+				"timestamp": "2023-07-26 16:37:17.034 +0900"
+			},
+		{
+				"handlerName": "on_connect_sut",
+				"timestamp": "2023-07-26 16:37:20.173 +0900",
+				"message": "Mobile Device:(null)",
+				"scriptName": "connect_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Connect"
+			},
+		{
+				"message": "(Duration:\"10.517\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-07-26 16:37:17 +0900\", Successes:\"0\", TestCase:\"Android_Function_Test.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-07-26 16:37:27.562 +0900"
+			},
+		{
+				"message": "Execution Time 0:00:10 Android_Function_Test.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-07-26 16:37:27.572 +0900"
+			}
+	],
+	"createdTimestamp": "2023-07-26 16:37:17.038 +0900"
+}

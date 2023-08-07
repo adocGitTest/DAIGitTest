@@ -1,0 +1,78 @@
+﻿
+//文字を検知、文字が出るまでを待つ
+to handle WaitFor_Text with Text, TimeToWait
+	try
+		WaitFor TimeToWait, text:Text
+		result_hdl.Result_Pass "waitforコマンドでOCRを検知する","PC"
+	catch
+		result_hdl.Result_Fail "waitforコマンドでOCRを検知する","PC"
+	end try
+end WaitFor_Text
+to handle WaitFor_Text_result with Text, TimeToWait
+	try
+		WaitFor TimeToWait, text:Text
+	end try
+end WaitFor_Text_result
+//イメージを検知、イメージが出るまでを待つ
+to handle WaitFor_Image with Image,TimeToWait
+	try
+		WaitFor TimeToWait, Image
+		result_hdl.Result_Pass "waitforコマンドで画像を検知する","PC"
+	catch
+		result_hdl.Result_Fail "waitforコマンドで画像を検知する","PC"
+	end try
+end WaitFor_Image
+
+to handle WaitFor_Image_result with Image,TimeToWait
+	try
+		WaitFor TimeToWait, Image
+	end try
+end WaitFor_Image_result
+
+//待ち時間の設定
+to handle WaitTime
+	//waitで待ち時間をテスト 
+	set before to now
+	wait 5s
+	set after to now
+	set wait_time to after-before
+	log "wait_time:"&wait_time
+	
+	If wait_time>=5 and wait_time<6 then
+		result_hdl.Result_Pass "waitコマンドで5秒の待ち時間を設定する","PC"
+	Else
+		result_hdl.Result_Fail "waitコマンドで5秒の待ち時間を設定する","PC"
+	End if
+	wait 2
+end WaitTime
+
+
+//画面上画像/文字を検知
+to handle Wait_ForAll with TimeToWait, Image_No1,Text_No2
+	try
+		WaitForAll TimeToWait, Image_No1, text:Text_No2	
+		result_hdl.Result_Pass "waitforallコマンドで指定画像と文字を検知する","PC"
+	Catch theException
+		result_hdl.Result_Fail "waitforallコマンドで指定画像と文字を検知する","PC"
+	end try
+end Wait_ForAll
+
+put time into a
+log a
+to handle Wait_While
+	try
+		wait while not ImageFound("Chrome")
+		result_hdl.Result_Pass "wait Whileコマンドで指定画像を検知する","PC"
+	catch
+		result_hdl.Result_Fail "wait Whileコマンドで指定画像を検知する","PC"
+	end try
+end Wait_While
+
+to handle wait_until
+	try
+		wait until ImageFound("Chrome")
+		result_hdl.Result_Pass "wait untilコマンドで指定画像を検知する","PC"
+	catch
+		result_hdl.Result_Fail "wait untilコマンドで指定画像を検知する","PC"
+	end try
+end wait_until

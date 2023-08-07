@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="PC_Function_Test_script" package="EPF_test.suite" timestamp="2023-04-19 11:43:40.453 +0900"
+ tests="1"  failures="2" errors="3" time="50.186000">
+  <properties>
+   <property name="RunDate" value="2023-04-19 11:43:40.453 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="PC_Function_Test.script" assertions="2" status="error"  time="50.181">
+    <failure type="LogError" message="LogSuccess_ブラウザを閉じました" />
+    <failure type="FAILURE" message="Script Error: Number of Errors logged: 1 -- Execution Time 0:00:50 PC_Function_Test.script" />
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;bottom_confirm&quot; within 5.00 seconds" />
+  </testcase>
+ </testsuite>
+</testsuites>

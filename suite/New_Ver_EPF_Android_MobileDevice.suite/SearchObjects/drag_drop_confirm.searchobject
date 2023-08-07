@@ -1,0 +1,60 @@
+{
+	"originalcapturelocation": [
+		152,
+		1852,
+		789,
+		54
+	],
+	"lastmodifieddate": 1690443485.0539999,
+	"createddate": 1690443485.0539999,
+	"name": "drag_drop_confirm",
+	"lastfounddate": 1690443508.539,
+	"ocrcapturestring": "Copyright © 2023 Eggplant Software",
+	"lastfoundlocation": [
+		152,
+		1852,
+		789,
+		54
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 64659,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[394,27]",
+					"Tolerance": "_56",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"model": "907SH",
+					"webdriver_port": "64660",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "SHARP",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "64659",
+					"sdk": "30",
+					"android_version": "11",
+					"CacheDir": "/data/local/tmp",
+					"remote_ip_addr": "localhost",
+					"serial": "357984101727679"
+				},
+				"name": "drag_drop_confirm.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					152,
+					1852,
+					789,
+					54
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "Copyright © 2023 Eggplant Software"
+			}
+	]
+}

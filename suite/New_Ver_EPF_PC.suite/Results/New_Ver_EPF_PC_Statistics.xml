@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="wait_hdl">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2023-04-18 14:46:15 +0900</FirstRun>
+  <LastRun>2023-04-18 14:46:34 +0900</LastRun>
+  <TotalTimeOnSuccess>2.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="SetRemoteClipboard_hdl1">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2023-06-21 10:18:42 +0900</FirstRun>
+  <LastRun>2023-06-21 10:18:42 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="result_hdl">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>5</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2023-04-18 14:43:12 +0900</FirstRun>
+  <LastRun>2023-04-18 14:46:43 +0900</LastRun>
+  <TotalTimeOnSuccess>1.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="replace_hdl">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-06-08 14:08:23 +0900</FirstRun>
+  <LastRun>2023-06-08 14:09:43 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="rotate_hdl">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-06-20 14:38:34 +0900</FirstRun>
+  <LastRun>2023-06-20 15:02:33 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="repeat_hdl">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-05-09 14:23:44 +0900</FirstRun>
+  <LastRun>2023-05-09 14:23:44 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="connect_hdl">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2023-04-18 13:32:32 +0900</FirstRun>
+  <LastRun>2023-04-18 13:38:49 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="RunWithNewResults">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>43</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2023-06-21 10:48:56 +0900</FirstRun>
+  <LastRun>2023-07-27 12:02:10 +0900</LastRun>
+  <TotalTimeOnSuccess>4.243000</TotalTimeOnSuccess>
+ </script>
+ <script name="SetRemoteClipboard_hdl">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-06-21 11:00:21 +0900</FirstRun>
+  <LastRun>2023-06-21 11:00:21 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="01_PC_Function_Test">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>53</NumberOfRuns>
+  <NumberOfFails>47</NumberOfFails>
+  <FirstRun>2023-04-19 08:58:25 +0900</FirstRun>
+  <LastRun>2023-07-27 12:01:38 +0900</LastRun>
+  <TotalTimeOnSuccess>1084.528000</TotalTimeOnSuccess>
+ </script>
+</statistics>

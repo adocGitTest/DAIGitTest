@@ -1,0 +1,64 @@
+{
+	"lastmodifieddate": 1687446908.53,
+	"lastfoundlocation": [
+		368,
+		505,
+		85,
+		121
+	],
+	"originalcapturelocation": [
+		368,
+		505,
+		85,
+		121
+	],
+	"createddate": 1687415417.2449999,
+	"lastfounddate": 1687426400.8670001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5903,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[-26,164]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"keep_connected": "False",
+					"reverse_connection_port": "0",
+					"manufacturer": "",
+					"remote_adb_port": "35001",
+					"enable_reverse_connection": "False",
+					"model": "702SH",
+					"vnc_password": "",
+					"CacheDir": "/storage/emulated/0/Android/data/com.keysight.vncserverforandroid/cache",
+					"reverse_connection_ip_address": "127.0.0.1",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"remote_ip_addr": "localhost",
+					"sharing": "always_share",
+					"device_os": "android",
+					"vnc_port": "5903",
+					"serial": "353024080336624",
+					"webdriver_port": "8001",
+					"android_version": "8.0.0",
+					"sdk": "26"
+				},
+				"name": "rect_left/rect_left4.png",
+				"connectionname": "AQUOS",
+				"type": 1,
+				"capturerect": [
+					368,
+					505,
+					85,
+					121
+				],
+				"connectionserverid": "192.168.90.232"
+			}
+	],
+	"name": "rect_left/rect_left4"
+}

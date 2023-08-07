@@ -1,0 +1,106 @@
+﻿
+//------------------OCRで判断------------------
+to handle JudgementByText with Text,TimeToWait,Function,SUT
+
+	//CSVファイルを指定し、ない場合で一個新しいファイルを作る
+	set LogFile to ResourcePath() & "\Result_Output.csv"
+	set OutputTime to formattedTime("yyyy-MM-dd_HH:mm:ss")
+	
+	if there is no file LogFile then
+		create file LogFile
+		open file LogFile
+		write "操作内容,SUT,結果,出力時間"&return to file LogFile at eof
+		close file LogFile	
+	end if
+	
+	//ocr文字認識で成功か失敗かを判断
+	Try
+		wait_hdl.WaitFor_Text_result Text,TimeToWait
+		//LogSuccess "「"&Function&"」,"&&"SUT: "&SUT&&", OK"
+		//結果をCSVファイルに出力
+		open file LogFile
+		write Function&","&SUT&","&"OK,"&OutputTime&return to file LogFile at eof
+		close file LogFile
+		
+	Catch theException
+		//LogWarning "「"&Function&"」,"&&"SUT: "&SUT&&", NG"
+		
+		open file LogFile
+		write Function&","&SUT&","&"NG,"&OutputTime&return to file LogFile at eof
+		close file LogFile
+		
+	End try
+end JudgementByText
+
+//------------------------imageで判断---------------------
+to handle JudgementByImage with Image,TimeToWait,Function,SUT
+	//CSVファイルを指定し、ない場合で一個新しいファイルを作る
+	set LogFile to ResourcePath() & "\Result_Output.csv"
+	set OutputTime to formattedTime("yyyy-MM-dd_HH:mm:ss")
+	
+	if there is no file LogFile then
+		create file LogFile
+		open file LogFile
+		write "操作内容,SUT,結果,出力時間"&return to file LogFile at eof
+		close file LogFile	
+	end if
+	
+	//イメージ認識で成功か失敗かを判断
+	Try
+		wait_hdl.WaitFor_Image_result Image,TimeToWait
+		//LogSuccess "「"&Function&"」,"&&"SUT: "&SUT&&", OK"
+		//結果を出力
+		open file LogFile
+		write Function&", "&SUT&","&"OK,"&OutputTime&return to file LogFile at eof
+		close file LogFile
+		
+	Catch theException
+		//LogWarning "「"&Function&"」,"&&"SUT: "&SUT&&", NG"
+		
+		open file LogFile
+		write Function&", "&SUT&","&"NG,"&OutputTime&return to file LogFile at eof
+		close file LogFile
+		
+	End try
+end JudgementByImage
+
+//OK結果の場合ファイルに出力handle--------
+
+to handle Result_Pass with Function, SUT
+	set LogFile to ResourcePath() & "\Result_Output.csv"
+	set OutputTime to formattedTime("yyyy-MM-dd_HH:mm:ss")
+	
+	if there is no file LogFile then
+		create file LogFile
+		open file LogFile
+		write "操作内容,SUT,結果,出力時間"&return to file LogFile at eof
+		close file LogFile	
+	else
+		open file LogFile
+		write Function&", "&SUT&","&"OK,"&OutputTime&return to file LogFile at eof
+		close file LogFile	
+	end if
+	
+end Result_Pass
+
+//NG結果の場合ファイルに出力handle---------------
+
+to handle Result_Fail with Function, SUT 
+	set LogFile to ResourcePath() & "\Result_Output.csv"
+	set OutputTime to formattedTime("yyyy-MM-dd_HH:mm:ss")
+	
+	if there is no file LogFile then
+		create file LogFile
+		open file LogFile
+		write "操作内容,SUT,結果,出力時間"&return to file LogFile at eof
+		close file LogFile	
+	else
+		open file LogFile
+		write Function&", "&SUT&","&"NG,"&OutputTime&return to file LogFile at eof
+		close file LogFile	
+	end if
+	
+end Result_Fail
+
+
+

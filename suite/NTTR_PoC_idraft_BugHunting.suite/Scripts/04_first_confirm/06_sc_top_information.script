@@ -1,0 +1,49 @@
+﻿(*
+Log "**処理内容：インフォメーション確認処理**"
+wait 1s
+set myAppList to AppList(Full)
+//インフォメーションのアイコンが表示されていることを確認
+wait 5s
+try
+	waitfor 10s,"information_confirm"
+	Log "インフォメーション表示確認"
+	CaptureScreen {Name: "インフォメーション表示確認"&"_"&today&"_"&formattedTime("%H-%M-%S",time)}//to test
+	//メニュータブのアイコンで対象端末を判断し、アプリを閉じる
+end try
+try
+	waitfor 5s,"menu_tab/off/menu_tab_android"//端末確認(android)
+	KillApp "jp.ne.goo.dictapp.pro" //アプリを閉じる
+catch
+	waitfor 5s,"menu_tab/off/menu_tab_ios"//端末確認(ios)
+	KillApp "idraft" //アプリを閉じる
+end try
+wait 1s
+click Image:"open_app"//アプリ再起動
+wait 3s
+waitfor 10s,"all_draft"
+try
+	waitfor 10s,"information_confirm"//インフォメーションの表示確認
+	log "アプリ再起動後のインフォメーション確認成功"
+	CaptureScreen {Name: "再起動後インフォメーション表示確認"&"_"&today&"_"&formattedTime("%H-%M-%S",time)}
+	click "close_information"//インフォメーションを閉じる
+	wait 2s
+	CaptureScreen {Name: "インフォメーション閉じ確認"&"_"&today&"_"&formattedTime("%H-%M-%S",time)}
+	try
+		waitfor 5s,"menu_tab/off/menu_tab_android"//端末確認(android)
+		KillApp "jp.ne.goo.dictapp.pro" //アプリ閉じる
+	catch
+		waitfor 5s,"menu_tab/off/menu_tab_ios"//端末確認(ios)
+		KillApp "idraft"  //アプリ閉じる
+	end try
+	wait 1s
+	click Image:"open_app"//アプリ再起動
+	wait 1s
+	waitfor 10,"all_draft"
+	try
+		waitfor 5s,"information_confirm"
+		LogError "インフォメーションまだ表示されている"
+	End try
+	LogSuccess "インフォメーション非表示確認成功"
+	CaptureScreen {Name: "インフォメーション非表示確認"&"_"&today&"_"&formattedTime("%H-%M-%S",time)}
+end try
+*)

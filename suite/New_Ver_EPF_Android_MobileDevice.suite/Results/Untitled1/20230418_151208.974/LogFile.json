@@ -1,0 +1,21 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled1.script",
+				"identifier": "START",
+				"timestamp": "2023-04-18 15:12:08.977 +0900"
+			},
+		{
+				"message": "(Duration:\"0.059\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-04-18 15:12:08 +0900\", Successes:\"0\", TestCase:\"Untitled1.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-04-18 15:12:09.039 +0900"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "STFileException: Attempt to access unopened file: CSVfile -- Execution Time 0:00:00 Untitled1.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-04-18 15:12:09.132 +0900"
+			}
+	],
+	"createdTimestamp": "2023-04-18 15:12:08.978 +0900"
+}

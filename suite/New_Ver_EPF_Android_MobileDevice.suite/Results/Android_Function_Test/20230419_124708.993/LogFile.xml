@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="PC_Function_Test_script" package="EPF_test.suite" timestamp="2023-04-19 12:47:08.993 +0900"
+ tests="1"  failures="2" errors="0" time="87.528000">
+  <properties>
+   <property name="RunDate" value="2023-04-19 12:47:08.993 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="PC_Function_Test.script" assertions="2" status="failure"  time="87.522">
+    <failure type="LogError" message="LogErrorテスト" />
+    <failure type="FAILURE" message="Script Error: Number of Errors logged: 1 -- Execution Time 0:01:27 PC_Function_Test.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

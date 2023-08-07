@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="TryCatch">
+ <run>
+  <RunDate>2023-04-18 14:43:12.237 +0900</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.053000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230418_144312.237/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in judgementbytext:
+Warning at line 10: Warning - Non-matching handler name: Text_Judgement</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-18 14:44:09.254 +0900</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.082000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230418_144409.254/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in judgementbytext:
+Warning at line 10: Warning - Non-matching handler name: Text_Judgement</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-18 14:44:22.227 +0900</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.092000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230418_144422.227/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-18 14:45:27.976 +0900</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.115000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230418_144527.976/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-18 14:46:43.726 +0900</RunDate>
+  <Status>Success</Status>
+  <Duration>1.101000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230418_144643.726/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

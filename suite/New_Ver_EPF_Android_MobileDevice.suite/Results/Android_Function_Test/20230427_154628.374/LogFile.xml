@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Android_Function_Test_script" package="Android_EPF_test.suite" timestamp="2023-04-27 15:46:28.374 +0900"
+ tests="1"  failures="2" errors="0" time="7.811000">
+  <properties>
+   <property name="RunDate" value="2023-04-27 15:46:28.374 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Android_Function_Test.script" assertions="1" status="failure"  time="7.802">
+    <failure type="FAILURE" message="Connection Failed: Unable to connect to Server:AQUOS on port:0\nInvalid hostname or IP address: \n -- Execution Time 0:00:07 Android_Function_Test.script" />
+    <failure type="FAILURE" message="Connection Failed: Unable to connect to Server:AQUOS on port:0\nInvalid hostname or IP address: \n -- Execution Time 0:00:07 Android_Function_Test.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

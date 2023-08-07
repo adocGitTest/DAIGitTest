@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="TryCatch_script" package="EPF_test.suite" timestamp="2023-04-18 14:46:43.726 +0900"
+ tests="1"  failures="0" errors="0" time="1.101000">
+  <properties>
+   <property name="RunDate" value="2023-04-18 14:46:43.726 +0900"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="TryCatch.script" assertions="1" status="success"  time="1.097">
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="RunWithNewResults_script" package="New_Ver_EPF_Android_MobileDevice.suite" timestamp="2023-07-27 16:46:36.093 +0900"
+ tests="1"  failures="0" errors="0" time="0.265000">
+  <properties>
+   <property name="RunDate" value="2023-07-27 16:46:36.093 +0900"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="RunWithNewResults.script" assertions="1" status="success"  time="0.255">
+  </testcase>
+ </testsuite>
+</testsuites>

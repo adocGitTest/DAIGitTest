@@ -1,0 +1,9 @@
+﻿to handle delete
+	put "abc" into text
+	delete "b" from text
+	if text="ac" then
+		result_hdl.Result_Pass "deleteで指定テキストを削除する","IOS"
+	else
+		result_hdl.Result_Fail "deleteで指定テキストを削除する","IOS"
+	end if
+end delete
