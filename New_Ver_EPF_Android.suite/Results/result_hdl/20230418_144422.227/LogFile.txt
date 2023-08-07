@@ -1,0 +1,4 @@
+﻿2023-04-18 14:44:22.230 +0900	START		Running TryCatch.script
+2023-04-18 14:44:22.292 +0900	LogError		「click」,SUT: pc, NG	7	on_judgementbytext	TryCatch.script
+2023-04-18 14:44:22.320 +0900	EndTestCase		(Duration:"0.087", Errors:"1", Exceptions:"0", StartTime:"2023-04-18 14:44:22 +0900", Successes:"0", TestCase:"TryCatch.script", Warnings:"0")
+2023-04-18 14:44:22.405 +0900	FAILURE	Screen_Error.png	Script Error: Number of Errors logged: 1 -- Execution Time 0:00:00 TryCatch.script

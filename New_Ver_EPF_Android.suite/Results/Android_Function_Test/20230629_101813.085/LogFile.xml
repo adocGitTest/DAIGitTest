@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Android_Function_Test_script" package="New_Ver_EPF_Android.suite" timestamp="2023-06-29 10:18:13.085 +0900"
+ tests="1"  failures="2" errors="2" time="348.363000">
+  <properties>
+   <property name="RunDate" value="2023-06-29 10:18:13.085 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Android_Function_Test.script" assertions="3" status="error"  time="348.358">
+    <failure type="LogError" message="LogErrorテスト" />
+    <failure type="FAILURE" message="Script Error: Number of Errors logged: 1 -- Execution Time 0:05:48 Android_Function_Test.script" />
+    <error type="Exception" message="No Text Found On Screen: &quot;(TEXT:&quot;マップ&quot;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

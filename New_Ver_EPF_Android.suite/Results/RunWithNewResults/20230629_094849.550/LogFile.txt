@@ -1,0 +1,5 @@
+﻿2023-06-29 09:48:49.554 +0900	START		Running RunWithNewResults.script	35	on_android_function_test	Android_Function_Test.script
+2023-06-29 09:48:58.867 +0900	Exception	Chrome	No Image Found On Screen: "Chrome"	1	on_runwithnewresults	RunWithNewResults.script
+2023-06-29 09:48:58.872 +0900	EndTestCase		(Duration:"9.317", Errors:"1", Exceptions:"1", StartTime:"2023-06-29 09:48:49 +0900", Successes:"0", TestCase:"RunWithNewResults.script", Warnings:"0")	35	on_android_function_test	Android_Function_Test.script
+2023-06-29 09:48:58.974 +0900	Error Screen	E:/suite/New_Ver_EPF_Android.suite/Results/RunWithNewResults/20230629_094849.550/Screen_Error.png	CapturedErrorScreenshot	20C5B758-5519-2F0F-59E1-0FD8B8D50DFB	35	on_android_function_test	Android_Function_Test.script
+2023-06-29 09:48:58.976 +0900	FAILURE	Screen_Error.png	Image Not Found: click Error - No Image Found On Screen: "Chrome" -- Execution Time 0:00:09 RunWithNewResults.script	35	on_android_function_test	Android_Function_Test.script

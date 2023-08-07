@@ -1,0 +1,3 @@
+﻿2023-06-29 09:39:21.107 +0900	START		Running Android_Function_Test.script
+2023-06-29 09:39:22.139 +0900	EndTestCase		(Duration:"1.029", Errors:"1", Exceptions:"0", StartTime:"2023-06-29 09:39:21 +0900", Successes:"0", TestCase:"Android_Function_Test.script", Warnings:"0")
+2023-06-29 09:39:22.142 +0900	ABORTED		Execution Time 0:00:01 Android_Function_Test.script

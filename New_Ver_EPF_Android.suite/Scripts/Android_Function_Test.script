@@ -1,0 +1,240 @@
+﻿wait 3
+//connectコマンドで端末と接続
+connect_hdl.Connect_Sut "AQUOS"
+wait 5
+result_hdl.JudgementByImage "Chrome",5,"WebConnectコマンドでSUTに接続すること確認","Android"
+wait 2
+
+//excelファイル操作・csvファイル操作
+excel_file_hdl.CSV_file
+excel_file_hdl.Excel_file
+
+//if then elseコマンド
+run if_then_else_hdl.if_then_else_1
+run if_then_else_hdl.if_then_else_2
+
+//repeat系
+repeat_hdl.repeat_Forever
+repeat_hdl.repeat_time_or_For_Duration
+repeat_hdl.Repeat_Until_Condition
+repeat_hdl.repeat_while
+repeat_hdl.repeat_with
+repeat_hdl.repeat_with_each
+repeat_hdl.repeat_at_least_once_until
+
+//addコマンド
+add_hdl.add
+
+//replaceコマンド
+replace_hdl.replace
+//deleteコマンド
+delete_hdl.delete
+try
+	run run_hdl.run_test
+catch
+	result_hdl.Result_Fail "runコマンドで指定ハンドラーを実行","Android"
+end try
+
+//try...catch...end try コマンド
+run try_catch_hdl.try_catch_1
+run try_catch_hdl.try_catch_2
+
+//RunWithNewResultsコマンド
+RunWithNewResults_hdl.Run_With_New_Results
+
+//swipe left
+swipe_hdl.Swipe_Left
+result_hdl.JudgementByImage "swipeleft_confirm",10,"swipeleftコマンドでスマホ画面を切り替わる","Android"
+wait 2
+//swipe right
+swipe_hdl.Swipe_Right
+result_hdl.JudgementByImage "homepage_confirm",10,"swiperightコマンドでスマホ画面を切り替わる","Android"
+wait 2
+//Swipe_Up
+swipe_hdl.Swipe_Up
+wait 2s
+result_hdl.JudgementByImage "all_app",10,"swipeUpコマンドで上にスワイプすること確認","Android"
+//Swipe_Down
+swipe_hdl.Swipe_Down
+wait 2s
+result_hdl.JudgementByImage "Chrome",10,"swipeDownコマンドで下にスワイプすること確認","Android"
+//ImageFoundでブラウザのアイコンを探す
+imagefound_hdl.ImageFound_Image "Chrome"
+result_hdl.JudgementByImage "Chrome",5,"ImageFoundコマンドで指定画像を検知する","Android"
+wait 3
+
+(*//scroll
+scroll_hdl.ScrollWheel_Down
+wait 2s
+scroll_hdl.ScrollWheel_Up
+wait 2s*)
+//文字をクリックする
+try
+	click_hdl.Click_Text "Google"
+	wait 2s
+	result_hdl.JudgementByImage "gmail_icon",10,"Clickコマンドで指定文字をクリックする","Android"
+	PressHomeButton
+	wait 2s
+	waitfor 10s,image:"Chrome"
+end try
+//ブラウザのアイコンを探して、Clickでブラウザを開く
+try
+	click_hdl.Click_Image "Chrome"
+	result_hdl.JudgementByImage "url_inputbox",5,"Clickコマンドで指定画像をクリックする","Android"
+	wait 2
+end try
+try
+	wait 1s
+	set myAppList to AppList(Full) 
+	KillApp "com.android.chrome"
+	wait 2s
+	waitfor 10s,image:"Chrome"
+catch
+	click image:"home_btn"
+	wait 2s
+end try
+click image:Chrome
+wait 2s
+waitfor 10s,image:"google_icon"
+//画面回転
+try
+	rotate_hdl.rotate
+	wait 2s
+end try
+SetRemoteClipboard_hdl.SetRemoteClipboard_test
+wait 5s
+//typetextで指定テキスト入力
+try
+	put "123abcあいうえお野村" into text
+	typetext_hdl.Type_Text  text
+	wait 1
+	imagefound_hdl.ImageFound_Text text
+	result_hdl.JudgementByText text,5,"TypeTextコマンドで検知するキストを入力する操作とImagefoundコマンドで入力したテキストを検知する","Android"
+	wait 2s
+	waitfor 10s,image:"inputbox_close"
+	click image:"inputbox_close"
+end try
+try
+	wait 1s
+	set myAppList to AppList(Full) 
+	KillApp "com.android.chrome"
+	wait 2s
+	waitfor 10s,image:"Chrome"
+catch
+	click image:"home_btn"
+	wait 2s
+end try
+wait 1
+//waitfor text
+wait_hdl.WaitFor_Text "Google",10s
+wait 2s
+//waitfor image
+wait_hdl.WaitFor_Image "Chrome",10s
+wait 2s
+//wait while
+wait_hdl.Wait_While
+wait 2s
+//wait until
+wait_hdl.wait_until
+wait 2s
+//waitforallで、画像と文字を探す
+wait_hdl.Wait_ForAll 10,"Chrome","Google"
+wait 2s
+//wait time
+wait_hdl.WaitTime
+wait 2s
+//moveto [0,0]、MouseLocation()で移動したかどうかを判断
+set MouseLocation_Before to MouseLocation()
+log "MouseLocation_Before"&MouseLocation_Before
+
+moveto_hdl.Moveto_Coordinate [0,0]
+set MouseLocation_After to MouseLocation()
+log "MouseLocation_After"&MouseLocation_After
+
+If MouseLocation_After is [0,0] then
+	result_hdl.Result_Pass "movetoコマンドで指定の場所に移動する","Android"
+Else
+	result_hdl.Result_Fail "movetoコマンドで指定の場所に移動する","Android"
+End if
+wait 2
+
+//は範囲を指定し、文字を読み取る
+//log ReadText("rect_left", "rect_right.")
+readtext_hdl.ReadText_ByImage "rect_left", "rect_right"
+set TextToRead to the result 
+log "TextToRead: "&TextToRead
+set the SearchRectangle to["rect_left", "rect_right"]
+result_hdl.JudgementByText TextToRead,5,"ReadTextコマンドで指定範囲内の文字を読み取る","Android"
+set the SearchRectangle to[]
+wait 2
+
+//DragDropで、テキストを選択する
+DragDrop_hdl.drag_drop_confirm
+
+//pinchin/pinchout
+try
+	click image:"Chrome"
+	waitfor 10s,image:"google_icon"
+	click text:"検索語句"
+	put "https://docs.eggplantsoftware.com" into URL_access
+	//URLの入力ボックスにtypetextでURLを入力する
+	typetext_hdl.Type_Text URL_access
+	TypeText returnKey
+	wait 2s
+	waitfor text:"Eggplant Functional"
+	click text:"Eggplant Functional"
+	wait 2s
+	pinch_hdl.Pinch_Out
+	Try
+		WaitFor 5, "rect_left"
+		result_hdl.Result_Fail "先にPinchOutコマンドで画面を拡大する","Android"
+	Catch theException
+		result_hdl.Result_Pass "先にPinchOutコマンドで画面を拡大する","Android"
+	End try
+	wait 2
+	
+	pinch_hdl.Pinch_In
+	Try
+		WaitFor 5, "rect_left"
+		result_hdl.Result_Pass "PinchInコマンドで画面を縮小する","Android"
+	Catch theException
+		result_hdl.Result_Fail "PinchInコマンドで画面を縮小する","Android"
+	End try
+	
+	wait 5
+end try
+//ブラウザを初期化して閉じて、各logを出力
+Try
+	PressHomeButton
+	wait 5
+	result_hdl.JudgementByImage "Chrome",5,"PressHomeButtonボタンでホーム画面に戻されること","Android"
+	log_hdl.Log_Msg "Log_ブラウザを閉じました"
+	log_hdl.Log_Success "LogSuccess_ブラウザを閉じました"
+	log_hdl.Log_Warning "LogWarning_ブラウザを閉じました"
+	result_hdl.Result_Pass "Log LogSuccess LogWarningコマンドテスト","Android"
+Catch theException
+	result_hdl.Result_Fail "Log LogSuccess LogWarningコマンドテスト","Android"
+End try
+wait 2
+
+//SUTとの接続を切断---------------
+Try
+	connect_hdl.Disconnect_Sut "AQUOS"
+	result_hdl.Result_Pass "DisconnectコマンドでSUTと切断する","Android"
+Catch theException
+	result_hdl.Result_Fail "DisconnectコマンドでSUTと切断する","Android"
+End try
+wait 2
+//exitコマンド
+Exit_hdl.exit_repeat
+wait 2s
+//logerror test
+Try
+	log_hdl.Log_Error "LogErrorテスト"
+	result_hdl.Result_Pass "LogErrorコマンドでログが出力されること","Android"
+	Exit_hdl.Exit_All
+	wait 2s
+End try
+
+
+

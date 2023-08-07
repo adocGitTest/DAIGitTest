@@ -1,0 +1,4 @@
+﻿2023-04-27 15:41:26.871 +0900	START		Running Android_Function_Test.script
+2023-04-27 15:41:34.984 +0900	EndTestCase		(Duration:"8.107", Errors:"1", Exceptions:"0", StartTime:"2023-04-27 15:41:26 +0900", Successes:"0", TestCase:"Android_Function_Test.script", Warnings:"0")
+2023-04-27 15:41:35.054 +0900	FAILURE		Connection Failed: Unable to connect to Server:AQUOS on port:0\nInvalid hostname or IP address: \n -- Execution Time 0:00:08 Android_Function_Test.script
+2023-04-27 15:41:36.456 +0900	FAILURE		Connection Failed: Unable to connect to Server:AQUOS on port:0\nInvalid hostname or IP address: \n -- Screenshot unavailable -- Execution Time 0:00:08 Android_Function_Test.script

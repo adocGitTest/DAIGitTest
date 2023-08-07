@@ -1,0 +1,351 @@
+{
+	"entries": [
+		{
+				"message": "Running PC_Function_Test.script",
+				"identifier": "START",
+				"timestamp": "2023-04-19 09:59:33.202 +0900"
+			},
+		{
+				"handlerName": "on_connect_sut",
+				"timestamp": "2023-04-19 09:59:34.629 +0900",
+				"message": "Windows4(RDP):(null)",
+				"scriptName": "connect_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-04-19 09:59:37.370 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "Unable to Find Image Chrome",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-04-19 09:59:37.371 +0900",
+				"message": "False",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 09:59:38.120 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (51, 229)",
+				"image": "Chrome",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_doubleclick_image",
+				"timestamp": "2023-04-19 09:59:38.341 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (51, 229)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 09:59:40.437 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (218, 53)",
+				"image": "url_inputbox",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_type_text",
+				"timestamp": "2023-04-19 09:59:47.448 +0900",
+				"message": "https://docs.eggplantsoftware.com/",
+				"scriptName": "typetext_hdl.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_imagefound_text",
+				"timestamp": "2023-04-19 09:59:50.899 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "found at (315, 52)",
+				"image": "(TEXT:\"eggplantsoftware\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_text",
+				"timestamp": "2023-04-19 09:59:50.901 +0900",
+				"message": "True",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_text",
+				"timestamp": "2023-04-19 09:59:52.059 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (315, 52)",
+				"image": "(TEXT:\"eggplantsoftware\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_pc_function_test",
+				"timestamp": "2023-04-19 09:59:52.418 +0900",
+				"message": "[returnKey]",
+				"scriptName": "PC_Function_Test.script",
+				"handlerLine": 30,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 09:59:52.824 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (510, 355)",
+				"image": "DocumentationPage_confirm",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_text",
+				"timestamp": "2023-04-19 09:59:54.539 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (583, 426)",
+				"image": "(TEXT:\"Eggplant Functional\")",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 09:59:54.975 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (448, 187)",
+				"image": "rect_left",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_pc_function_test",
+				"timestamp": "2023-04-19 09:59:55.665 +0900",
+				"message": "(448,187,898,257)",
+				"scriptName": "PC_Function_Test.script",
+				"handlerLine": 40,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_pc_function_test",
+				"timestamp": "2023-04-19 09:59:55.715 +0900",
+				"message": "TextToRead: Eggplant Functional",
+				"scriptName": "PC_Function_Test.script",
+				"handlerLine": 41,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_pc_function_test",
+				"timestamp": "2023-04-19 09:59:55.753 +0900",
+				"message": "SEARCHRECTANGLE = [\"rect_left\",\"rect_right\"]",
+				"scriptName": "PC_Function_Test.script",
+				"handlerLine": 42,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_waitfor_text",
+				"timestamp": "2023-04-19 09:59:56.418 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (673, 227)",
+				"image": "(TEXT:\"Eggplant Functional\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_pc_function_test",
+				"timestamp": "2023-04-19 09:59:56.562 +0900",
+				"message": "SEARCHRECTANGLE = []",
+				"scriptName": "PC_Function_Test.script",
+				"handlerLine": 44,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_pc_function_test",
+				"timestamp": "2023-04-19 09:59:56.595 +0900",
+				"message": "SEARCHRECTANGLE = [\"rect_left\",\"rect_right\"]",
+				"scriptName": "PC_Function_Test.script",
+				"handlerLine": 48,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_doubleclick_text",
+				"timestamp": "2023-04-19 09:59:57.336 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (777, 222)",
+				"image": "(TEXT:\"Functional\")",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 09:59:57.416 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (778, 221)",
+				"image": "doubleclick_Functional",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rightclick_text",
+				"timestamp": "2023-04-19 09:59:58.151 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (777, 222)",
+				"image": "(TEXT:\"Functional\")",
+				"handlerLine": 2,
+				"identifier": "rightclick"
+			},
+		{
+				"handlerName": "on_waitfor_text",
+				"timestamp": "2023-04-19 10:00:04.808 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "Unable To Find Any Image On Screen \"(TEXT:\"コピー\")\" within 5.00 seconds. Text not found.",
+				"image": "(TEXT:\"コピー\")",
+				"handlerLine": 5,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_pc_function_test",
+				"timestamp": "2023-04-19 10:00:04.894 +0900",
+				"message": "SEARCHRECTANGLE = []",
+				"scriptName": "PC_Function_Test.script",
+				"handlerLine": 58,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_pc_function_test",
+				"timestamp": "2023-04-19 10:00:04.926 +0900",
+				"message": "SEARCHRECTANGLE = [\"rect_left\",\"rect_right\"]",
+				"scriptName": "PC_Function_Test.script",
+				"handlerLine": 70,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_drag_text",
+				"timestamp": "2023-04-19 10:00:05.631 +0900",
+				"scriptName": "DragDrop_hdl.script",
+				"message": "at (470, 223)",
+				"image": "(TEXT:\"E\")",
+				"handlerLine": 2,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_drop_text",
+				"timestamp": "2023-04-19 10:00:06.658 +0900",
+				"scriptName": "DragDrop_hdl.script",
+				"message": "at (574, 222)",
+				"image": "(TEXT:\"l\")",
+				"handlerLine": 2,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_pc_function_test",
+				"timestamp": "2023-04-19 10:00:06.689 +0900",
+				"message": "SEARCHRECTANGLE = []",
+				"scriptName": "PC_Function_Test.script",
+				"handlerLine": 73,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 10:00:06.869 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (523, 227)",
+				"image": "dragdrop_confirm",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_scrollwheel_down",
+				"timestamp": "2023-04-19 10:00:06.977 +0900",
+				"message": "moved 20",
+				"scriptName": "scroll_hdl.script",
+				"handlerLine": 2,
+				"identifier": "scrollwheeldown"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 10:00:07.592 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (950, 987)",
+				"image": "bottom_confirm",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_scrollwheel_up",
+				"timestamp": "2023-04-19 10:00:07.713 +0900",
+				"message": "moved 20",
+				"scriptName": "scroll_hdl.script",
+				"handlerLine": 2,
+				"identifier": "scrollwheelup"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 10:00:08.240 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (560, 162)",
+				"image": "top_confirm",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_pc_function_test",
+				"timestamp": "2023-04-19 10:00:13.392 +0900",
+				"message": "wait_time5.042 seconds",
+				"scriptName": "PC_Function_Test.script",
+				"handlerLine": 101,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_pc_function_test",
+				"timestamp": "2023-04-19 10:00:14.072 +0900",
+				"message": "[windowsAltKey] C",
+				"scriptName": "PC_Function_Test.script",
+				"handlerLine": 112,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_remotewindow_hide",
+				"timestamp": "2023-04-19 10:00:14.097 +0900",
+				"message": "RemoteWindow",
+				"scriptName": "RemoteWindow_hdl.script",
+				"handlerLine": 2,
+				"identifier": "hide"
+			},
+		{
+				"handlerName": "on_remotewindow_show",
+				"timestamp": "2023-04-19 10:00:14.143 +0900",
+				"message": "RemoteWindow",
+				"scriptName": "RemoteWindow_hdl.script",
+				"handlerLine": 2,
+				"identifier": "show"
+			},
+		{
+				"handlerName": "on_disconnect_sut",
+				"timestamp": "2023-04-19 10:00:14.651 +0900",
+				"message": "Windows4(RDP)",
+				"scriptName": "connect_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Disconnect"
+			},
+		{
+				"message": "(Duration:\"41.553\", Errors:\"0\", Exceptions:\"1\", StartTime:\"2023-04-19 09:59:33 +0900\", Successes:\"1\", TestCase:\"PC_Function_Test.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-04-19 10:00:14.757 +0900"
+			},
+		{
+				"message": "Execution Time 0:00:41 PC_Function_Test.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2023-04-19 10:00:14.780 +0900"
+			}
+	],
+	"createdTimestamp": "2023-04-19 09:59:33.204 +0900"
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="test_script" package="Mobile_Device_EPF.suite" timestamp="2023-06-21 10:48:56.812 +0900"
+ tests="1"  failures="0" errors="0" time="0.016000">
+  <properties>
+   <property name="RunDate" value="2023-06-21 10:48:56.812 +0900"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="test.script" assertions="1" status="success"  time="0">
+  </testcase>
+ </testsuite>
+</testsuites>

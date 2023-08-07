@@ -1,0 +1,60 @@
+{
+	"originalcapturelocation": [
+		828,
+		102,
+		366,
+		145
+	],
+	"lastmodifieddate": 1686497493.9070001,
+	"createddate": 1686497493.9070001,
+	"name": "rotate_confirm/ratate_left",
+	"lastfounddate": 1686497533.1789999,
+	"ocrcapturestring": "oogle",
+	"lastfoundlocation": [
+		828,
+		102,
+		366,
+		145
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 50497,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[183,72]",
+					"Tolerance": "_71",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"model": "907SH",
+					"webdriver_port": "50498",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "SHARP",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "50497",
+					"sdk": "30",
+					"android_version": "30",
+					"CacheDir": "/data/local/tmp",
+					"serial": "357984101727679",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "rotate_confirm/ratate_left.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					828,
+					102,
+					366,
+					145
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "oogle"
+			}
+	]
+}

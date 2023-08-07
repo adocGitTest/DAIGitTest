@@ -1,0 +1,704 @@
+{
+	"entries": [
+		{
+				"message": "Running Android_Function_Test.script",
+				"identifier": "START",
+				"timestamp": "2023-04-19 14:30:30.464 +0900"
+			},
+		{
+				"handlerName": "on_connect_sut",
+				"timestamp": "2023-04-19 14:30:35.716 +0900",
+				"message": "AQUOS:(null)",
+				"scriptName": "connect_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 14:30:43.594 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (542, 1656)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-04-19 14:30:47.548 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "found at (542, 1656)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-04-19 14:30:47.550 +0900",
+				"message": "True",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 14:30:49.421 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (542, 1656)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_image",
+				"timestamp": "2023-04-19 14:30:55.032 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (542, 1656)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 14:30:57.281 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (536, 757)",
+				"image": "url_inputbox",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_image",
+				"timestamp": "2023-04-19 14:31:00.086 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (536, 757)",
+				"image": "url_inputbox",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_type_text",
+				"timestamp": "2023-04-19 14:31:12.051 +0900",
+				"message": "https://docs.eggplantsoftware.com/",
+				"scriptName": "typetext_hdl.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_imagefound_text",
+				"timestamp": "2023-04-19 14:31:16.064 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "found at (581, 160)",
+				"image": "(TEXT:\"eggplantsoftware\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_text",
+				"timestamp": "2023-04-19 14:31:16.066 +0900",
+				"message": "True",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_text",
+				"timestamp": "2023-04-19 14:31:17.473 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (581, 160)",
+				"image": "(TEXT:\"eggplantsoftware\")",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:31:19.793 +0900",
+				"message": "[returnKey]",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 39,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 14:31:27.393 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (274, 606)",
+				"image": "DocumentationPage_confirm",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_wait_forall",
+				"timestamp": "2023-04-19 14:31:31.256 +0900",
+				"message": "found all: DocumentationPage_confirm:(274, 606) (TEXT:\"Eggplant Functional\"):(510, 808) ",
+				"scriptName": "wait_hdl.script",
+				"handlerLine": 2,
+				"identifier": "waitforall"
+			},
+		{
+				"handlerName": "on_click_text",
+				"timestamp": "2023-04-19 14:31:35.422 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (510, 808)",
+				"image": "(TEXT:\"Eggplant Functional\")",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 14:31:38.455 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (28, 736)",
+				"image": "rect_left",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:31:43.042 +0900",
+				"message": "(28,736,934,911)",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 63,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:31:43.052 +0900",
+				"message": "TextToRead: Eggplant Functional",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 64,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:31:46.674 +0900",
+				"message": "SEARCHRECTANGLE = [\"rect_left\",\"rect_right\"]",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 65,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_waitfor_text",
+				"timestamp": "2023-04-19 14:31:48.573 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (475, 821)",
+				"image": "(TEXT:\"Eggplant Functional\")",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:31:48.675 +0900",
+				"message": "SEARCHRECTANGLE = []",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 67,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:31:57.285 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image bottom_confirm",
+				"image": "bottom_confirm",
+				"handlerLine": 72,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_drag_coordinate",
+				"timestamp": "2023-04-19 14:31:57.378 +0900",
+				"message": "at (540, 1500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_drop_coordinate",
+				"timestamp": "2023-04-19 14:31:58.871 +0900",
+				"message": "at (540, 500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:32:06.029 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image bottom_confirm",
+				"image": "bottom_confirm",
+				"handlerLine": 79,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_drag_coordinate",
+				"timestamp": "2023-04-19 14:32:06.123 +0900",
+				"message": "at (540, 1500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_drop_coordinate",
+				"timestamp": "2023-04-19 14:32:07.618 +0900",
+				"message": "at (540, 500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:32:14.158 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image bottom_confirm",
+				"image": "bottom_confirm",
+				"handlerLine": 79,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_drag_coordinate",
+				"timestamp": "2023-04-19 14:32:14.248 +0900",
+				"message": "at (540, 1500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_drop_coordinate",
+				"timestamp": "2023-04-19 14:32:15.741 +0900",
+				"message": "at (540, 500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:32:22.304 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image bottom_confirm",
+				"image": "bottom_confirm",
+				"handlerLine": 79,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_drag_coordinate",
+				"timestamp": "2023-04-19 14:32:22.396 +0900",
+				"message": "at (540, 1500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_drop_coordinate",
+				"timestamp": "2023-04-19 14:32:23.891 +0900",
+				"message": "at (540, 500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:32:27.288 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (161, 1326)",
+				"image": "bottom_confirm",
+				"handlerLine": 79,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 14:32:28.667 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (161, 1326)",
+				"image": "bottom_confirm",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:32:37.147 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image top_confirm",
+				"image": "top_confirm",
+				"handlerLine": 84,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_drag_coordinate",
+				"timestamp": "2023-04-19 14:32:37.241 +0900",
+				"message": "at (540, 500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_drop_coordinate",
+				"timestamp": "2023-04-19 14:32:38.737 +0900",
+				"message": "at (540, 1500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:32:45.933 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image top_confirm",
+				"image": "top_confirm",
+				"handlerLine": 91,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_drag_coordinate",
+				"timestamp": "2023-04-19 14:32:46.072 +0900",
+				"message": "at (540, 500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_drop_coordinate",
+				"timestamp": "2023-04-19 14:32:47.567 +0900",
+				"message": "at (540, 1500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:32:57.869 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image top_confirm",
+				"image": "top_confirm",
+				"handlerLine": 91,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_drag_coordinate",
+				"timestamp": "2023-04-19 14:32:58.011 +0900",
+				"message": "at (540, 500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_drop_coordinate",
+				"timestamp": "2023-04-19 14:32:59.505 +0900",
+				"message": "at (540, 1500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:33:07.895 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image top_confirm",
+				"image": "top_confirm",
+				"handlerLine": 91,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_drag_coordinate",
+				"timestamp": "2023-04-19 14:33:08.034 +0900",
+				"message": "at (540, 500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_drop_coordinate",
+				"timestamp": "2023-04-19 14:33:09.528 +0900",
+				"message": "at (540, 1500)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 2,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:33:13.524 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (344, 510)",
+				"image": "top_confirm",
+				"handlerLine": 91,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 14:33:14.891 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (344, 510)",
+				"image": "top_confirm",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:33:21.072 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "at (28, 736)",
+				"image": "rect_left.png",
+				"handlerLine": 97,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:33:29.913 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image bottom_confirm",
+				"image": "bottom_confirm",
+				"handlerLine": 101,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_swipe_up",
+				"timestamp": "2023-04-19 14:33:30.175 +0900",
+				"message": "Swiped up from (540, 1344) to (540, 576)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:33:37.584 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image bottom_confirm",
+				"image": "bottom_confirm",
+				"handlerLine": 107,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_swipe_up",
+				"timestamp": "2023-04-19 14:33:37.847 +0900",
+				"message": "Swiped up from (540, 1344) to (540, 576)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:33:44.353 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image bottom_confirm",
+				"image": "bottom_confirm",
+				"handlerLine": 107,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_swipe_up",
+				"timestamp": "2023-04-19 14:33:44.613 +0900",
+				"message": "Swiped up from (540, 1344) to (540, 576)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:33:47.952 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (161, 1326)",
+				"image": "bottom_confirm",
+				"handlerLine": 107,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 14:33:49.281 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (161, 1326)",
+				"image": "bottom_confirm",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:33:57.627 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image top_confirm",
+				"image": "top_confirm",
+				"handlerLine": 112,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_swipe_down",
+				"timestamp": "2023-04-19 14:33:57.892 +0900",
+				"message": "Swiped down from (540, 576) to (540, 1344)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipedown"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:34:06.404 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image top_confirm",
+				"image": "top_confirm",
+				"handlerLine": 118,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_swipe_down",
+				"timestamp": "2023-04-19 14:34:06.711 +0900",
+				"message": "Swiped down from (540, 576) to (540, 1344)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipedown"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:34:13.939 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "Unable to Find Image top_confirm",
+				"image": "top_confirm",
+				"handlerLine": 118,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_swipe_down",
+				"timestamp": "2023-04-19 14:34:14.204 +0900",
+				"message": "Swiped down from (540, 576) to (540, 1344)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipedown"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:34:16.873 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (344, 510)",
+				"image": "top_confirm",
+				"handlerLine": 118,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 14:34:18.247 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (344, 510)",
+				"image": "top_confirm",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:34:20.369 +0900",
+				"message": "MouseLocation_Before[540,1344]",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 126,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_moveto_coordinate",
+				"timestamp": "2023-04-19 14:34:20.412 +0900",
+				"message": "at (0, 0)",
+				"scriptName": "moveto_hdl.script",
+				"handlerLine": 2,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:34:20.471 +0900",
+				"message": "MouseLocation_After[0,0]",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 130,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:34:27.660 +0900",
+				"message": "wait_time5.064 seconds",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 145,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_click_image",
+				"timestamp": "2023-04-19 14:34:31.850 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (70, 158)",
+				"image": "homebutton",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-04-19 14:34:36.909 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"identifier": "presshomebutton",
+				"handlerLine": 160
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-04-19 14:34:43.594 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (542, 1656)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_log_msg",
+				"timestamp": "2023-04-19 14:34:43.735 +0900",
+				"message": "Log_ブラウザを閉じました",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_log_success",
+				"timestamp": "2023-04-19 14:34:43.800 +0900",
+				"message": "LogSuccess_ブラウザを閉じました",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_log_warning",
+				"timestamp": "2023-04-19 14:34:43.866 +0900",
+				"message": "LogWarning_ブラウザを閉じました",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_remotewindow_hide",
+				"timestamp": "2023-04-19 14:34:46.014 +0900",
+				"message": "RemoteWindow",
+				"scriptName": "RemoteWindow_hdl.script",
+				"handlerLine": 2,
+				"identifier": "hide"
+			},
+		{
+				"handlerName": "on_remotewindow_show",
+				"timestamp": "2023-04-19 14:34:51.101 +0900",
+				"message": "RemoteWindow",
+				"scriptName": "RemoteWindow_hdl.script",
+				"handlerLine": 2,
+				"identifier": "show"
+			},
+		{
+				"handlerName": "on_disconnect_sut",
+				"timestamp": "2023-04-19 14:34:56.499 +0900",
+				"message": "AQUOS",
+				"scriptName": "connect_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Disconnect"
+			},
+		{
+				"handlerName": "on_log_error",
+				"timestamp": "2023-04-19 14:34:58.731 +0900",
+				"message": "LogErrorテスト",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "LogError"
+			},
+		{
+				"message": "(Duration:\"268.439\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-04-19 14:30:30 +0900\", Successes:\"1\", TestCase:\"Android_Function_Test.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-04-19 14:34:58.905 +0900"
+			},
+		{
+				"message": "Script Error: Number of Errors logged: 1 -- Execution Time 0:04:28 Android_Function_Test.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-04-19 14:34:58.939 +0900"
+			}
+	],
+	"createdTimestamp": "2023-04-19 14:30:30.465 +0900"
+}

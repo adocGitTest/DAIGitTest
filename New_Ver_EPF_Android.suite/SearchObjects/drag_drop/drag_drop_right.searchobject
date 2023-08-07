@@ -1,0 +1,58 @@
+{
+	"lastmodifieddate": 1686704529.9980001,
+	"lastfoundlocation": [
+		41,
+		952,
+		549,
+		593
+	],
+	"originalcapturelocation": [
+		41,
+		952,
+		549,
+		593
+	],
+	"createddate": 1686704529.9980001,
+	"lastfounddate": 1686704638.04,
+	"testlocationdata": [
+		{
+				"connectionportnum": 53614,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[885,-109]",
+					"Tolerance": "_1",
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"sutinfo": {
+					"model": "907SH",
+					"webdriver_port": "53615",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "SHARP",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "53614",
+					"sdk": "30",
+					"android_version": "30",
+					"CacheDir": "/data/local/tmp",
+					"serial": "357984101727679",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "drag_drop/drag_drop_right.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"capturerect": [
+					41,
+					952,
+					549,
+					593
+				],
+				"connectiontype": "Mobile Device",
+				"connectionserverid": "localhost"
+			}
+	],
+	"name": "drag_drop/drag_drop_right"
+}

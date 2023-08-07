@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="replace_hdl">
+ <run>
+  <RunDate>2023-06-08 14:08:23.360 +0900</RunDate>
+  <Status>Success</Status>
+  <Duration>0.011000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230608_140823.360/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-06-08 14:09:43.917 +0900</RunDate>
+  <Status>Success</Status>
+  <Duration>0.009000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230608_140943.917/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

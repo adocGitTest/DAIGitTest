@@ -1,0 +1,22 @@
+﻿to handle Run_With_New_Results
+	RunWithNewResults "RunWithNewResults"
+	wait 1s
+	try
+		waitfor 10s,image:"google_icon"
+		result_hdl.Result_Pass "RunWithNewResultsで指定スクリプトを実行","Android"
+		try
+			wait 1s
+			set myAppList to AppList(Full) 
+			KillApp "com.android.chrome"
+			wait 2s
+			waitfor 10s,image:"Chrome"
+			result_hdl.Result_Pass "KillAppコマンドで指定アプリを閉じる","Android"
+		catch
+			result_hdl.Result_Fail "KillAppコマンドで指定アプリを閉じる","Android"
+			click image:"home_btn"
+			wait 2s
+		end try
+	catch
+		result_hdl.Result_Fail "RunWithNewResultsで指定スクリプトを実行","Android"
+	end try
+end Run_With_New_Results

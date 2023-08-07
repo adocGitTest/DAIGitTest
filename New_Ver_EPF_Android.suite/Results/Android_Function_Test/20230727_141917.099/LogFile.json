@@ -1,0 +1,714 @@
+{
+	"entries": [
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-27 14:20:05.246 +0900",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"message": "found at (533, 468)",
+				"image": "google_icon",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-27 14:20:08.843 +0900",
+				"message": "com.android.chrome",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"handlerLine": 10,
+				"identifier": "killapp"
+			},
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-27 14:20:12.957 +0900",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 12,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_swipe_left",
+				"timestamp": "2023-07-27 14:20:13.525 +0900",
+				"message": "Swiped left from (972, 960) to (108, 960)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipeleft"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 14:20:14.357 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (411, 234)",
+				"image": "swipeleft_confirm",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_swipe_right",
+				"timestamp": "2023-07-27 14:20:16.980 +0900",
+				"message": "Swiped right from (108, 960) to (972, 960)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swiperight"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 14:20:23.345 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (157, 561)",
+				"image": "homepage_confirm",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_swipe_up",
+				"timestamp": "2023-07-27 14:20:25.887 +0900",
+				"message": "Swiped up from (540, 1344) to (540, 576)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 14:20:32.384 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (219, 165)",
+				"image": "all_app",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_swipe_down",
+				"timestamp": "2023-07-27 14:20:32.951 +0900",
+				"message": "Swiped down from (540, 576) to (540, 1344)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipedown"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 14:20:36.963 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-07-27 14:20:38.969 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-07-27 14:20:38.969 +0900",
+				"message": "True",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 14:20:40.587 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_text",
+				"timestamp": "2023-07-27 14:20:46.873 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (668, 709)",
+				"image": "(TEXT:\"Google\")",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 14:20:51.253 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (897, 381)",
+				"image": "gmail_icon",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:20:51.450 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"identifier": "presshomebutton",
+				"handlerLine": 76
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:20:54.067 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 78,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_image",
+				"timestamp": "2023-07-27 14:20:56.122 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 14:21:02.177 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (228, 777)",
+				"image": "url_inputbox",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:21:07.824 +0900",
+				"message": "com.android.chrome",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 89,
+				"identifier": "killapp"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:21:12.276 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 91,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:21:14.671 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 96,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:21:19.167 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (533, 468)",
+				"image": "google_icon",
+				"handlerLine": 98,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-27 14:21:21.869 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (544, 1843)",
+				"image": "rotate_confirm/no_rotate",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-27 14:21:25.962 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (74, 539)",
+				"image": "rotate_confirm/rotate_left",
+				"handlerLine": 13,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-27 14:21:31.664 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (544, 1843)",
+				"image": "rotate_confirm/no_rotate",
+				"handlerLine": 21,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-27 14:21:34.344 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (544, 1843)",
+				"image": "rotate_confirm/no_rotate",
+				"handlerLine": 28,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-27 14:21:41.470 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (1854, 544)",
+				"image": "rotate_confirm/rotate_right",
+				"handlerLine": 31,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-27 14:21:48.664 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (544, 1843)",
+				"image": "rotate_confirm/no_rotate",
+				"handlerLine": 40,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-27 14:21:54.277 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (1854, 544)",
+				"image": "rotate_confirm/rotate_right",
+				"handlerLine": 43,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-27 14:22:03.631 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (544, 1843)",
+				"image": "rotate_confirm/no_rotate",
+				"handlerLine": 52,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-27 14:22:06.694 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (544, 1843)",
+				"image": "rotate_confirm/no_rotate",
+				"handlerLine": 55,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-27 14:22:11.078 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (74, 539)",
+				"image": "rotate_confirm/rotate_left",
+				"handlerLine": 58,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-27 14:22:22.718 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (544, 1843)",
+				"image": "rotate_confirm/no_rotate",
+				"handlerLine": 68,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_setremoteclipboard_test",
+				"timestamp": "2023-07-27 14:22:26.929 +0900",
+				"scriptName": "SetRemoteClipboard_hdl.script",
+				"message": "at (184, 758)",
+				"image": "(TEXT:\"検索語句\")",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_setremoteclipboard_test",
+				"timestamp": "2023-07-27 14:22:31.930 +0900",
+				"message": "Set Text:test",
+				"scriptName": "SetRemoteClipboard_hdl.script",
+				"handlerLine": 6,
+				"identifier": "setremoteclipboard"
+			},
+		{
+				"handlerName": "on_setremoteclipboard_test",
+				"timestamp": "2023-07-27 14:22:31.930 +0900",
+				"message": "KEYDOWNDELAY = 0.5",
+				"scriptName": "SetRemoteClipboard_hdl.script",
+				"handlerLine": 7,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_setremoteclipboard_test",
+				"timestamp": "2023-07-27 14:22:32.480 +0900",
+				"message": "[controlKey]v",
+				"scriptName": "SetRemoteClipboard_hdl.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_setremoteclipboard_test",
+				"timestamp": "2023-07-27 14:22:40.977 +0900",
+				"scriptName": "SetRemoteClipboard_hdl.script",
+				"message": "found at (208, 158)",
+				"image": "(TEXT:\"test\")",
+				"handlerLine": 10,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_setremoteclipboard_test",
+				"timestamp": "2023-07-27 14:22:42.463 +0900",
+				"scriptName": "SetRemoteClipboard_hdl.script",
+				"message": "at (986, 152)",
+				"image": "inputbox_close",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_type_text",
+				"timestamp": "2023-07-27 14:22:47.523 +0900",
+				"message": "KEYDOWNDELAY = 0.5",
+				"scriptName": "typetext_hdl.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_type_text",
+				"timestamp": "2023-07-27 14:22:54.380 +0900",
+				"message": "123abcあいうえお野村",
+				"scriptName": "typetext_hdl.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_imagefound_text",
+				"timestamp": "2023-07-27 14:22:59.504 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "found at (415, 155)",
+				"image": "(TEXT:\"123abcあいうえお野村\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_text",
+				"timestamp": "2023-07-27 14:22:59.520 +0900",
+				"message": "True",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_text_result",
+				"timestamp": "2023-07-27 14:23:00.839 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (415, 155)",
+				"image": "(TEXT:\"123abcあいうえお野村\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:23:03.892 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (986, 152)",
+				"image": "inputbox_close",
+				"handlerLine": 114,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:23:05.349 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "at (986, 152)",
+				"image": "inputbox_close",
+				"handlerLine": 115,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:23:08.956 +0900",
+				"message": "com.android.chrome",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 120,
+				"identifier": "killapp"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:23:16.998 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 122,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_waitfor_text",
+				"timestamp": "2023-07-27 14:23:21.484 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (668, 709)",
+				"image": "(TEXT:\"Google\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_waitfor_image",
+				"timestamp": "2023-07-27 14:23:25.135 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_wait_while",
+				"timestamp": "2023-07-27 14:23:28.388 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_wait_until",
+				"timestamp": "2023-07-27 14:23:31.856 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_wait_forall",
+				"timestamp": "2023-07-27 14:23:36.719 +0900",
+				"message": "found all: Chrome:(543, 1658) (TEXT:\"Google\"):(668, 709) ",
+				"scriptName": "wait_hdl.script",
+				"handlerLine": 3,
+				"identifier": "waitforall"
+			},
+		{
+				"handlerName": "on_waittime",
+				"timestamp": "2023-07-27 14:23:43.936 +0900",
+				"message": "wait_time:5.009 seconds",
+				"scriptName": "wait_hdl.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:23:48.021 +0900",
+				"message": "MouseLocation_Before[986,152]",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 148,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_moveto_coordinate",
+				"timestamp": "2023-07-27 14:23:48.069 +0900",
+				"message": "at (0, 0)",
+				"scriptName": "moveto_hdl.script",
+				"handlerLine": 2,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:23:48.084 +0900",
+				"message": "MouseLocation_After[0,0]",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 152,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_readtext_byimage",
+				"timestamp": "2023-07-27 14:24:09.332 +0900",
+				"message": "(342,669,486,728)",
+				"scriptName": "readtext_hdl.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:24:09.348 +0900",
+				"message": "TextToRead: マップ",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 165,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:24:28.191 +0900",
+				"message": "SEARCHRECTANGLE = [\"rect_left\",\"rect_right\"]",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 166,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_waitfor_text_result",
+				"timestamp": "2023-07-27 14:24:30.096 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (412, 705)",
+				"image": "(TEXT:\"マップ\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:24:30.191 +0900",
+				"message": "SEARCHRECTANGLE = []",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 168,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_drag_drop_confirm",
+				"timestamp": "2023-07-27 14:24:32.311 +0900",
+				"message": "at (864, 1344)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 4,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_drag_drop_confirm",
+				"timestamp": "2023-07-27 14:24:34.419 +0900",
+				"message": "at (216, 1344)",
+				"scriptName": "DragDrop_hdl.script",
+				"handlerLine": 5,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_drag_drop_confirm",
+				"timestamp": "2023-07-27 14:24:40.864 +0900",
+				"scriptName": "DragDrop_hdl.script",
+				"message": "found at (411, 234)",
+				"image": "swipeleft_confirm",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:24:44.326 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 176,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:24:48.709 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (533, 468)",
+				"image": "google_icon",
+				"handlerLine": 177,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:24:51.211 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "at (184, 758)",
+				"image": "(TEXT:\"検索語句\")",
+				"handlerLine": 178,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_type_text",
+				"timestamp": "2023-07-27 14:24:51.227 +0900",
+				"message": "KEYDOWNDELAY = 0.5",
+				"scriptName": "typetext_hdl.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_type_text",
+				"timestamp": "2023-07-27 14:25:09.709 +0900",
+				"message": "https://docs.eggplantsoftware.com",
+				"scriptName": "typetext_hdl.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:25:10.953 +0900",
+				"message": "[returnKey]",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 182,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:25:12.962 +0900",
+				"message": "Too Few Parameters, please use waitfor time, image1[, imageX]",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 184,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-27 14:25:13.464 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"identifier": "presshomebutton",
+				"handlerLine": 208
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-27 14:25:20.583 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_log_msg",
+				"timestamp": "2023-07-27 14:25:20.778 +0900",
+				"message": "Log_ブラウザを閉じました",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_log_success",
+				"timestamp": "2023-07-27 14:25:20.810 +0900",
+				"message": "LogSuccess_ブラウザを閉じました",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_log_warning",
+				"timestamp": "2023-07-27 14:25:20.841 +0900",
+				"message": "LogWarning_ブラウザを閉じました",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_disconnect_sut",
+				"timestamp": "2023-07-27 14:25:22.952 +0900",
+				"message": "AQUOS",
+				"scriptName": "connect_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Disconnect"
+			},
+		{
+				"handlerName": "on_exit_repeat",
+				"timestamp": "2023-07-27 14:25:25.106 +0900",
+				"message": "2",
+				"scriptName": "Exit_hdl.script",
+				"handlerLine": 10,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_log_error",
+				"timestamp": "2023-07-27 14:25:27.194 +0900",
+				"message": "LogErrorテスト",
+				"scriptName": "log_hdl.script",
+				"handlerLine": 2,
+				"identifier": "LogError"
+			},
+		{
+				"message": "(Duration:\"370.221\", Errors:\"1\", Exceptions:\"2\", StartTime:\"2023-07-27 14:19:17 +0900\", Successes:\"2\", TestCase:\"Android_Function_Test.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-07-27 14:25:27.322 +0900"
+			},
+		{
+				"message": "Script Error: Number of Errors logged: 1 -- Execution Time 0:06:10 Android_Function_Test.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-07-27 14:25:27.379 +0900"
+			}
+	],
+	"createdTimestamp": "2023-07-27 14:20:05.246 +0900"
+}

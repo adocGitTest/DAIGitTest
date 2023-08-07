@@ -1,0 +1,37 @@
+{
+	"entries": [
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-06-21 10:49:09.156 +0900",
+				"message": "Running test.script",
+				"scriptName": "Android_Function_Test.script<SELECTION>",
+				"handlerLine": 1,
+				"identifier": "START"
+			},
+		{
+				"handlerName": "on_test",
+				"timestamp": "2023-06-21 10:49:09.159 +0900",
+				"message": "123",
+				"scriptName": "test.script",
+				"handlerLine": 1,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-06-21 10:49:09.159 +0900",
+				"message": "(Duration:\"0\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-06-21 10:49:09 +0900\", Successes:\"1\", TestCase:\"test.script\", Warnings:\"0\")",
+				"scriptName": "Android_Function_Test.script<SELECTION>",
+				"handlerLine": 1,
+				"identifier": "EndTestCase"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-06-21 10:49:09.213 +0900",
+				"message": "Execution Time 0:00:00 test.script",
+				"scriptName": "Android_Function_Test.script<SELECTION>",
+				"handlerLine": 1,
+				"identifier": "SUCCESS"
+			}
+	],
+	"createdTimestamp": "2023-06-21 10:49:09.159 +0900"
+}

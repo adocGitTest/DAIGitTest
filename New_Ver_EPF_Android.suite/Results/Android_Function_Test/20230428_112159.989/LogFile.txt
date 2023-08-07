@@ -1,0 +1,23 @@
+﻿2023-04-28 11:21:59.996 +0900	START		Running Android_Function_Test.script
+2023-04-28 11:22:03.160 +0900	Connect		Mobile Device:(null)	2	on_connect_sut	connect_hdl.script
+2023-04-28 11:22:08.198 +0900	presshomebutton			5	on_android_function_test	Android_Function_Test.script
+2023-04-28 11:22:13.396 +0900	waitfor	Chrome	found at (541, 1850)	2	on_waitfor_image	wait_hdl.script
+2023-04-28 11:22:15.861 +0900	swipeleft		Swiped left from (972, 1080) to (108, 1080)	2	on_swipe_left	swipe_hdl.script
+2023-04-28 11:22:26.054 +0900	Exception	swipeleft_confirm	Unable To Find Any Image On Screen "swipeleft_confirm" within 10.00 seconds	2	on_waitfor_image	wait_hdl.script
+2023-04-28 11:22:28.482 +0900	swiperight		Swiped right from (108, 1080) to (972, 1080)	2	on_swipe_right	swipe_hdl.script
+2023-04-28 11:22:39.125 +0900	Exception	homepage_confirm	Unable To Find Any Image On Screen "homepage_confirm" within 10.00 seconds	2	on_waitfor_image	wait_hdl.script
+2023-04-28 11:22:41.261 +0900	imagefound	Chrome	found at (541, 1850)	2	on_imagefound_image	imagefound_hdl.script
+2023-04-28 11:22:41.261 +0900	Log		True	2	on_imagefound_image	imagefound_hdl.script
+2023-04-28 11:22:41.460 +0900	waitfor	Chrome	found at (541, 1850)	2	on_waitfor_image	wait_hdl.script
+2023-04-28 11:22:44.813 +0900	click	Chrome	at (541, 1850)	2	on_click_image	click_hdl.script
+2023-04-28 11:22:46.338 +0900	waitfor	url_inputbox	found at (222, 402)	2	on_waitfor_image	wait_hdl.script
+2023-04-28 11:22:48.691 +0900	click	url_inputbox	at (222, 402)	2	on_click_image	click_hdl.script
+2023-04-28 11:22:54.777 +0900	typetext		https://docs.eggplantsoftware.com	2	on_type_text	typetext_hdl.script
+2023-04-28 11:22:57.887 +0900	typetext		https://docs.eggplantsoftware.com	39	on_android_function_test	Android_Function_Test.script
+2023-04-28 11:23:29.677 +0900	imagefound	(TEXT:"eggplantsoftware")	Unable to Find Image (TEXT:"eggplantsoftware"). Text not found.	2	on_imagefound_text	imagefound_hdl.script
+2023-04-28 11:23:29.677 +0900	Log		False	2	on_imagefound_text	imagefound_hdl.script
+2023-04-28 11:23:40.715 +0900	Exception	(TEXT:"eggplantsoftware")	Unable To Find Any Image On Screen "(TEXT:"eggplantsoftware")" within 5.00 seconds. Text not found.	2	on_waitfor_text	wait_hdl.script
+2023-04-28 11:23:42.802 +0900	typetext		[returnKey]	51	on_android_function_test	Android_Function_Test.script
+2023-04-28 11:23:53.006 +0900	Exception	DocumentationPage_confirm	Unable To Find Any Image On Screen "DocumentationPage_confirm" within 5.00 seconds	2	on_waitfor_image	wait_hdl.script
+2023-04-28 11:23:57.824 +0900	EndTestCase		(Duration:"117.823", Errors:"1", Exceptions:"4", StartTime:"2023-04-28 11:22:00 +0900", Successes:"0", TestCase:"Android_Function_Test.script", Warnings:"0")
+2023-04-28 11:23:57.839 +0900	ABORTED		Execution Time 0:01:57 Android_Function_Test.script

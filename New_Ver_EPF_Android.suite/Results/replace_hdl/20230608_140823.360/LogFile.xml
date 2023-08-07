@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="replace_hdl_script" package="Mobile_Device_EPF.suite" timestamp="2023-06-08 14:08:23.360 +0900"
+ tests="1"  failures="0" errors="0" time="0.011000">
+  <properties>
+   <property name="RunDate" value="2023-06-08 14:08:23.360 +0900"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="replace_hdl.script" assertions="1" status="success"  time="0">
+  </testcase>
+ </testsuite>
+</testsuites>

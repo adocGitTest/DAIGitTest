@@ -1,0 +1,326 @@
+{
+	"entries": [
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-26 13:43:39.491 +0900",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"message": "found at (533, 468)",
+				"image": "google_icon",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-26 13:43:44.544 +0900",
+				"message": "com.android.chrome",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"handlerLine": 10,
+				"identifier": "killapp"
+			},
+		{
+				"handlerName": "on_run_with_new_results",
+				"timestamp": "2023-07-26 13:43:48.621 +0900",
+				"scriptName": "RunWithNewResults_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 12,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_swipe_left",
+				"timestamp": "2023-07-26 13:43:49.178 +0900",
+				"message": "Swiped left from (972, 960) to (108, 960)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipeleft"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-26 13:43:54.267 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (411, 234)",
+				"image": "swipeleft_confirm",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_swipe_right",
+				"timestamp": "2023-07-26 13:43:56.870 +0900",
+				"message": "Swiped right from (108, 960) to (972, 960)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swiperight"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-26 13:44:01.954 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (156, 561)",
+				"image": "homepage_confirm",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_swipe_up",
+				"timestamp": "2023-07-26 13:44:04.506 +0900",
+				"message": "Swiped up from (540, 1344) to (540, 576)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-26 13:44:08.620 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (219, 165)",
+				"image": "all_app",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_swipe_down",
+				"timestamp": "2023-07-26 13:44:09.154 +0900",
+				"message": "Swiped down from (540, 576) to (540, 1344)",
+				"scriptName": "swipe_hdl.script",
+				"handlerLine": 2,
+				"identifier": "swipedown"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-26 13:44:14.390 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-07-26 13:44:16.341 +0900",
+				"scriptName": "imagefound_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_imagefound_image",
+				"timestamp": "2023-07-26 13:44:16.345 +0900",
+				"message": "True",
+				"scriptName": "imagefound_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-26 13:44:18.420 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_scrollwheel_down",
+				"timestamp": "2023-07-26 13:44:21.620 +0900",
+				"message": "moved 5",
+				"scriptName": "scroll_hdl.script",
+				"handlerLine": 3,
+				"identifier": "scrollwheeldown"
+			},
+		{
+				"handlerName": "on_scrollwheel_down",
+				"timestamp": "2023-07-26 13:44:26.686 +0900",
+				"scriptName": "scroll_hdl.script",
+				"message": "found at (219, 165)",
+				"image": "all_app",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_scrollwheel_up",
+				"timestamp": "2023-07-26 13:44:28.800 +0900",
+				"message": "moved 5",
+				"scriptName": "scroll_hdl.script",
+				"handlerLine": 3,
+				"identifier": "scrollwheelup"
+			},
+		{
+				"handlerName": "on_scrollwheel_up",
+				"timestamp": "2023-07-26 13:44:32.974 +0900",
+				"scriptName": "scroll_hdl.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_text",
+				"timestamp": "2023-07-26 13:44:39.166 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (669, 709)",
+				"image": "(TEXT:\"Google\")",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-26 13:44:42.872 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (897, 381)",
+				"image": "gmail_icon",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-26 13:44:43.091 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"identifier": "presshomebutton",
+				"handlerLine": 76
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-26 13:44:45.800 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 78,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_click_image",
+				"timestamp": "2023-07-26 13:44:47.842 +0900",
+				"scriptName": "click_hdl.script",
+				"message": "at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitfor_image_result",
+				"timestamp": "2023-07-26 13:44:53.514 +0900",
+				"scriptName": "wait_hdl.script",
+				"message": "found at (228, 777)",
+				"image": "url_inputbox",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-26 13:44:59.080 +0900",
+				"message": "com.android.chrome",
+				"scriptName": "Android_Function_Test.script",
+				"handlerLine": 89,
+				"identifier": "killapp"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-26 13:45:03.025 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 91,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-26 13:45:05.026 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "at (543, 1658)",
+				"image": "Chrome",
+				"handlerLine": 96,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_android_function_test",
+				"timestamp": "2023-07-26 13:45:10.049 +0900",
+				"scriptName": "Android_Function_Test.script",
+				"message": "found at (533, 468)",
+				"image": "google_icon",
+				"handlerLine": 98,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-26 13:45:15.484 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (544, 1843)",
+				"image": "rotate_confirm/no_rotate",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-26 13:45:22.103 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (74, 539)",
+				"image": "rotate_confirm/rotate_left",
+				"handlerLine": 13,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-26 13:45:28.068 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (544, 1843)",
+				"image": "rotate_confirm/no_rotate",
+				"handlerLine": 21,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-26 13:45:31.251 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (544, 1843)",
+				"image": "rotate_confirm/no_rotate",
+				"handlerLine": 28,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-26 13:45:38.496 +0900",
+				"scriptName": "rotate_hdl.script",
+				"message": "found at (1854, 544)",
+				"image": "rotate_confirm/rotate_right",
+				"handlerLine": 31,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-26 13:45:54.966 +0900",
+				"message": "Remote Connection Unavailable",
+				"scriptName": "rotate_hdl.script",
+				"handlerLine": 40,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_rotate",
+				"timestamp": "2023-07-26 13:45:57.030 +0900",
+				"message": "Remote Connection Unavailable",
+				"scriptName": "rotate_hdl.script",
+				"handlerLine": 50,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_setremoteclipboard_test",
+				"timestamp": "2023-07-26 13:45:57.115 +0900",
+				"message": "Remote Connection Unavailable",
+				"scriptName": "SetRemoteClipboard_hdl.script",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"180.923\", Errors:\"1\", Exceptions:\"4\", StartTime:\"2023-07-26 13:42:56 +0900\", Successes:\"1\", TestCase:\"Android_Function_Test.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-07-26 13:45:57.179 +0900"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "No Remote Connection: click Error - Remote Connection Unavailable -- Execution Time 0:03:00 Android_Function_Test.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-07-26 13:45:57.319 +0900"
+			}
+	],
+	"createdTimestamp": "2023-07-26 13:43:39.498 +0900"
+}

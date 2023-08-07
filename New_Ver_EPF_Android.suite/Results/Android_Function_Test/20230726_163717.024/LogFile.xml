@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Android_Function_Test_script" package="New_Ver_EPF_Android.suite" timestamp="2023-07-26 16:37:17.024 +0900"
+ tests="1"  failures="0" errors="0" time="10.531000">
+  <properties>
+   <property name="RunDate" value="2023-07-26 16:37:17.024 +0900"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Android_Function_Test.script" assertions="1" status="failure"  time="10.517">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>
