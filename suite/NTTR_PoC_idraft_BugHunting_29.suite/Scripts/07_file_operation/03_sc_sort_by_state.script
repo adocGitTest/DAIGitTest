@@ -1,0 +1,15 @@
+﻿params Action_Count
+Global sort_state,sort_state_string
+Log "**処理内容：現在並び替え状態確認**"
+wait 5s
+Try
+	Waitfor 5s,ImageName:"sort/"&sort_state
+	Log "現在並び替え状態："&sort_state_string
+	CaptureScreen {Name:"現在並び替え状態_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+Catch theException
+	LogError "並び替えモダールの順番と対違います"
+End try
+
+//Actionを実行する毎にカウントをアップする
+Put Action_Count + 1 into Action_Count
+return Action_Count

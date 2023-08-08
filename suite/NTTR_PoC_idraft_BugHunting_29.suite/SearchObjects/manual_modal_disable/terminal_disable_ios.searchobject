@@ -1,0 +1,44 @@
+{
+	"lastmodifieddate": 1673854301.221,
+	"originalcapturelocation": [
+		123,
+		176,
+		65,
+		32
+	],
+	"createddate": 1673854301.221,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5911,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_1",
+					"HotSpot": "[32,16]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"sutinfo": {
+					"device_type": "iPhone 12 Mini",
+					"device": "iPhone13,1",
+					"os": "OSX",
+					"version": "6.0",
+					"device_os_version": "iOS 14.3",
+					"type": "iOS Gateway",
+					"os_version": "12.6"
+				},
+				"name": "manual_modal_disable/terminal_disable_ios.png",
+				"connectionname": "NTTR_iPhone12",
+				"type": 1,
+				"capturerect": [
+					123,
+					176,
+					65,
+					32
+				],
+				"connectionserverid": "192.168.90.232"
+			}
+	],
+	"name": "manual_modal_disable/terminal_disable_ios"
+}

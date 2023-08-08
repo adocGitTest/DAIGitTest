@@ -1,0 +1,19 @@
+﻿Params Data_File_Excel
+Log "**処理内容：ファイル作成の初回表示確認処理**"
+//ワークブックファイルを指定
+set Variable_File to Workbook(ResourcePath(Data_File_Excel))
+//ワークブック内にある個別のワークシートを指定
+set Variable_data_file to Worksheet(Variable_File, "File_Data")
+//開始行
+put Variable_data_file.Cell(1,6) into Start_Line
+//終了行
+put Variable_data_file.Cell(1,8) into End_Line
+CaptureScreen {Name: "create_file"&"_"&today&"_"&formattedTime("%H-%M-%S",time)}
+wait 2s
+waitfor 5s,"create_file"
+click image:"create_file"
+wait 5s
+//ファイル作成処理（データファイル名、行、端末）
+run "10_common/cm_create_file_hdl" Data_File_Excel,random(Start_Line,End_Line) ,1
+click image:"close_create_file"//閉じる
+log "ファイル作成が正常"

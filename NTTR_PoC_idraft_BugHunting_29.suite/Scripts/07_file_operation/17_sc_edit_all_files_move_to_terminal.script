@@ -1,0 +1,63 @@
+﻿Params Inside_folder_flg,Action_Count
+Global G_file_name,G_folder_name,origin_file_name,origin_small_folder_name,move_to_folder_nm
+Log "**処理内容：一括ファイル端末へ移動⇒タイトル昇順で並び替え確認**"
+wait 5s
+Log "一括ファイル移動"
+LogError "BugHunting Test"
+
+Run "10_common/move_to_other_folder_hdl"'s move_to_other_folder_hdl 1,0
+wait 5s
+Log "タイトル昇順で並び替えこと確認"
+Try
+	Log "並び替えがタイトル昇順に切り替え"
+	Click ImageName:"sort/sort_by_update_day_desc"
+	wait 3s
+	Click ImageName:"sort/sort_modal_title_btn"
+	wait 3s
+	Click FoundImageLocation()
+	wait 3s
+	Waitfor 5s,ImageName:"sort/sort_modal_title_asc"
+	wait 3s
+	Log "並び替えがタイトル昇順に変更しました"
+	Click ImageName:"close_sort_by"
+	wait 5s
+	//タイトル並び替え確認ハンドル呼ぶ 0:昇順
+	Run "10_common/sort_by_title_confirm_hdl"'s sort_by_title_confirm_hdl 0
+	wait 3s
+	CaptureScreen {Name:"一括タイトル並び替え昇順確認_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+	wait 5s
+	//ディフォルト更新日に戻る
+	Run "10_common/return_to_default_sort_by_hdl"'s return_to_default_sort_by_hdl 0	
+	wait 3s
+	Click ImageName:"close_sort_by"
+	wait 5s
+Catch theException
+	LogError "エラーが発生しました"
+End try
+
+Log "ファイル戻る"
+Run "10_common/return_file_to_original_folder_hdl"'s return_file_to_original_folder_hdl 0
+
+wait 3s
+//Inside_folder_flg 0:フォルダ外 1:フォルダ内
+//フォルダ内の場合、下書き一覧戻る必要はないので
+If Inside_folder_flg <> "1" then
+	wait 3s
+	Click ImageName:"draft_tab"
+	wait 3s
+	Try
+		Waitfor 5s,ImageName:"all_draft"
+		Log "下書き一覧に戻りました"
+	Catch theException
+		LogError "下書き一覧に戻る失敗"
+	End try
+else
+	put item 1 of origin_small_folder_name into folder_name
+	Click Text:folder_name
+End if
+
+//Actionを実行する毎にカウントをアップする
+Put Action_Count + 1 into Action_Count
+return Action_Count
+
+

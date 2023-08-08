@@ -1,0 +1,33 @@
+﻿Log "**処理内容：アプリの初回起動**"
+//アプリアイコンからアプリ起動
+waitfor 10s,Image:"open_app"
+click Image:"open_app"
+wait 2s
+Try
+	//トラッキング許可のポップアップが表示された場合
+	waitfor 5s,image:"activity_btn"
+	wait 1s
+	Click image:"activity_btn"//許可しない
+	log "トラッキング許可しない"
+End Try
+wait 1s
+Try
+	//通知送信許可
+	waitfor 10s,image:"notification_prms"
+	wait 1s
+	Click image:"notification_prms"//許可しない
+	log "通知送信許可しない"
+End Try
+wait 2s
+CaptureScreen {Name: "first_login_1"&"_"&today&"_"&formattedTime("%H-%M-%S",time)}
+click image:"open_app_rule"//アプリ初回開く、規約同意ボタン
+wait 2s
+CaptureScreen {Name: "first_login_2"&"_"&today&"_"&formattedTime("%H-%M-%S",time)}
+click image:"get_started"//アプリ初回開く、はじめるボタン
+wait 2s
+SwipeUp
+wait 2s
+waitfor 10s,image:"no_login_btn"
+wait 2s
+CaptureScreen {Name: "first_login_2"&"_"&today&"_"&formattedTime("%H-%M-%S",time)}
+log "初回起動確認済"

@@ -1,0 +1,51 @@
+{
+	"lastmodifieddate": 1672966144.451,
+	"lastfoundlocation": [
+		105,
+		1100,
+		133,
+		139
+	],
+	"originalcapturelocation": [
+		105,
+		1100,
+		133,
+		139
+	],
+	"createddate": 1672966144.451,
+	"lastfounddate": 1674476821.724,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5911,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[66,69]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"device_os_version": "iOS 14.3",
+					"version": "6.0",
+					"os_version": "12.6",
+					"os": "OSX",
+					"device": "iPhone13,1",
+					"type": "iOS Gateway",
+					"device_type": "iPhone 12 Mini"
+				},
+				"name": "open_app/open_app_ios.png",
+				"connectionname": "NTTR_iPhone12mini",
+				"type": 1,
+				"capturerect": [
+					105,
+					1100,
+					133,
+					139
+				],
+				"connectionserverid": "192.168.90.232"
+			}
+	],
+	"name": "open_app/open_app_ios"
+}

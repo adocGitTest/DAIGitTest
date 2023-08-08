@@ -1,0 +1,38 @@
+﻿//ワークブックファイルを指定
+to handle cm_file_delete_hdl with
+	Global  file_terminal
+	wait 5s
+	log "file_terminal="&file_terminal
+	put item 1 of file_terminal into title_text
+	if title_text="" then
+		Put "タイトルなし" into title_text
+	end if
+	log "削除対象タイトルは:"&title_text
+	click image:"draft_tab"
+	wait 5s
+	//スワイプ用座標取得し設定
+	Waitfor 5s,Text:title_text
+	put FoundImageLocation()*[0,1] + RemoteScreenSize()*[0.6,0] into draglocation
+	wait 3s
+	//スワイプ処理
+	SwipeLeft draglocation
+	wait 5s
+	repeat until imagefound(image:"swipe_delete_btn")
+		if the repeatindex = 10 then throw "Image not found", "Image not found while scrolling"&&Direction&priod
+		click image:"draft_tab"
+		wait 1s
+		SwipeLeft draglocation
+		wait 3s
+	end repeat
+	click "swipe_delete_btn"//ゴミ箱マーク押下
+	wait 3s
+	delete item 1 of file_terminal
+	log "file_terminal="&file_terminal
+	try
+		waitfor 2s,text:title_text
+		LogError "ファイル削除失敗"
+	catch
+		LogSuccess "ファイルが削除されました"    
+	end try
+	wait 1
+end cm_file_delete_hdl

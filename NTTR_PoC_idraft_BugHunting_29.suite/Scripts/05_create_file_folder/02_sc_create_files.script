@@ -1,0 +1,168 @@
+﻿params Login_NoPay_Type_Run,Login_Pay_Type_Run,Data_File_Excel
+global folder_teminal,folder_cloud,file_terminal,file_cloud,today_date,file_content_terminal,file_content_cloud
+Log "**処理内容：文書作成_ファイル作成処理**"
+wait 5s
+put formattedTime("YYYY.MM.dd", long international date) into today_date
+
+//ワークブックファイルを指定
+set Variable_File to Workbook(ResourcePath(Data_File_Excel))
+//ワークブック内にある個別のワークシートを指定
+set Variable_data_file to Worksheet(Variable_File, "File_Data")
+//ワークシートの特定のセルの値を抽出(行,列)
+put "" into file_terminal
+put "" into file_cloud
+put "" into file_content_terminal
+put "" into file_content_cloud
+wait 1s
+waitfor 10s,image:"folder_tab"
+click image:"folder_tab"
+wait 2s
+waitfor 10s,image:"terminal_tab"
+click image:"terminal_tab"
+wait 2s
+waitfor 10s,image:"terminal_tab/on"
+wait 2s
+log "端末でファイル作成"
+//フォルダリストから1番目の値を取得
+log "folder_teminal"&folder_teminal
+put item 1 of folder_teminal into folder_name
+waitfor 10s,text:folder_name
+wait 1s
+click text:folder_name
+wait 2s
+repeat until imagefound(image:"create_file",waitfor:2s)
+	if the repeatindex = 10 then throw "Image not found", "Image not found while scrolling"&&Direction&priod
+	click text:folder_name
+	wait 2s
+end repeat
+log "フォルダ名："&folder_name
+//連番のリストを作る
+put Variable_data_file.Cell(1,6) into Start_Line
+put Variable_data_file.Cell(1,8) into End_Line
+put Start_Line.. End_Line into NumberList 
+log "NumberList:"&NumberList
+//リストをシャッフル
+put NumberList shuffled into shuffledList
+//リスト要素を消しながらループ
+Repeat 3 times
+	pull shuffledList into Text_Line
+	waitfor 5,"create_file"
+	wait 1s
+	click image:"create_file"
+	wait 1s
+	//ファイル作成処理()
+	run "10_common/cm_create_file_hdl" Data_File_Excel,Text_Line ,1
+	wait 3s
+	click image:"close_create_file"//閉じる
+	wait 2s
+End repeat
+wait 1s
+click image:"back_btn"
+wait 5s
+//フォルダリストから2番目の値を取得
+put item 2 of folder_teminal into folder_name
+waitfor 5s,text:folder_name
+wait 1s
+click text:folder_name
+wait 2s
+repeat until imagefound(image:"create_file",waitfor:2s)
+	if the repeatindex = 10 then throw "Image not found", "Image not found while scrolling"&&Direction&priod
+	click text:folder_name
+	wait 2s
+end repeat
+log "他フォルダにファイル作成"
+log "フォルダ名:"&folder_name
+pull shuffledList into Text_Line
+waitfor 5,image:"create_file"
+wait 1s
+click image:"create_file"
+wait 2s
+//ファイル作成処理
+run "10_common/cm_create_file_hdl" Data_File_Excel,Text_Line ,1
+wait 3s
+click image:"close_create_file"//閉じる
+wait 2s
+click image:"back_btn"
+//ログイン済の場合、ログインフラグが「1」
+if Login_NoPay_Type_Run=1//ログイン（非課金）
+then 
+	put 1 into login_flg
+else if Login_Pay_Type_Run=1//ログイン（課金）
+then
+	put 1 into login_flg
+end if
+log "ログイン:"&login_flg
+if login_flg=1
+//ログインフラグが「1」の場合、クラウド側のファイル作成処理実行
+then
+	log "クラウドでファイル作成"
+	wait 1s
+	click image:"cloud_tab"
+	wait 2s
+	waitfor 5s,image:"cloud_tab/on"
+	//フォルダリストから1番目の値を取得
+	put item 1 of folder_cloud into folder_name
+	wait 1s
+	waitfor 10s,text:folder_name
+	click text:folder_name
+	wait 2s
+	repeat until imagefound(image:"create_file",waitfor:2s)
+		if the repeatindex = 10 then throw "Image not found", "Image not found while scrolling"&&Direction&priod
+		click text:folder_name
+		wait 2s
+	end repeat
+	log "フォルダ名："&folder_name
+	//連番のリストを作る
+	put Variable_data_file.Cell(1,6) into Start_Line
+	put Variable_data_file.Cell(1,8) into End_Line
+	put Start_Line.. End_Line into NumberList 
+	log "NumberList:"&NumberList
+	//リストをシャッフル
+	put NumberList shuffled into shuffledList
+	//リスト要素を消しながらループ
+	Repeat 3 times
+		pull shuffledList into Text_Line
+		waitfor 10,"create_file"
+		wait 1s
+		click image:"create_file"
+		wait 2s
+		//ファイル作成処理
+		run "10_common/cm_create_file_hdl" Data_File_Excel,Text_Line ,0
+		wait 3s
+		click image:"close_create_file"//閉じる
+		wait 2s
+	End repeat
+	wait 1
+	click image:"back_btn"
+	wait 2
+	//フォルダリストから2番目の値を取得
+	put item 2 of folder_cloud into folder_name
+	wait 1s
+	waitfor 5s,text:folder_name
+	wait 1s
+	click text:folder_name
+	wait 2s
+	repeat until imagefound(image:"create_file",waitfor:2s)
+		if the repeatindex = 10 then throw "Image not found", "Image not found while scrolling"&&Direction&priod
+		click text:folder_name
+		wait 2s
+	end repeat
+	log "他フォルダにファイル作成"
+	log "フォルダ名:"&folder_name
+	wait 1s
+	pull shuffledList into Text_Line
+	waitfor 10,image:"create_file"
+	wait 1s
+	click image:"create_file"
+	wait 2s
+	//ファイル作成処理
+	run "10_common/cm_create_file_hdl" Data_File_Excel,Text_Line ,0
+	wait 3s
+	click image:"close_create_file"//閉じる
+	wait 2s
+	click image:"back_btn"
+	wait 1s
+end if
+wait 1s
+click image:"folder_tab"
+log "ファイル作成済"

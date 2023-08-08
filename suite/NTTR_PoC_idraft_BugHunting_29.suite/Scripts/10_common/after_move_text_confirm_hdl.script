@@ -1,0 +1,97 @@
+﻿//ファイル移動後内容確認ハンドル
+to handle after_move_text_confirm_hdl with
+	Global G_operate_file_name,G_operate_file_content,G_phone_type,today_date
+	//G_phone_type 1:android 0:ios
+	If G_phone_type = "1" then
+		put [0,80] into TL_point
+		put [160,180] into BR_point	
+	Else 
+		put [-5,90] into TL_point
+		put [200,140] into BR_point
+	End if
+	wait 3s
+	Log "処理内容：ファイル移動後更新日、タイトル、本文変更なしの確認"
+	Log "更新日確認"
+	Log "当日日付："&today_date
+	//ファイル更新日取得
+	If G_operate_file_name = "" then
+		put "タイトルなし" into operate_file_name
+	else
+		put G_operate_file_name into operate_file_name
+	End if
+	Set file_name_location to ImageRectangle(Text:operate_file_name)
+	put the BottomLeft of file_name_location into BottomLeft_file_icon
+	
+	Put ReadText(BottomLeft_file_icon+TL_point,BottomLeft_file_icon+BR_point,DPI:144) into found_file_date
+	
+	Log "ファイル更新日："&found_file_date
+	wait 3s
+	If today_date <> found_file_date then
+		LogError "ファイルの更新日が変更あり"
+	End if
+	Log "ファイルの更新日が変更なし"
+	CaptureScreen {Name:"移動後更新日確認_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+	wait 3s
+	Log "タイトル確認"
+	Try
+		Waitfor 5s,Text:operate_file_name
+		Log "タイトル："&operate_file_name
+		Click FoundImageLocation()
+		Log "タイトルが変更なし"
+	Catch theException
+		LogError "タイトルが変更あり"
+	End try
+	
+	wait 5s	
+	Log "本文確認"
+	log G_operate_file_content
+	//入力本文空白以外の場合
+	If G_operate_file_content <> "" then
+		Try
+			Waitfor 5s,ImageName:"input_text"
+			LogError "本文内容変更あり"
+		Catch theException
+			put ReadText("draft_content_confirm/text_topleft","draft_content_confirm/text_bottomright",TextDifference:1) into screen_text
+			log "screen_text："&screen_text
+			split screen_text by "。"
+			put screen_text into screen_text_list
+			put item 1 of screen_text_list into screen_text_content
+			put screen_text_content&"。" into screen_text_content
+			log "画面本文内容："&screen_text_content
+			put item 2 of screen_text_list into emoji_flg
+			log "入力本文内容："&G_operate_file_content
+			log "入力絵文字："&emoji_flg
+			wait 3s
+			If screen_text_content= G_operate_file_content then
+				Log "本文内容変更なし"
+			Else
+				LogWarning "本文内容変更あり"
+			End if
+			
+			If emoji_flg <> "" then
+				Try
+					Waitfor 5s,ImageName:"eomoji_jpg"
+					Log "絵文字変更なし"
+				Catch theException
+					LogWarning "絵文字変更あり"
+				End try
+			else
+				Log "絵文字なし"
+			End if
+		End try
+		else
+		Try
+			Waitfor 15s,ImageName:"input_text"
+			Log "本文変更なし"
+		Catch theException
+			Try
+				Waitfor 15s,ImageName:"eomoji_jpg"
+				Log "絵文字変更なし"
+			Catch theException
+				LogError "絵文字変更あり"
+			End try
+		End try
+	End if
+	CaptureScreen {Name:"移動後タイトル本文確認_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+
+end after_move_text_confirm_hdl

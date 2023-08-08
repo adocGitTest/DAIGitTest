@@ -1,0 +1,159 @@
+{
+	"originalcapturelocation": [
+		57,
+		189,
+		53,
+		53
+	],
+	"lastmodifieddate": 1674529151.967,
+	"createddate": 1674529151.967,
+	"name": "close_move_to/close_move_to_ios",
+	"lastfounddate": 1674529279.589,
+	"ocrcapturestring": "X",
+	"lastfoundlocation": [
+		57,
+		189,
+		53,
+		53
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5911,
+				"domelements": [
+					{
+							"elementLocation": "{x = 8; y = 50; width = 43; height = 44}",
+							"visible": "true",
+							"y": "50",
+							"enabled": "true",
+							"elementName": "",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "43",
+							"elementScale": 3,
+							"x": "8",
+							"height": "44",
+							"elementType": "Button",
+							"index": "0"
+						},
+					{
+							"elementLocation": "{x = 133; y = 62; width = 109; height = 18}",
+							"visible": "true",
+							"y": "62",
+							"enabled": "true",
+							"elementName": "移動先を選択",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "109",
+							"elementScale": 3,
+							"label": "移動先を選択",
+							"x": "133",
+							"height": "18",
+							"elementType": "Checkpoint",
+							"name": "移動先を選択",
+							"index": "1",
+							"value": "移動先を選択"
+						},
+					{
+							"elementLocation": "{x = 16; y = 108; width = 171; height = 37}",
+							"visible": "true",
+							"y": "108",
+							"enabled": "true",
+							"elementName": "端末",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "171",
+							"elementScale": 3,
+							"label": "端末",
+							"x": "16",
+							"height": "37",
+							"elementType": "Button",
+							"name": "端末",
+							"index": "0",
+							"value": "1"
+						},
+					{
+							"elementLocation": "{x = 188; y = 108; width = 171; height = 37}",
+							"visible": "true",
+							"y": "108",
+							"enabled": "true",
+							"elementName": "クラウド",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "171",
+							"elementScale": 3,
+							"label": "クラウド",
+							"x": "188",
+							"height": "37",
+							"elementType": "Button",
+							"name": "クラウド",
+							"index": "1"
+						},
+					{
+							"elementLocation": "{x = 62; y = 170; width = 297; height = 21}",
+							"visible": "true",
+							"y": "170",
+							"enabled": "true",
+							"elementName": "新規フォルダを作成",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "297",
+							"elementScale": 3,
+							"label": "新規フォルダを作成",
+							"x": "62",
+							"height": "21",
+							"elementType": "Checkpoint",
+							"name": "新規フォルダを作成",
+							"index": "3",
+							"value": "新規フォルダを作成"
+						},
+					{
+							"elementLocation": "{x = 62; y = 214; width = 297; height = 22}",
+							"visible": "true",
+							"y": "214",
+							"enabled": "true",
+							"elementName": "未分類",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "297",
+							"elementScale": 3,
+							"label": "未分類",
+							"x": "62",
+							"height": "22",
+							"elementType": "Checkpoint",
+							"name": "未分類",
+							"index": "3",
+							"value": "未分類"
+						}
+				],
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[26,26]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"device_os_version": "iOS 14.3",
+					"version": "6.0",
+					"os_version": "12.6",
+					"os": "OSX",
+					"device": "iPhone13,1",
+					"type": "iOS Gateway",
+					"device_type": "iPhone 12 Mini"
+				},
+				"name": "close_move_to/close_move_to_ios.png",
+				"connectionname": "NTTR_iPhone12",
+				"type": 1,
+				"connectionserverid": "192.168.90.232",
+				"capturerect": [
+					57,
+					189,
+					53,
+					53
+				],
+				"capturedocrtext": "X"
+			}
+	]
+}

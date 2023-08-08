@@ -1,0 +1,14 @@
+﻿2023-07-30 01:06:00.025 +0900	START		Running 10_common/cm_error_clear.script
+2023-07-30 01:06:00.114 +0900	EndTestCase		(Duration:"0.084", Errors:"0", Exceptions:"0", StartTime:"2023-07-30 01:06:00 +0900", Successes:"0", TestCase:"10_common/cm_error_clear.script", Warnings:"0")
+2023-07-30 01:06:00.142 +0900	Exception	no_d_account_login	Could Not Open Image: no_d_account_login	6	on_cm_error_clear	10_common/cm_error_clear.script
+2023-07-30 01:06:00.155 +0900	Exception	close_create_file	Could Not Open Image: close_create_file	11	on_cm_error_clear	10_common/cm_error_clear.script
+2023-07-30 01:06:00.201 +0900	Exception	cancel_btn	Could Not Open Image: cancel_btn	16	on_cm_error_clear	10_common/cm_error_clear.script
+2023-07-30 01:06:00.214 +0900	Exception	ok_btn	Could Not Open Image: ok_btn	21	on_cm_error_clear	10_common/cm_error_clear.script
+2023-07-30 01:06:00.227 +0900	Exception	manual_end_btn	Could Not Open Image: manual_end_btn	26	on_cm_error_clear	10_common/cm_error_clear.script
+2023-07-30 01:06:00.243 +0900	Exception	close_billing_appeal_modal	Could Not Open Image: close_billing_appeal_modal	33	on_cm_error_clear	10_common/cm_error_clear.script
+2023-07-30 01:06:00.263 +0900	Exception	close_sort_by	Could Not Open Image: close_sort_by	40	on_cm_error_clear	10_common/cm_error_clear.script
+2023-07-30 01:06:00.278 +0900	Exception	close_move_to	Could Not Open Image: close_move_to	45	on_cm_error_clear	10_common/cm_error_clear.script
+2023-07-30 01:06:00.296 +0900	Exception	back_btn	Could Not Open Image: back_btn	50	on_cm_error_clear	10_common/cm_error_clear.script
+2023-07-30 01:06:00.315 +0900	Exception	draft_tab	Could Not Open Image: draft_tab	57	on_cm_error_clear	10_common/cm_error_clear.script
+2023-07-30 01:06:00.371 +0900	Log		**処理内容：フォルダ削除**	2	on_03_sc_swipe_folder_del	09_data_del_process/03_sc_swipe_folder_del.script
+2023-07-30 01:06:00.808 +0900	ABORTED		Execution Time 0:00:00 10_common/cm_error_clear.script

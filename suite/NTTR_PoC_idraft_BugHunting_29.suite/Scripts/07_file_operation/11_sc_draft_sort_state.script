@@ -1,0 +1,26 @@
+﻿Params Action_Count
+Global G_file_name
+Log "**処理内容：ディフォルトソート順と下書き順番確認**"
+
+Log "ディフォルトソート順確認"
+wait 5s
+Try
+	SwipeDown 
+	wait 5s
+	Waitfor 5s,ImageName:"sort/sort_by_update_day_desc"
+	Log "ディフォルト並び替え：更新日降順"
+	CaptureScreen {Name:"ディフォルト更新日降順_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+Catch theException
+	LogError "ディフォルト並び替えは更新日降順ではありません"
+End try
+
+Log "ファイルは並び替え(更新日/降順)確認"
+//更新日降順並び替え確認ハンドル呼ぶ
+Run "10_common/sort_by_update_day_confirm_hdl"'s sort_by_update_day_confirm_hdl G_file_name
+wait 2s
+CaptureScreen {Name:"更新日降順ファイル確認_"&formattedTime("YYYY-MM-DD_HH_mm_ss")}
+
+//Actionを実行する毎にカウントをアップする
+Put Action_Count + 1 into Action_Count
+return Action_Count
+

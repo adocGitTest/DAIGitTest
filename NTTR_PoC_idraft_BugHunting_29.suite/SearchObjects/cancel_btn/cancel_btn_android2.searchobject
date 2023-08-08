@@ -1,0 +1,63 @@
+{
+	"lastmodifieddate": 1674203230.299,
+	"lastfoundlocation": [
+		442,
+		913,
+		213,
+		40
+	],
+	"originalcapturelocation": [
+		407,
+		1172,
+		213,
+		40
+	],
+	"createddate": 1674203230.299,
+	"lastfounddate": 1684803396.711,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5909,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[106,20]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"keep_connected": "False",
+					"reverse_connection_port": "0",
+					"manufacturer": "SHARP QUALCOMM",
+					"remote_adb_port": "35003",
+					"enable_reverse_connection": "False",
+					"model": "SHV45",
+					"vnc_password": "",
+					"CacheDir": "/storage/emulated/0/Android/data/com.keysight.vncserverforandroid/cache",
+					"reverse_connection_ip_address": "127.0.0.1",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"remote_ip_addr": "localhost",
+					"sharing": "always_share",
+					"device_os": "android",
+					"vnc_port": "5909",
+					"serial": "357980102097641",
+					"webdriver_port": "8000",
+					"android_version": "10",
+					"sdk": "29"
+				},
+				"name": "cancel_btn/cancel_btn_android2.png",
+				"connectionname": "NTTR_Android",
+				"type": 1,
+				"capturerect": [
+					407,
+					1172,
+					213,
+					40
+				],
+				"connectionserverid": "192.168.90.232"
+			}
+	],
+	"name": "cancel_btn/cancel_btn_android2"
+}

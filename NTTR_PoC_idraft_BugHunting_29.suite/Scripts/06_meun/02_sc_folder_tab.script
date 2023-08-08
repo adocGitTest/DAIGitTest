@@ -1,0 +1,5 @@
+﻿Log "**処理内容：フォルダ画面の表示確認処理**"
+wait 5s
+click image:"folder_tab"
+waitfor 10,image:"folder_confirm"
+log "フォルダ画面の正常表示が確認済"
