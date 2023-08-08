@@ -1,5 +1,0 @@
-﻿2023-04-27 15:46:28.381 +0900	START		Running Android_Function_Test.script
-2023-04-27 15:46:36.187 +0900	EndTestCase		(Duration:"7.802", Errors:"1", Exceptions:"0", StartTime:"2023-04-27 15:46:28 +0900", Successes:"0", TestCase:"Android_Function_Test.script", Warnings:"0")
-2023-04-27 15:46:36.232 +0900	FAILURE		Connection Failed: Unable to connect to Server:AQUOS on port:0\nInvalid hostname or IP address: \n -- Execution Time 0:00:07 Android_Function_Test.script
-2023-04-27 15:46:39.013 +0900	Error Screen	C:/Suite/Android_EPF_test.suite/Results/Android_Function_Test/20230427_154628.374/Screen_Error_Web.png	CapturedWebErrorScreenshot	8CD620DC-7626-9C0C-5223-95B6AAE1360B
-2023-04-27 15:46:39.019 +0900	FAILURE	Screen_Error_Web.png	Connection Failed: Unable to connect to Server:AQUOS on port:0\nInvalid hostname or IP address: \n -- Execution Time 0:00:07 Android_Function_Test.script

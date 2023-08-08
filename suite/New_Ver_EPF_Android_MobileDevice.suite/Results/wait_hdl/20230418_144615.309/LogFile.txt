@@ -1,3 +1,0 @@
-﻿2023-04-18 14:46:15.312 +0900	START		Running wait.script
-2023-04-18 14:46:15.364 +0900	EndTestCase		(Duration:"0.049", Errors:"1", Exceptions:"0", StartTime:"2023-04-18 14:46:15 +0900", Successes:"0", TestCase:"wait.script", Warnings:"0")
-2023-04-18 14:46:15.453 +0900	FAILURE	Screen_Error.png	SenseTalk Compiler Exception: in waitfor_text:\nWarning at line 5: Warning - Non-matching handler name: WaitForText -- Execution Time 0:00:00 wait.script

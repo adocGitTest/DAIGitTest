@@ -1,3 +1,0 @@
-﻿2023-04-18 13:35:17.354 +0900	START		Running connect.script
-2023-04-18 13:35:17.875 +0900	EndTestCase		(Duration:"0.519", Errors:"1", Exceptions:"0", StartTime:"2023-04-18 13:35:17 +0900", Successes:"0", TestCase:"connect.script", Warnings:"0")
-2023-04-18 13:35:17.895 +0900	FAILURE		STMaxCallDepthExceeded: Handlers were called to a depth exceeding the maximum limit (40). HINT: One common cause for this error is a script that has been given the same name as a built-in command or function unintentionally calling itself. -- Execution Time 0:00:00 connect.script

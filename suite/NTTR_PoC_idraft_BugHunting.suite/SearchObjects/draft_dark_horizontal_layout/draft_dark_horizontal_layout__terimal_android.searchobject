@@ -1,65 +1,0 @@
-{
-	"originalcapturelocation": [
-		163,
-		81,
-		1984,
-		990
-	],
-	"lastmodifieddate": 1673503484.5929999,
-	"createddate": 1673502193.1160002,
-	"name": "draft_dark_horizontal_layout/draft_dark_horizontal_layout__terimal_android",
-	"lastfounddate": 1673502487.615,
-	"ocrcapturestring": "XLXJ—I— 2023.01.12  n s  y",
-	"lastfoundlocation": [
-		164,
-		82,
-		1982,
-		988
-	],
-	"testlocationdata": [
-		{
-				"connectionportnum": 5909,
-				"properties": {
-					"CropRectangle": "[0,0,0,0]",
-					"Rotate": 0,
-					"Scale": "    1",
-					"HotSpot": "[992,495]",
-					"Tolerance": "_69",
-					"Discrepancy": "_0",
-					"SearchType": "Smoothed for Text"
-				},
-				"sutinfo": {
-					"keep_connected": "False",
-					"reverse_connection_port": "0",
-					"manufacturer": "SHARP QUALCOMM",
-					"remote_adb_port": "35003",
-					"enable_reverse_connection": "False",
-					"model": "SHV45",
-					"CacheDir": "/storage/emulated/0/Android/data/com.keysight.vncserverforandroid/cache",
-					"vnc_password": "",
-					"reverse_connection_ip_address": "127.0.0.1",
-					"type": "kvsfa",
-					"architecture": "arm64-v8a",
-					"remote_ip_addr": "localhost",
-					"sharing": "always_share",
-					"device_os": "android",
-					"vnc_port": "5909",
-					"serial": "357980102097641",
-					"webdriver_port": "8000",
-					"android_version": "10",
-					"sdk": "29"
-				},
-				"name": "draft_dark_horizontal_layout/draft_dark_horizontal_layout_cloud_android.png",
-				"connectionname": "NTTR_Android",
-				"type": 1,
-				"capturerect": [
-					163,
-					81,
-					1984,
-					990
-				],
-				"connectionserverid": "192.168.90.232",
-				"capturedocrtext": "XLXJ—I— 2023.01.12  n s  y"
-			}
-	]
-}

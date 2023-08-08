@@ -1,1 +1,0 @@
-2023-07-26 21:02:39.507 +0900,Failure,0:03:41,1,0,2,20230726_210239.507/LogFile.txt,"","InvalidParameter -- Starting parameters to ReadText() must specify a valid rectangle, point, or image (got [""rect_left"",""rect_right""])",0

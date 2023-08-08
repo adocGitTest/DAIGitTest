@@ -1,4 +1,0 @@
-﻿2023-06-21 10:50:04.662 +0900	START		Running test.script	1	on_android_function_test	Android_Function_Test.script<SELECTION>
-2023-06-21 10:50:04.662 +0900	Log		123	1	on_test	test.script
-2023-06-21 10:50:04.678 +0900	EndTestCase		(Duration:"0.016", Errors:"0", Exceptions:"0", StartTime:"2023-06-21 10:50:04 +0900", Successes:"1", TestCase:"test.script", Warnings:"0")	1	on_android_function_test	Android_Function_Test.script<SELECTION>
-2023-06-21 10:50:04.715 +0900	SUCCESS		Execution Time 0:00:00 test.script	1	on_android_function_test	Android_Function_Test.script<SELECTION>

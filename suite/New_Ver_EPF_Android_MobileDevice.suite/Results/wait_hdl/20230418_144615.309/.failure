@@ -1,1 +1,0 @@
-2023-04-18 14:46:15.309 +0900,Failure,0:00:00,1,0,0,20230418_144615.309/LogFile.txt,"","SenseTalk Compiler Exception -- in waitfor_text:\nWarning at line 5: Warning - Non-matching handler name: WaitForText",0

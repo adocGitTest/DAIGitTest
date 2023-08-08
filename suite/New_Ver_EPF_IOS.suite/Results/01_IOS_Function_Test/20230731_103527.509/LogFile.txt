@@ -1,3 +1,0 @@
-﻿2023-07-31 10:35:27.510 +0900	START		Running 01_IOS_Function_Test.script
-2023-07-31 10:35:28.261 +0900	EndTestCase		(Duration:"0.735", Errors:"1", Exceptions:"0", StartTime:"2023-07-31 10:35:27 +0900", Successes:"0", TestCase:"01_IOS_Function_Test.script", Warnings:"0")
-2023-07-31 10:35:28.261 +0900	ABORTED		Execution Time 0:00:00 01_IOS_Function_Test.script

@@ -1,5 +1,0 @@
-﻿2023-07-27 18:57:06.647 +0900	START		Running RunWithNewResults.script	2	on_run_with_new_results	RunWithNewResults_hdl.script
-2023-07-27 18:57:09.296 +0900	Exception	Chrome	No Image Found On Screen: "Chrome"	1	on_runwithnewresults	RunWithNewResults.script
-2023-07-27 18:57:09.304 +0900	EndTestCase		(Duration:"2.656", Errors:"1", Exceptions:"1", StartTime:"2023-07-27 18:57:06 +0900", Successes:"0", TestCase:"RunWithNewResults.script", Warnings:"0")	2	on_run_with_new_results	RunWithNewResults_hdl.script
-2023-07-27 18:57:09.597 +0900	FAILURE	Screen_Error.png	Image Not Found: click Error - No Image Found On Screen: "Chrome" -- Execution Time 0:00:02 RunWithNewResults.script	2	on_run_with_new_results	RunWithNewResults_hdl.script
-2023-07-27 18:57:11.995 +0900	FAILURE	Screen_Error_Web.png	Image Not Found: click Error - No Image Found On Screen: "Chrome" -- Execution Time 0:00:02 RunWithNewResults.script	2	on_run_with_new_results	RunWithNewResults_hdl.script

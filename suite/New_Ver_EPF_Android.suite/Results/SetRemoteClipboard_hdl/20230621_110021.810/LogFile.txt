@@ -1,3 +1,0 @@
-﻿2023-06-21 11:00:21.816 +0900	START		Running SetRemoteClipboard_hdl.script
-2023-06-21 11:00:21.821 +0900	EndTestCase		(Duration:"0", Errors:"0", Exceptions:"0", StartTime:"2023-06-21 11:00:21 +0900", Successes:"1", TestCase:"SetRemoteClipboard_hdl.script", Warnings:"0")
-2023-06-21 11:00:21.896 +0900	SUCCESS		Execution Time 0:00:00 SetRemoteClipboard_hdl.script

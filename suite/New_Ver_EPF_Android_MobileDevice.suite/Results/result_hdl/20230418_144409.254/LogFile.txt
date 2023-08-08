@@ -1,3 +1,0 @@
-﻿2023-04-18 14:44:09.257 +0900	START		Running TryCatch.script
-2023-04-18 14:44:09.336 +0900	EndTestCase		(Duration:"0.077", Errors:"1", Exceptions:"0", StartTime:"2023-04-18 14:44:09 +0900", Successes:"0", TestCase:"TryCatch.script", Warnings:"0")
-2023-04-18 14:44:09.424 +0900	FAILURE	Screen_Error.png	SenseTalk Compiler Exception: in judgementbytext:\nWarning at line 10: Warning - Non-matching handler name: Text_Judgement -- Execution Time 0:00:00 TryCatch.script

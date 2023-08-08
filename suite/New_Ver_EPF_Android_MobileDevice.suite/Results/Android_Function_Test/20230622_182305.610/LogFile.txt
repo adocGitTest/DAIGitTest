@@ -1,3 +1,0 @@
-﻿2023-06-22 18:23:05.614 +0900	START		Running Android_Function_Test.script
-2023-06-22 18:23:08.848 +0900	EndTestCase		(Duration:"3.232", Errors:"1", Exceptions:"0", StartTime:"2023-06-22 18:23:05 +0900", Successes:"0", TestCase:"Android_Function_Test.script", Warnings:"0")
-2023-06-22 18:23:08.890 +0900	FAILURE		Connection Failed: Unable to connect to Server:Mobile Device on port:0\nInvalid hostname or IP address: \n -- Execution Time 0:00:03 Android_Function_Test.script

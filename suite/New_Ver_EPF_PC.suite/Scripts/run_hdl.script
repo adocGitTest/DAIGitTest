@@ -1,3 +1,0 @@
-﻿to handle run_test
-	result_hdl.Result_Pass "runコマンド","PC"
-end run_test

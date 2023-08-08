@@ -1,4 +1,0 @@
-﻿2023-07-31 10:31:52.222 +0900	START		Running RunWithNewResults.script	2	on_run_with_new_results	RunWithNewResults_hdl.script
-2023-07-31 10:31:53.638 +0900	click	safari	at (216, 1131)	1	on_runwithnewresults	RunWithNewResults.script
-2023-07-31 10:31:53.639 +0900	EndTestCase		(Duration:"1.415", Errors:"0", Exceptions:"0", StartTime:"2023-07-31 10:31:52 +0900", Successes:"1", TestCase:"RunWithNewResults.script", Warnings:"0")	2	on_run_with_new_results	RunWithNewResults_hdl.script
-2023-07-31 10:31:53.712 +0900	SUCCESS		Execution Time 0:00:01 RunWithNewResults.script	2	on_run_with_new_results	RunWithNewResults_hdl.script

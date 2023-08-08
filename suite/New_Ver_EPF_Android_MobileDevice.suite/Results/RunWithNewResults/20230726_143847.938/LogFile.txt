@@ -1,4 +1,0 @@
-﻿2023-07-26 14:38:47.949 +0900	START		Running RunWithNewResults.script	2	on_run_with_new_results	RunWithNewResults_hdl.script
-2023-07-26 14:38:49.609 +0900	click	Chrome	at (543, 1658)	1	on_runwithnewresults	RunWithNewResults.script
-2023-07-26 14:38:49.615 +0900	EndTestCase		(Duration:"1.663", Errors:"0", Exceptions:"0", StartTime:"2023-07-26 14:38:47 +0900", Successes:"1", TestCase:"RunWithNewResults.script", Warnings:"0")	2	on_run_with_new_results	RunWithNewResults_hdl.script
-2023-07-26 14:38:49.689 +0900	SUCCESS		Execution Time 0:00:01 RunWithNewResults.script	2	on_run_with_new_results	RunWithNewResults_hdl.script
