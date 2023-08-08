@@ -1,5 +1,0 @@
-﻿2023-04-18 14:46:43.728 +0900	START		Running TryCatch.script
-2023-04-18 14:46:44.750 +0900	waitfor	(TEXT:"mote")	found at (37, 565)	3	on_waitfor_text	wait.script
-2023-04-18 14:46:44.800 +0900	LogSuccess		「click」, SUT: pc , OK	4	on_judgementbytext	TryCatch.script
-2023-04-18 14:46:44.828 +0900	EndTestCase		(Duration:"1.097", Errors:"0", Exceptions:"0", StartTime:"2023-04-18 14:46:43 +0900", Successes:"1", TestCase:"TryCatch.script", Warnings:"0")
-2023-04-18 14:46:44.859 +0900	SUCCESS		Execution Time 0:00:01 TryCatch.script

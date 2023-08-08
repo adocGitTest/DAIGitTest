@@ -1,9 +1,0 @@
-﻿to handle delete
-	put "abc" into text
-	delete "b" from text
-	if text="ac" then
-		result_hdl.Result_Pass "Deleteコマンドでテキストの指定文字を削除する","Android"
-	else
-		result_hdl.Result_Fail "Deleteコマンドでテキストの指定文字を削除する","Android"
-	end if
-end delete

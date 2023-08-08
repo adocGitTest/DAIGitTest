@@ -1,4 +1,0 @@
-﻿2023-06-22 16:33:54.446 +0900	START		Running RunWithNewResults.script	23	on_android_function_test	Android_Function_Test.script<SELECTION>
-2023-06-22 16:33:55.234 +0900	click	Chrome	at (543, 1658)	1	on_runwithnewresults	RunWithNewResults.script
-2023-06-22 16:33:55.237 +0900	EndTestCase		(Duration:"0.789", Errors:"0", Exceptions:"0", StartTime:"2023-06-22 16:33:54 +0900", Successes:"1", TestCase:"RunWithNewResults.script", Warnings:"0")	23	on_android_function_test	Android_Function_Test.script<SELECTION>
-2023-06-22 16:33:55.311 +0900	SUCCESS		Execution Time 0:00:00 RunWithNewResults.script	23	on_android_function_test	Android_Function_Test.script<SELECTION>

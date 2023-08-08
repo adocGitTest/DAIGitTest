@@ -1,4 +1,0 @@
-﻿2023-07-26 16:37:17.034 +0900	START		Running Android_Function_Test.script
-2023-07-26 16:37:20.173 +0900	Connect		Mobile Device:(null)	2	on_connect_sut	connect_hdl.script
-2023-07-26 16:37:27.562 +0900	EndTestCase		(Duration:"10.517", Errors:"1", Exceptions:"0", StartTime:"2023-07-26 16:37:17 +0900", Successes:"0", TestCase:"Android_Function_Test.script", Warnings:"0")
-2023-07-26 16:37:27.572 +0900	ABORTED		Execution Time 0:00:10 Android_Function_Test.script

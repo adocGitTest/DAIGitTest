@@ -1,4 +1,0 @@
-﻿2023-04-18 15:26:15.622 +0900	START		Running Untitled.script
-2023-04-18 15:26:22.558 +0900	typetext		https://docs.eggplantsoftware.com/	1	on_untitled	Untitled.script
-2023-04-18 15:26:22.570 +0900	EndTestCase		(Duration:"6.945", Errors:"0", Exceptions:"0", StartTime:"2023-04-18 15:26:15 +0900", Successes:"1", TestCase:"Untitled.script", Warnings:"0")
-2023-04-18 15:26:22.603 +0900	SUCCESS		Execution Time 0:00:06 Untitled.script

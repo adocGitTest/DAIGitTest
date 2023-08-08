@@ -1,7 +1,0 @@
-﻿2023-04-19 12:11:57.579 +0900	START		Running PC_Function_Test.script
-2023-04-19 12:11:57.650 +0900	Connect		Windows4(RDP):(null)	2	on_connect_sut	connect_hdl.script
-2023-04-19 12:11:59.755 +0900	waitfor	Chrome	found at (51, 229)	2	on_waitfor_image	wait_hdl.script
-2023-04-19 12:11:59.886 +0900	imagefound	Chrome	found at (51, 229)	2	on_imagefound_image	imagefound_hdl.script
-2023-04-19 12:11:59.888 +0900	Log		True	2	on_imagefound_image	imagefound_hdl.script
-2023-04-19 12:12:00.248 +0900	EndTestCase		(Duration:"2.666", Errors:"1", Exceptions:"0", StartTime:"2023-04-19 12:11:57 +0900", Successes:"0", TestCase:"PC_Function_Test.script", Warnings:"0")
-2023-04-19 12:12:00.252 +0900	ABORTED		Execution Time 0:00:02 PC_Function_Test.script

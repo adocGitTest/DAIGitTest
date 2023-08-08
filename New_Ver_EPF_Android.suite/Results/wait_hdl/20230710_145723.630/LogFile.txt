@@ -1,3 +1,0 @@
-﻿2023-07-10 14:57:23.633 +0900	START		Running wait_hdl.script
-2023-07-10 14:57:23.668 +0900	EndTestCase		(Duration:"0.033", Errors:"0", Exceptions:"0", StartTime:"2023-07-10 14:57:23 +0900", Successes:"1", TestCase:"wait_hdl.script", Warnings:"0")
-2023-07-10 14:57:23.709 +0900	SUCCESS		Execution Time 0:00:00 wait_hdl.script
