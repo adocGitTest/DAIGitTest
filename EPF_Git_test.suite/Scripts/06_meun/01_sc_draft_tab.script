@@ -1,0 +1,6 @@
+﻿Log "**処理内容：下書き画面の表示確認処理**"
+wait 5s
+click image:"draft_tab"
+wait 1
+waitfor 10,image:"all_draft"
+log "下書きの表示確認済"

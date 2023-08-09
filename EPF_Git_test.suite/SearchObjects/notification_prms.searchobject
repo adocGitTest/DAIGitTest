@@ -1,0 +1,125 @@
+{
+	"originalcapturelocation": [
+		236,
+		1414,
+		246,
+		57
+	],
+	"lastmodifieddate": 1672967912.04,
+	"createddate": 1672967865.4219999,
+	"name": "notification_prms",
+	"lastfounddate": 1674476829.987,
+	"ocrcapturestring": "pj U I",
+	"lastfoundlocation": [
+		236,
+		1414,
+		246,
+		57
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5911,
+				"domelements": [
+					{
+							"elementLocation": "{x = 68; y = 344; width = 239; height = 43}",
+							"visible": "true",
+							"y": "344",
+							"enabled": "true",
+							"elementName": "idraftは通知を送信しますよろしいですか",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "239",
+							"elementScale": 3,
+							"label": "“idraft”は通知を送信します。よろしいですか?",
+							"x": "68",
+							"height": "43",
+							"elementType": "Checkpoint",
+							"name": "“idraft”は通知を送信します。よろしいですか?",
+							"index": "0",
+							"value": "“idraft”は通知を送信します。よろしいですか?"
+						},
+					{
+							"elementLocation": "{x = 68; y = 390; width = 239; height = 49}",
+							"visible": "true",
+							"y": "390",
+							"enabled": "true",
+							"elementName": "通知方法はテキストサウンドアイコンバッジが利用できる可能性があります通知方法は設定で設定できます",
+							"accessible": "true",
+							"type": "XCUIElementTypeStaticText",
+							"width": "239",
+							"elementScale": 3,
+							"label": "通知方法は、テキスト、サウンド、アイコンバッジが利用できる可能性があります。通知方法は“設定”で設定できます。",
+							"x": "68",
+							"height": "49",
+							"elementType": "Checkpoint",
+							"name": "通知方法は、テキスト、サウンド、アイコンバッジが利用できる可能性があります。通知方法は“設定”で設定できます。",
+							"index": "1",
+							"value": "通知方法は、テキスト、サウンド、アイコンバッジが利用できる可能性があります。通知方法は“設定”で設定できます。"
+						},
+					{
+							"elementLocation": "{x = 52; y = 459; width = 136; height = 45}",
+							"visible": "true",
+							"y": "459",
+							"enabled": "true",
+							"elementName": "許可しない",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "136",
+							"elementScale": 3,
+							"label": "許可しない",
+							"x": "52",
+							"height": "45",
+							"elementType": "Button",
+							"name": "許可しない",
+							"index": "0"
+						},
+					{
+							"elementLocation": "{x = 188; y = 459; width = 135; height = 45}",
+							"visible": "true",
+							"y": "459",
+							"enabled": "true",
+							"elementName": "許可",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "135",
+							"elementScale": 3,
+							"label": "許可",
+							"x": "188",
+							"height": "45",
+							"elementType": "Button",
+							"name": "許可",
+							"index": "0"
+						}
+				],
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[123,28]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"device_os_version": "iOS 14.3",
+					"version": "6.0",
+					"os_version": "12.6",
+					"os": "OSX",
+					"device": "iPhone13,1",
+					"type": "iOS Gateway",
+					"device_type": "iPhone 12 Mini"
+				},
+				"name": "notification_prms/notification_prms_ios.png",
+				"connectionname": "NTTR_iPhone12mini",
+				"type": 1,
+				"connectionserverid": "192.168.90.232",
+				"capturerect": [
+					236,
+					1414,
+					246,
+					57
+				],
+				"capturedocrtext": "pj U I"
+			}
+	]
+}

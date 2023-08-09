@@ -1,0 +1,53 @@
+{
+	"originalcapturelocation": [
+		890,
+		820,
+		131,
+		137
+	],
+	"lastmodifieddate": 1673312024.7740002,
+	"createddate": 1673311998.1040001,
+	"name": "app_store_ios",
+	"lastfounddate": 1674476782.892,
+	"ocrcapturestring": "A",
+	"lastfoundlocation": [
+		890,
+		820,
+		131,
+		137
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5911,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[65,68]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"device_os_version": "iOS 14.3",
+					"version": "6.0",
+					"os_version": "12.6",
+					"os": "OSX",
+					"type": "iOS Gateway",
+					"device": "iPhone13,1",
+					"device_type": "iPhone 12 Mini"
+				},
+				"name": "app_store/app_store_ios.png",
+				"connectionname": "NTTR_iPhone12mini",
+				"type": 1,
+				"capturerect": [
+					890,
+					820,
+					131,
+					137
+				],
+				"connectionserverid": "192.168.90.232",
+				"capturedocrtext": "A"
+			}
+	]
+}

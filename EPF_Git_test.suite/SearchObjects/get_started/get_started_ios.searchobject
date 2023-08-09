@@ -1,0 +1,88 @@
+{
+	"lastmodifieddate": 1672968553.6009998,
+	"lastfoundlocation": [
+		468,
+		2030,
+		188,
+		51
+	],
+	"originalcapturelocation": [
+		468,
+		2030,
+		188,
+		51
+	],
+	"createddate": 1672968553.6009998,
+	"lastfounddate": 1674476840.6919999,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5911,
+				"domelements": [
+					{
+							"elementLocation": "{x = 18; y = 659; width = 339; height = 51}",
+							"visible": "true",
+							"y": "659",
+							"enabled": "true",
+							"elementName": "next",
+							"accessible": "true",
+							"type": "XCUIElementTypeButton",
+							"width": "339",
+							"elementScale": 3,
+							"label": "next",
+							"x": "18",
+							"height": "51",
+							"index": "0",
+							"name": "next",
+							"elementType": "Button"
+						},
+					{
+							"elementLocation": "{x = 155; y = 676; width = 65; height = 17}",
+							"visible": "true",
+							"y": "676",
+							"enabled": "true",
+							"elementName": "はじめる",
+							"accessible": "false",
+							"type": "XCUIElementTypeStaticText",
+							"width": "65",
+							"elementScale": 3,
+							"label": "はじめる",
+							"x": "155",
+							"height": "17",
+							"index": "0",
+							"name": "はじめる",
+							"elementType": "Checkpoint",
+							"value": "はじめる"
+						}
+				],
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[94,25]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"device_os_version": "iOS 14.3",
+					"version": "6.0",
+					"os_version": "12.6",
+					"os": "OSX",
+					"type": "iOS Gateway",
+					"device": "iPhone13,1",
+					"device_type": "iPhone 12 Mini"
+				},
+				"name": "get_started/get_started_ios.png",
+				"connectionname": "NTTR_iPhone12mini",
+				"type": 1,
+				"capturerect": [
+					468,
+					2030,
+					188,
+					51
+				],
+				"connectionserverid": "192.168.90.232"
+			}
+	],
+	"name": "get_started/get_started_ios"
+}

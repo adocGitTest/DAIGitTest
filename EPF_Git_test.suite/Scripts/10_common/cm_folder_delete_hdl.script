@@ -1,0 +1,30 @@
+﻿to handle cm_folder_delete_hdl with Data_File_Excel,Text_Line,terminal_flg
+	Global  folder_teminal
+	log "folder_teminal="&folder_teminal
+	put item 1 of folder_teminal into title_text
+	log "削除対象タイトルは:"&title_text
+	click image:"folder_tab"
+	//スワイプ用座標取得し設定
+	Waitfor 10s,Text:title_text
+	put FoundImageLocation()*[0,1] + RemoteScreenSize()*[0.5,0] into draglocation
+	wait 2s
+	//スワイプ処理
+	SwipeLeft draglocation
+	wait 5s
+	repeat until imagefound(image:"swipe_delete_btn_folder")
+		if the repeatindex = 10 then throw "Image not found", "Image not found while scrolling"&&Direction&priod
+		click image:"folder_tab"
+		wait 1s
+		SwipeLeft draglocation
+		wait 3s
+	end repeat
+	click image:"swipe_delete_btn_folder"//ゴミ箱マーク押下
+	delete item 1 of folder_teminal
+	log "folder_teminal="&folder_teminal
+	wait 5s
+	try
+		waitfor 2,text:title_text
+		LogError "フォルダ削除失敗"	
+	end try
+	LogSuccess "フォルダが削除されました"	
+end cm_folder_delete_hdl

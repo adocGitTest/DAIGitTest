@@ -1,0 +1,4 @@
+﻿Params Action_Count
+//Actionを実行する毎にカウントをアップする
+Put Action_Count + 1 into Action_Count
+return Action_Count

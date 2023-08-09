@@ -1,0 +1,75 @@
+﻿Params Login_Type,Loop_Cnt
+Log "**処理内容：フォルダ削除**"
+wait 5s
+click image:"folder_tab"
+wait 1s
+waitfor 5s,"folder_tab/on"
+click image:"terminal_tab"
+wait 1s
+waitfor 5s,"terminal_tab/on"
+wait 3s
+//画像が検知されないまでループで削除処理を行う
+Repeat while ImageFound("folder_select/terminal")
+	//スワイプ用座標取得し設定
+	Waitfor 5s,image:"folder_select"
+	put FoundImageLocation()*[0,1] + RemoteScreenSize()*[0.6,0] into draglocation
+	wait 2s
+	//スワイプ処理
+	SwipeLeft draglocation
+	wait 3s
+	repeat until imagefound(image:"swipe_delete_btn_folder")
+		if the repeatindex = 10 then throw "Image not found", "Image not found while scrolling"&&Direction&priod
+		click image:"folder_tab"
+		wait 1s
+		SwipeLeft draglocation
+		wait 3s
+	end repeat
+	waitfor 10,image:"swipe_delete_btn_folder"
+	click image:"swipe_delete_btn_folder"
+	try
+		waitfor 5,text:"フォルダを削除しますか"
+		click "ok_btn"
+		wait 2s
+	end try
+	wait 3s
+End repeat
+//ログイン済の場合、クラウド側で削除処理を行う
+if Login_Type>1 then
+	click image:"folder_tab"
+	wait 1s
+	waitfor 5s,"folder_tab/on"
+	click image:"cloud_tab"
+	wait 1s
+	waitfor 5s,"cloud_tab/on"
+	wait 1s
+	Repeat while ImageFound("folder_select/cloud")
+		//スワイプ用座標取得し設定
+		wait 1s
+		Waitfor 10s,image:"folder_select"
+		put FoundImageLocation()*[0,1] + RemoteScreenSize()*[0.6,0] into draglocation
+		wait 2s
+		//スワイプ処理
+		SwipeLeft draglocation
+		repeat until imagefound(image:"swipe_delete_btn_folder")
+			if the repeatindex = 10 then throw "Image not found", "Image not found while scrolling"&&Direction&priod
+			click image:"folder_tab"
+			wait 1s
+			SwipeLeft draglocation
+			wait 3s
+		end repeat
+		waitfor 10,image:"swipe_delete_btn_folder"
+		click image:"swipe_delete_btn_folder"
+		try
+			waitfor 5,text:"フォルダを削除しますか"
+			click "ok_btn"
+			wait 2
+		end try
+		wait 10s
+	End repeat
+	Swipedown RemoteScreenSize()*0.5
+	wait 5s
+end if
+
+//カウントアップ
+put Loop_Cnt + 1 into Loop_Cnt
+return Loop_Cnt

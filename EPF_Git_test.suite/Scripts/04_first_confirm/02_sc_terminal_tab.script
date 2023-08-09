@@ -1,0 +1,6 @@
+﻿Log "**処理内容：端末の初回表示確認処理**"
+wait 5s
+click image:"terminal_tab"
+wait 2s
+waitfor 5,"terminal_tab/on"
+log "端末の表示確認済"

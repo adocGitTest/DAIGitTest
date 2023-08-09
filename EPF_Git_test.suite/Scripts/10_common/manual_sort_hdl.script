@@ -1,0 +1,54 @@
+﻿//手動ファイル一番上に移動する処理
+//file_folder_type 0:ファイル 1:フォルダ
+to handle manual_sort_hdl with file_folder_type
+	Global G_file_name,G_folder_name,origin_small_folder_name
+	If file_folder_type = "0" then
+		//対象ファイル取得
+		wait 5s
+		put "10_common/get_file_name_list_by_date_hdl"'s get_file_name_list_by_date_hdl into target_file_name_list
+		put the last item of target_file_name_list into target_file_name
+		log target_file_name
+	Else if file_folder_type = "1"
+		//対象フォルダ取得 変数設定origin_small_folder_name
+		wait 5s
+		Run "10_common/get_small_folder_name_hdl"'s get_small_folder_name_hdl 1,1
+		put the last item of origin_small_folder_name into target_folder_name
+	End if
+	
+	wait 5s
+	//対象ファイル/フォルダは一番上に移動する
+	Set modal_manual_location to EveryImageLocation(ImageName:"sort/sort_modal_manual_confirm")
+	repeat with each rectangles of modal_manual_location
+		If repeatIndex() = 1 then
+			put rectangles into first_rectangle
+		End if
+		put rectangles into last_rectangle
+	end repeat
+	wait 5s
+	//SwipeUp last_rectangle
+	Drag last_rectangle
+	wait 1s
+	MoveTo first_rectangle - [0,60]
+	wait 2s
+	Drop first_rectangle - [0,60]
+	wait 10s
+	
+	If file_folder_type = "0" then
+		//移動後画面に一番上のファイル名取得
+		put "10_common/get_file_name_list_by_date_hdl"'s get_file_name_list_by_date_hdl into found_file_names
+		put the first item of found_file_names into found_file_name
+		//対象ファイルは一番上に移動することを確認
+		If target_file_name <> found_file_name then
+			LogError "対象ファイル移動失敗"
+		End if
+	Else if file_folder_type = "1"
+		//移動後画面に一番上のフォルダ名取得
+		Run "10_common/get_small_folder_name_hdl"'s get_small_folder_name_hdl 1,1
+		put the first item of origin_small_folder_name into found_folder_name
+		//対象フォルダは一番上に移動することを確認
+		If target_folder_name <> found_folder_name then
+			LogError "対象ファイル移動失敗"
+		End if
+	End if
+	Log "対象ファイルは一番上に移動しました"
+end manual_sort_hdl

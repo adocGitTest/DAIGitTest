@@ -1,0 +1,37 @@
+﻿params First_Time_Open
+global G_phone_type
+Log "**処理内容：ログインなしで起動処理**"
+Log "初回起動フラグ："&First_Time_Open
+wait 5s
+//初回起動判定
+if First_Time_Open=1 then
+	//初回起動の場合、「ログインしない」ボタンを押下
+	waitfor 10,image:"no_login_btn"
+	wait 1s
+	click image:"no_login_btn"
+	wait 3s
+	CaptureScreen {Name: "no_login_1"&"_"&today&"_"&formattedTime("%H-%M-%S",time)}
+end if
+try
+	waitfor 5s,image:"close_campaign_popup"
+	click image:"close_campaign_popup"
+	wait 2s
+	try
+		waitfor 5s,image:"close_campaign_popup"
+		click image:"close_campaign_popup"
+		wait 2s
+	end try
+end try
+//初回起動以外の場合、メニュータブでログイン状態確認
+wait 3s
+click image:"menu_tab"
+wait 3s
+try
+	waitfor 5s,text:"登録なし"//非ログイン状態確認
+	log "非ログイン状態確認済"
+catch
+	Run "03_login_logout/04_sc_logout"
+	wait 2s
+	
+end try
+
