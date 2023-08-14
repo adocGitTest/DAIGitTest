@@ -1,0 +1,30 @@
+name: "YOUR WORK FLOW NAME"
+
+# Configure which branch that will trigger Eggplant DAI GitHub Action
+# on:
+#  push:
+#    branches:
+#      - main 
+#  pull_request:
+#    branches:
+#      - main
+
+jobs:
+  Run-DAI-Test-Configuration:
+    strategy: # Optional configuration by using matrix strategy
+      max-parallel: 1 # To set the maximum number of jobs that can run simultaneously 
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest] # Operating support by Eggplant DAI GitHub Action
+    runs-on: ${{ matrix.os }} # Provide OS matrix
+    name: Run Test Configuration
+    steps:
+      - run: echo "Trigger event.. ${{ github.event_name }}. Runner OS.. ${{ runner.os }}."
+      - name: Eggplant Runner
+        uses: keysight-eggplant/eggplant-github-action@v1.0.7
+        with:
+          serverURL: "http://localhost:8000/" # Required. Details below
+          testConfigID: "295e1327-8337-403c-b57b-3bd525ad533f" # Required. Details below
+          clientSecret: "OldGXxyV9GupouBF0b4aENIE9ogYuNTq" # Required. Details below
+          logLevel:"DEBUG"
+          testResultPath:"C:\results\result.xml"
+         
