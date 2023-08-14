@@ -23,8 +23,7 @@ jobs:
         uses: keysight-eggplant/eggplant-github-action@v1.0.7
         with:
           serverURL: "http://localhost:8000/" # Required. Details below
-          testConfigID: "295e1327-8337-403c-b57b-3bd525ad533f" # Required. Details below
-          clientSecret: "OldGXxyV9GupouBF0b4aENIE9ogYuNTq" # Required. Details below
+          testConfigID: "c59660e1-594f-4716-82e2-2cb2658ee57d" # Required. Details below
+          clientSecret: "sL0aT2TFcHOKsOLrnxK6PSevWyzGct6T" # Required. Details below
           logLevel:"DEBUG"
           testResultPath:"C:\results\result.xml"
-          
