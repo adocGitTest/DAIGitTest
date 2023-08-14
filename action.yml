@@ -27,3 +27,4 @@ jobs:
           clientSecret: "OldGXxyV9GupouBF0b4aENIE9ogYuNTq" # Required. Details below
           logLevel:"DEBUG"
           testResultPath:"C:\results\result.xml"
+          
